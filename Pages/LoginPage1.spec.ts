@@ -6,21 +6,24 @@ export class LoginPage {
   readonly usernameInput;
   readonly passwordInput;
   readonly submitButton;
+  static textvalue: any;
 
   constructor(page: Page) {
     this.page = page;
-    this.usernameInput = page.locator("//input[@name='username']");
+    this.usernameInput = page.locator("//input[@name='email']");
     this.passwordInput = page.locator("//input[@name='password']");
-    this.submitButton = page.locator("//button[@type='submit']");
+    this.submitButton = page.locator("//input[@type='submit']");
   }
 
   async navigate() {
-    await this.page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+   await this.page.goto('https://tutorialsninja.com/demo/index.php?route=account/login')
+   await this.page.waitForLoadState('networkidle');
+
   }
 
   async enterUsername(username: string) {
     await this.usernameInput.fill(username);
-    await this.usernameInput.press("Enter");
+    
   }
 
   async enterPassword(password: string) {
@@ -30,8 +33,11 @@ export class LoginPage {
 
   async clickSubmit() {
     await this.submitButton.click();
-    await this.page.waitForLoadState('networkidle');
-    await expect(this.page.locator('//h6[text()="Dashboard"]')).toHaveText('Dashboard');
+    await expect(this.page.locator('//div[@id="content"]/h2[1]')).toHaveText('My Account');
   }
 
+  
+
 }
+
+
