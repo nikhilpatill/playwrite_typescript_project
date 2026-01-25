@@ -1,0 +1,5 @@
+Length: 22
+Uppercase:   HELLO, PLAYWRIGHT!  
+Lowercase:   hello, playwright!  
+Trimmed: 'Hello, Playwright!'
+Replaced:   Hello, TypeScript!  

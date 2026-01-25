@@ -1,0 +1,6 @@
+Map(3) { 'apple' => 10, 'banana' => 20, 'orange' => 30 }
+Nikhil : 101
+Rahul : 102
+Amit : 103
+Vijay : 104
+Suresh : 105

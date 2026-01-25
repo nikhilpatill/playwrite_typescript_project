@@ -1,0 +1,3 @@
+true
+false
+Map(2) { 'Nikhil' => 101, 'Amit' => 103 }

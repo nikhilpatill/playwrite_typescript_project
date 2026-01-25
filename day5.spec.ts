@@ -1,4 +1,4 @@
-import test from "@playwright/test";
+import test, { test } from "@playwright/test";
 
 class Person {
     private name!: string;
@@ -28,6 +28,19 @@ test('inheritance test', async ({ }) => {
     person.setAge(25);
     console.log(`Name is ${person.getName()} and age is ${person.getAge()}`);
     
+});
+test('Logical operators', async ({ }) => {
+
+    let a: number = 10;
+    let b: number = 5;
+
+
+    // Logical Operators
+    console.log("a > 5 && b < 10 = " + (a > 5 && b < 10)); // Logical AND
+    console.log("a > 15 || b < 10 = " + (a > 15 || b < 10)); // Logical OR
+    console.log("!(a > b) = " + (!(a > b))); // Logical NOT
+
+
 });
 
    

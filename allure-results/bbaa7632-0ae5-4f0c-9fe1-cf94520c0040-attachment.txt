@@ -1,0 +1,20 @@
+Instagram Profile Details:
+Username: nikhil_123
+Full Name: Nikhil Kumar
+Age: 25
+Posts: 100
+Followers: 5000
+Following: 300
+Bio: Just a tech enthusiast
+Verified: false
+Complete Profile Object:
+{
+  userName: 'nikhil_123',
+  fullName: 'Nikhil Kumar',
+  age: 25,
+  posts: 100,
+  followers: 5000,
+  following: 300,
+  bio: 'Just a tech enthusiast',
+  isVerified: false
+}

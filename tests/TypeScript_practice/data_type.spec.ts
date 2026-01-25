@@ -27,11 +27,11 @@ test('this is data type test', async({  }) =>{
     console.log("uppercase "+name.toUpperCase());
     console.log("replace "+name.replace('Nikhil','Adhikari'));
 });
-
+                                               
 test('practice more data type test ', async({  }) =>{
 
    let name : string ="nikhil";
-   let length : number = name.length;
+   let length : number = name.length;   
    console.log("length of the string is "+length);
 
    let char : string = name.charAt(2);

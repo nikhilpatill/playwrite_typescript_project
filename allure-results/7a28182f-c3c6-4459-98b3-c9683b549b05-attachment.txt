@@ -1,0 +1,4 @@
+[Map Iterator] { 'id', 'age', 'salary' } [Map Iterator] { 101, 25, 50000 }
+id : 101
+age : 25
+salary : 50000

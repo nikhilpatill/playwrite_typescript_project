@@ -1,0 +1,5 @@
+Fruit: Apple
+Fruit: Banana
+Fruit: Cherry
+Fruit: Date
+Fruit: Elderberry

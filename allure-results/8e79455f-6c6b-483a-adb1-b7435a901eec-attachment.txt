@@ -1,0 +1,25 @@
+P
+w
+t
+80
+Character at index 0 is P with ASCII code 80
+Character at index 1 is l with ASCII code 108
+Character at index 2 is a with ASCII code 97
+Character at index 3 is y with ASCII code 121
+Character at index 4 is w with ASCII code 119
+Character at index 5 is r with ASCII code 114
+Character at index 6 is i with ASCII code 105
+Character at index 7 is g with ASCII code 103
+Character at index 8 is h with ASCII code 104
+Character at index 9 is t with ASCII code 116
+	 t
+t	 h
+h	 g
+g	 i
+i	 r
+r	 w
+w	 y
+y	 a
+a	 l
+l	 P
+P

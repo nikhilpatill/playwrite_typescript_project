@@ -1,0 +1,6 @@
+value of num1 is 5
+value of num1 after increment is 6
+value of num1 after increment by 1 is 7
+value of num2 is 10
+value of num2 after decrement is 9
+value of num2 after decrement by 1 is 8

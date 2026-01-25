@@ -1,0 +1,7 @@
+First Name is: Nikhil
+Last Name is: Patil
+Address1 is: 123 Main St
+City is: Pune
+Region/State is: 3513
+Postal Code is: 411045
+Success Message is: Your address has been successfully added

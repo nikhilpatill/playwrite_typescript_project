@@ -1,0 +1,18 @@
+a + b = 15
+a - b = 5
+a * b = 50
+a / b = 2
+a % b = 0
+a ** b = 100000
+a == b = false
+a != b = true
+a > b = true
+a < b = false
+a >= b = true
+a <= b = false
+a > 5 && b < 10 = true
+a > 15 || b < 10 = true
+!(a > b) = false
+value of num1 is 5
+value of num1 after increment is 6
+value of num1 after increment by 1 is 7

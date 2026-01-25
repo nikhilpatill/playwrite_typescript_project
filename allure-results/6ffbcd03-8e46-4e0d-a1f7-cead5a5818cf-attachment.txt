@@ -1,0 +1,13 @@
+addition is 15
+0
+0 is even
+1
+1 is odd
+2
+2 is even
+3
+3 is odd
+4
+4 is even
+5
+5 is odd
