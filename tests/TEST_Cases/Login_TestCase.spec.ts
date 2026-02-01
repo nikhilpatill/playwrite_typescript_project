@@ -21,8 +21,6 @@ test(' Edit account page  @nik', async ({ page }) => {
   await page.locator('//div[@class="list-group"]/a[2]').click();
   //await page.waitForLoadState('networkidle');
 
-
-
 });
 
 test('dashboard page List of elements  @nik', async ({ page }) => {

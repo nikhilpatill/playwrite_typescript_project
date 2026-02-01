@@ -212,7 +212,7 @@ test('verify Error message for password field', async ({ page }) => {
      });
 
     test ('verify user click on back button Address Book Entries page should be displayed from Add Address page', async ({ page }) => {
-      await myAccountPage.clickmodifyaddressBookLink();
+    await myAccountPage.clickmodifyaddressBookLink();
     await myAccountPage.clickNewAddressButton();
     await myAccountPage.clickContinueButton();
     await myAccountPage.clickBackButton();
@@ -359,7 +359,7 @@ test('verify Error message for password field', async ({ page }) => {
     await myAccountPage.clickModifyYourWishListText();
     const headingText = await myAccountPage.getMyWishListText();
     console.log("Heading Text is: " + headingText);
-    await expect.soft(headingText).toBe('My Wish List');
+    expect.soft(headingText).toBe('My Wish List');
   });
 
   
