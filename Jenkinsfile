@@ -24,7 +24,7 @@ pipeline {
 
         stage('Run Playwright Tests') {
             steps {
-                bat 'npx playwright test --headless --trace on'
+                bat 'npx playwright test'
             }
         }
     }
