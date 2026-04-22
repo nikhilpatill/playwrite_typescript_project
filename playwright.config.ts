@@ -18,10 +18,11 @@ export default defineConfig({
   fullyParallel: true,
 
   reporter: [
-    ['list'],
-    ['allure-playwright'],
-  ],
-  /* Fail the build on CI if you accidentally left test.only in the source code. */
+  ['list'],
+  ['allure-playwright'],
+  ['html', { outputFolder: 'playwright-report', open: 'never' }]
+],
+/* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
@@ -49,7 +50,7 @@ export default defineConfig({
       // Test against the latest version of Chromium
       use: { 
         ...devices['Desktop Chrome'],
-        viewport: { width: 1280, height: 720 },
+        viewport: { width: 1280, height: 1280 },
         headless: false,
         launchOptions: {
           args: ['--start-maximized'],

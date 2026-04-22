@@ -1,0 +1,16 @@
+Inside greet function name is Nikhil
+Inside greet function age is 25
+Inside greet function x is 10
+Inside greet function y is 20
+Inside greet function name is Rahul
+Inside greet function age is 30
+Inside greet function x is 15
+Inside greet function y is 25
+Inside greet function name is Amit
+Inside greet function age is 28
+Inside greet function x is 12
+Inside greet function y is 22
+Inside greet function name is Vijay
+Inside greet function age is 35
+Inside greet function x is 18
+Inside greet function y is 28

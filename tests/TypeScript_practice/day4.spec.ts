@@ -25,7 +25,6 @@ class Employee extends Person {
         }
     }   
 
- 
 
 
 test('object test', async ({ }) => {

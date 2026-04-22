@@ -1,0 +1,3 @@
+Fetching data...
+Data fetched successfully!
+Number is 42

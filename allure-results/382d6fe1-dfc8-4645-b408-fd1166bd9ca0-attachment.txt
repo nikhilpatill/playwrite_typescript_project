@@ -1,0 +1,24 @@
+Total number of options: 13
+My Account
+Edit Account
+Page Title is: My Account Information
+Password
+Page Title is: Change Password
+Address Book
+Page Title is: Address Book Entries
+Wish List
+Order History
+Page Title is: Order History
+Downloads
+Page Title is: Account Downloads
+Recurring payments
+Reward Points
+Page Title is: Your Reward Points
+Returns
+Page Title is: Product Returns
+Transactions
+Page Title is: Your Transactions
+Newsletter
+Page Title is: Newsletter Subscription
+Logout
+Page Title is: Account Logout

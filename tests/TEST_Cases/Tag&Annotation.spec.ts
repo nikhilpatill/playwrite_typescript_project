@@ -1,6 +1,6 @@
 import { test, Page } from "@playwright/test";
 import { expect } from "@playwright/test";
-import { constants } from "buffer";
+
 
 // groups 
 // describe block
@@ -16,9 +16,9 @@ test.describe('Admin page Groups example', () => {
     await page.locator("//input[@name='username']").fill("Admin");
     await page.locator("//input[@name='username']").press("Enter");
     await page.locator("//input[@name='password']").fill("admin123");
-     const submitButton = page.locator("//button[@type='submit']");
-     await submitButton.click();
-     await page.waitForLoadState('networkidle');
+    const submitButton = page.locator("//button[@type='submit']");
+    await submitButton.click();
+    await page.waitForLoadState('networkidle');
     const Admin = await page.locator('//span[text()="Admin"]');
     await Admin.click();
 
@@ -32,7 +32,6 @@ test.describe('Admin page Groups example', () => {
   // Test 2
   test('admin/Job/Pay Grades @smoke', async ({ page }) => {
 
-   
     await page.locator('(//nav[@role="navigation" and @aria-label="Topbar Menu"]//li[2])[1]').isEnabled();
     await page.locator('(//nav[@role="navigation" and @aria-label="Topbar Menu"]//li[2])[1]').click();
     await page.waitForLoadState('networkidle');
@@ -59,7 +58,6 @@ test.describe('Admin page Groups example', () => {
 
   test('admin/jobs/Employment Status @regression', async ({ page }) => {
 
-    
     await page.locator('(//nav[@role="navigation" and @aria-label="Topbar Menu"]//li[2])[1]').isEnabled();
     await page.locator('(//nav[@role="navigation" and @aria-label="Topbar Menu"]//li[2])[1]').click();
     await page.waitForLoadState('networkidle');
@@ -87,7 +85,6 @@ test.describe('Admin page Groups example', () => {
 
   test('admin/Job/Job Titles @smoke', async ({ page }) => {
 
-
     await page.locator('(//nav[@role="navigation" and @aria-label="Topbar Menu"]//li[2])[1]').isEnabled();
     await page.locator('(//nav[@role="navigation" and @aria-label="Topbar Menu"]//li[2])[1]').click();
     await page.waitForLoadState('networkidle');
@@ -113,9 +110,6 @@ test.describe('Admin page Groups example', () => {
 
   test('admin Job Work Shifts @smoke', async ({ page }) => {
 
-
-
-    
     await page.locator('(//nav[@role="navigation" and @aria-label="Topbar Menu"]//li[2])[1]').isEnabled();
     await page.locator('(//nav[@role="navigation" and @aria-label="Topbar Menu"]//li[2])[1]').click();
     await page.waitForLoadState('networkidle');

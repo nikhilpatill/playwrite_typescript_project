@@ -1,21 +1,25 @@
-import { test, expect, Page } from '@playwright/test';
-import { LoginPage } from '../../Pages/LoginPage1.spec';
-import { Hooks } from './Hooks.spec '
-import { text } from 'stream/consumers';
-import { assert } from 'console';
-
-test.beforeEach(async ({ page }) => {
-  const loginPage = new LoginPage(page);
-  await Hooks.login(page);
-});
+import { test, expect } from '@playwright/test';
+import { LoginPage } from '../Pages/LoginPage1.spec';
+import { GenericMethod } from '../utils/GenericMethod';
+import { Hooks } from './Hooks.spec'
 
 
-test.afterEach(async ({ page }) => {
-  await page.close();
-});
+  test.beforeEach(async ({ page }) => {
+   const loginPage = new LoginPage(page);
+      await Hooks.login(page);
+  });
 
-test(' Edit account page  @nik', async ({ page }) => {
 
+
+    test.afterEach(async ({ page }, testInfo) => {
+  if (testInfo.status !== testInfo.expectedStatus) {
+    await page.screenshot({ path: 'error.png' });
+  }
+
+   await page.close();
+ });
+
+test('@nik Edit account page', async ({ page }) => {
 
   await page.locator('//div[@class="list-group"]/a[2]').hover();
   await page.locator('//div[@class="list-group"]/a[2]').click();
@@ -23,7 +27,7 @@ test(' Edit account page  @nik', async ({ page }) => {
 
 });
 
-test('dashboard page List of elements  @nik', async ({ page }) => {
+test('dashboard page List of elements', async ({ page }) => {
 
   // list of web elements
   const allOptions = page.locator('//div[@class="list-group"]/a');
@@ -38,8 +42,7 @@ test('dashboard page List of elements  @nik', async ({ page }) => {
 
 });
 
-test('Edit Account  @nik', async ({ page }) => {
-
+test('Edit Account', async ({ page }) => {
   // list of web elements
   const allOptions = page.locator('//div[@class="list-group"]/a');
   const count = await allOptions.count();
@@ -147,8 +150,4 @@ test('Edit Account  @nik', async ({ page }) => {
 }
 
 });
-
-
-
-
 

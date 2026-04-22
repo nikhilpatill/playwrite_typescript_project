@@ -1,0 +1,6 @@
+id is 1 and name is nikhil
+sum is 11
+is even false
+is even true
+is divisible by 4 and 8 true
+is divisible by 4 and 8 false

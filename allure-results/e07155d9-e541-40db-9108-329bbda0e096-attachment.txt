@@ -1,0 +1,6 @@
+Fetching data...
+Data fetched successfully!
+Number is 42
+Hello, Nikhil! Welcome to TypeScript Async Functions.
+Attempting to fetch data...
+Error occurred: Network error
