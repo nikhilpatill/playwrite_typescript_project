@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { MyaccountPage } from '../Pages/MyaccountPage1.spec';
+import { MyaccountPage } from '../Pages/MyaccountPage1';
 import { GenericMethod } from '../utils/GenericMethod';
-import { Hooks } from './Hooks.spec'
+import { Hooks } from '../TEST_Cases/Hooks';
 
 let myAccountPage: MyaccountPage;
 let  genericMethod: GenericMethod;

@@ -1,5 +1,5 @@
 import { Page } from '@playwright/test';
-import { LoginPage } from '../Pages/LoginPage1.spec';
+import { LoginPage } from '../Pages/LoginPage1';
 
 
 export class Hooks {

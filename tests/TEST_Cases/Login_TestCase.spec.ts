@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../Pages/LoginPage1.spec';
-import { GenericMethod } from '../utils/GenericMethod';
-import { Hooks } from './Hooks.spec'
+import { LoginPage } from '../Pages/LoginPage1';
+import { Hooks } from '../TEST_Cases/Hooks';
 
 
   test.beforeEach(async ({ page }) => {
