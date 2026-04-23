@@ -24,7 +24,18 @@ pipeline {
 
         stage('Run Playwright Tests') {
             steps {
-                bat 'npx playwright test tests/TEST_Cases/MyAccount_TestCase.spec.ts tests/TEST_Cases/Login_TestCase.spec.ts'
+                bat 'npx playwright test --reporter=html tests/TEST_Cases/MyAccount_TestCase.spec.ts tests/TEST_Cases/Login_TestCase.spec.ts'
+            }
+        }
+
+        stage('Publish Playwright Report') {
+            steps {
+                publishHTML(target: [
+                    reportDir: 'playwright-report',
+                    reportFiles: 'index.html',
+                    reportName: 'Playwright Test Report',
+                    keepAll: true
+                ])
             }
         }
     }
