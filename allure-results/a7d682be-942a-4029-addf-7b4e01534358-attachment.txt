@@ -1,0 +1,6 @@
+name is Nikhil
+Nikhil
+age is 25
+25
+x is null
+undefined

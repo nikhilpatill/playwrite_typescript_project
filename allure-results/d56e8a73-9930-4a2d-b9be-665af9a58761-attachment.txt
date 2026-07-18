@@ -1,0 +1,4 @@
+isStudent is true
+true
+iseven is true
+true

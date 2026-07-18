@@ -1,0 +1,4 @@
+Before calling greet function name is (id, name) => {
+    console.log(`id is ${id} and name is ${name}`);
+  }
+id is 1 and name is Nikhil

@@ -1,0 +1,9 @@
+Before calling greet function name is Nikhil
+Before calling greet function age is 25
+Before calling greet function x is null
+Before calling greet function y is undefined
+product details are  id is 1
+product details are  name is pen
+product details are  price is 10.5
+product details are  offer is 5
+{ id: 1, name: 'pen', price: 10.5, offer: 5 }

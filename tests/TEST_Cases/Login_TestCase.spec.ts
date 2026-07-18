@@ -1,32 +1,15 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../TEST_Cases/Hooks';
 import { LoginPage } from '../Pages/LoginPage1';
-import { Hooks } from '../TEST_Cases/Hooks';
+
 
 
   test.beforeEach(async ({ page }) => {
-   const loginPage = new LoginPage(page);
-      await Hooks.login(page);
+ //const loginPage = new LoginPage(page);
+     //wait hooksTest.LoginPage;
   });
 
 
-
-    test.afterEach(async ({ page }, testInfo) => {
-  if (testInfo.status !== testInfo.expectedStatus) {
-    await page.screenshot({ path: 'error.png' });
-  }
-
-   await page.close();
- });
-
-test('@nik Edit account page', async ({ page }) => {
-
-  await page.locator('//div[@class="list-group"]/a[2]').hover();
-  await page.locator('//div[@class="list-group"]/a[2]').click();
-  //await page.waitForLoadState('networkidle');
-
-});
-
-test('dashboard page List of elements', async ({ page }) => {
+test('dashboard page List of elements', async ({ LoginPage, page }) => {
 
   // list of web elements
   const allOptions = page.locator('//div[@class="list-group"]/a');

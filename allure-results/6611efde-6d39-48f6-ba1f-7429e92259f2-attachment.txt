@@ -1,0 +1,4 @@
+name is Nikhil
+Nikhil
+age is 25
+25

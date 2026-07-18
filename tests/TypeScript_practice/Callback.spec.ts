@@ -194,3 +194,21 @@ test('array methods test 2', async({  }) =>{
     console.log(arr.length);
 
 });
+
+test('practice more data type test 2', async({  }) =>{
+
+
+    function isEven(num: number): boolean {
+    
+      if(num % 2 === 0) {
+        return true;
+      }
+      else {
+        return false;
+      }
+
+    }
+
+    console.log(`is 10 even? ${isEven(10)}`);
+
+});

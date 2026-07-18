@@ -3,10 +3,63 @@ import { Page, Locator, expect } from '@playwright/test';
 export class GenericMethod {
 
   page: Page;
+   readonly firstnameInput;
+   readonly lastNameInput;
+   readonly emailInput;
+   readonly telephoneInput;
+   readonly passwordInput;
+   readonly confirmPasswordInput; 
+   readonly privasyPolicyCheckbox;
+   readonly continueButton;
+   
+
 
   constructor(page: Page) {
     this.page = page;
+     this.firstnameInput  = this.page.locator("//input[@name='firstname']");
+     this.lastNameInput = this.page.locator("//input[@name='lastname']");
+     this.emailInput = this.page.locator("//input[@name='email']");
+     this.telephoneInput = this.page.locator("//input[@name='telephone']");
+     this.passwordInput = this.page.locator("//input[@name='password']");
+     this.confirmPasswordInput = this.page.locator("//input[@name='confirm']");
+     this.privasyPolicyCheckbox = this.page.locator("//input[@name='agree']");
+     this.continueButton = this.page.locator("//input[@value='Continue']");
+
   }
+
+    
+   async new_register_user() {
+    await this.firstnameInput.fill("nikhil");
+    console.log("First name entered successfully");
+    await this.lastNameInput.fill("patil");
+    const randomEmail = `user_${Date.now()}@example.com`;
+    await this.emailInput.fill( randomEmail);
+    console.log(randomEmail);
+    await this.telephoneInput.fill("7726363656");
+    console.log("Telephone number entered successfully");
+    await this.passwordInput.fill("Welcome@123");
+    console.log("Password entered successfully");
+    await this.confirmPasswordInput.fill("Welcome@123");
+    console.log("Confirm password entered successfully");
+    await this.privasyPolicyCheckbox.check();
+    console.log("Privacy policy checkbox checked successfully");
+    await this.continueButton.click();
+    console.log("Continue button clicked successfully");
+    await expect(this.page.locator("//h1[text()='Your Account Has Been Created!']")).toHaveText('Your Account Has Been Created!');
+  
+    }
+
+
+    async existing_user() {
+      await this.firstnameInput.fill("Arun");
+      console.log("First name entered successfully");
+      await this.lastNameInput.fill("Motoori");
+      const randomEmail = `user_${Date.now()}@example.com`;
+      await this.emailInput.fill( randomEmail);
+    }
+
+
+
 
   // ---------------- VISIBILITY METHODS ----------------
 

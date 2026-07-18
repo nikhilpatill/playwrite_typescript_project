@@ -1,0 +1,12 @@
+Before calling greet function name is Nikhil
+Before calling greet function age is 25
+Before calling greet function x is null
+Before calling greet function y is undefined
+message is Hello, World!
+Hello, World!
+fullName is 12
+Nikhil Patil
+schoolName is ABC SCHOOL
+ABC School
+city is new york
+New York

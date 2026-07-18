@@ -1,23 +1,6 @@
-import { test, expect } from '@playwright/test';
-import { MyaccountPage } from '../Pages/MyaccountPage1';
-import { GenericMethod } from '../utils/GenericMethod';
-import { Hooks } from '../TEST_Cases/Hooks';
+import { test, expect } from '../TEST_Cases/Hooks';
 
-let myAccountPage: MyaccountPage;
-let  genericMethod: GenericMethod;
-test.beforeEach(async ({ page }) => {
-  myAccountPage = new MyaccountPage(page);
-  genericMethod = new GenericMethod(page);
-  await Hooks.login(page);
-});
-
-
-test.afterEach(async ({ page }) => {
-
-  await page.close();
-});
-
-test('@nik My Account', async ({ page }) => {
+test('@nik My Account', async ({ page, myAccountPage }) => {
 
   // list of web elements
   const allOptions = page.locator('//div[@class="list-group"]/a');
@@ -43,7 +26,7 @@ test('@nik My Account', async ({ page }) => {
 
 });
 
-test('verify Edit your account information Link visibility', async ({ page }) => {
+test('verify Edit your account information Link visibility', async ({ page, myAccountPage }) => {
 
   await myAccountPage.ClickeditYourAccountInfoLink();
   let headingText = await myAccountPage.My_Account_Information_text();
@@ -53,7 +36,7 @@ test('verify Edit your account information Link visibility', async ({ page }) =>
 
 });
 
-test('verify user should Edit first name', async ({ page }) => {
+test('verify user should Edit first name', async ({ page, myAccountPage }) => {
 
   await myAccountPage.ClickeditYourAccountInfoLink();
   await myAccountPage.getFirstName();
@@ -63,7 +46,7 @@ test('verify user should Edit first name', async ({ page }) => {
   await expect.soft(getSuccessMessage).toBe('Success: Your account has been successfully updated.');
 
 });
-test('verify user should Edit last name', async ({ page }) => {
+test('verify user should Edit last name', async ({ page, myAccountPage }) => {
 
   await myAccountPage.ClickeditYourAccountInfoLink();
   await myAccountPage.getLastName();
@@ -73,7 +56,7 @@ test('verify user should Edit last name', async ({ page }) => {
   await expect.soft(getSuccessMessage).toBe('Success: Your account has been successfully updated.');
 });
 
-test('verify user should edit phone Number', async ({ page }) => {
+test('verify user should edit phone Number', async ({ page, myAccountPage }) => {
 
   await myAccountPage.ClickeditYourAccountInfoLink();
   await myAccountPage.getPhoneNumber();
@@ -83,7 +66,7 @@ test('verify user should edit phone Number', async ({ page }) => {
   await expect.soft(getSuccessMessage).toBe('Success: Your account has been successfully updated.');
 });
 
-test('verify user should edit first name, last name and phone number', async ({ page }) => {
+test('verify user should edit first name, last name and phone number', async ({ page, myAccountPage }) => {
 
   await myAccountPage.ClickeditYourAccountInfoLink();
   await myAccountPage.getFirstName();
@@ -96,7 +79,7 @@ test('verify user should edit first name, last name and phone number', async ({ 
 
 });
 
-test('verify Back button functionality', async ({ page }) => {
+test('verify Back button functionality', async ({ page, myAccountPage }) => {
 
   await myAccountPage.ClickeditYourAccountInfoLink();
   await myAccountPage.getFirstName();
@@ -109,7 +92,7 @@ test('verify Back button functionality', async ({ page }) => {
 
 });
 
-test('verify Error message for first name field', async ({ page }) => {
+test('verify Error message for first name field', async ({ page, myAccountPage }) => {
 
   await myAccountPage.ClickeditYourAccountInfoLink();
   await page.locator("//input[@name='firstname']").press('Control+A');
@@ -121,7 +104,7 @@ test('verify Error message for first name field', async ({ page }) => {
 
 });
 
-test('verify Error message for last name field', async ({ page }) => {
+test('verify Error message for last name field', async ({ page, myAccountPage }) => {
   await myAccountPage.ClickeditYourAccountInfoLink();
   await page.locator("//input[@name='lastname']").press('Control+A');
   await page.locator("//input[@name='lastname']").press('Backspace');
@@ -132,7 +115,7 @@ test('verify Error message for last name field', async ({ page }) => {
 
 
 });
-test('verify Error message for telephone field', async ({ page }) => {
+test('verify Error message for telephone field', async ({ page, myAccountPage }) => {
   await myAccountPage.ClickeditYourAccountInfoLink();
   await page.locator("//input[@name='telephone']").press('Control+A');
   await page.locator("//input[@name='telephone']").press('Backspace');
@@ -143,28 +126,27 @@ test('verify Error message for telephone field', async ({ page }) => {
 
 });
 
-test('verify Error message for password field', async ({ page }) => {
+test('verify Error message for password field', async ({ page, myAccountPage }) => {
   await myAccountPage.ClickchangePasswordLink();
   await myAccountPage.clickContinueButton();
   const getErrorMessage = await myAccountPage.getPasswordErrorMessage();
   console.log("Error Message is: " + getErrorMessage);
   await expect.soft(getErrorMessage).toBe('Password must be between 4 and 20 characters!');
 
-
 });
 
-test('verify Password and confirm password does not match error message should be displayed', async ({ page }) => {
+test('verify Password and confirm password does not match error message should be displayed', async ({ page, myAccountPage }) => {
 
   await myAccountPage.ClickchangePasswordLink();
   await myAccountPage.getPasswordField();
   await myAccountPage.clickContinueButton();
-  const getSuccessMessage = await myAccountPage.conformPasswordField_error.textContent();
+  const getSuccessMessage = await myAccountPage.getConformPasswordFieldErrorMessage();
   console.log("Success Message is: " + getSuccessMessage);
   await expect.soft(getSuccessMessage).toBe('Password confirmation does not match password!');
 
 });
 
-test('verify user click on back button My Account page should be displayed', async ({ page }) => {
+test('verify user click on back button My Account page should be displayed', async ({ page, myAccountPage }) => {
   await myAccountPage.ClickchangePasswordLink();
   await myAccountPage.getPasswordField();
   await myAccountPage.clickBackButton();
@@ -174,17 +156,16 @@ test('verify user click on back button My Account page should be displayed', asy
 
 });
 
-test('verify user should displayed Address Book Entries', async ({ page }) => {
+test('verify user should displayed Address Book Entries', async ({ page, myAccountPage }) => {
 
   await myAccountPage.clickmodifyaddressBookLink();
   let headingText = await myAccountPage.getAddressBookText();
   console.log("Heading Text is: " + headingText);
   await expect.soft(headingText).toBe('Address Book Entries');
 
-
 });
 
-test('verify user click on back button My Account page should be displayed from Address Book Entries page', async ({ page }) => {
+test('verify user click on back button My Account page should be displayed from Address Book Entries page', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickBackButton();
   let name = await page.locator("//h2[text()='My Account']").textContent();
@@ -192,7 +173,7 @@ test('verify user click on back button My Account page should be displayed from 
   await expect.soft(page.locator("//h2[text()='My Account']")).toHaveText('My Account');
 });
 
-test('verify user should click on New Address button add address page should be displayed', async ({ page }) => {
+test('verify user should click on New Address button add address page should be displayed', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   let name = await page.locator("//h2[text()='Add Address']").textContent();
@@ -200,7 +181,7 @@ test('verify user should click on New Address button add address page should be 
   await expect.soft(page.locator("//h2[text()='Add Address']")).toHaveText('Add Address');
 });
 
-test('verify user click on continous button without filling any details system should not navigate next page', async ({ page }) => {
+test('verify user click on continous button without filling any details system should not navigate next page', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.clickContinueButton();
@@ -209,7 +190,7 @@ test('verify user click on continous button without filling any details system s
   await expect.soft(page.locator("//h2[text()='Add Address']")).toHaveText('Add Address');
 });
 
-test('verify user click on back button Address Book Entries page should be displayed from Add Address page', async ({ page }) => {
+test('verify user click on back button Address Book Entries page should be displayed from Add Address page', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.clickContinueButton();
@@ -220,7 +201,7 @@ test('verify user click on back button Address Book Entries page should be displ
 
 });
 
-test('verify user click on continue button without filling first name system should display an error message', async ({ page }) => {
+test('verify user click on continue button without filling first name system should display an error message', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.clickContinueButton();
@@ -229,7 +210,7 @@ test('verify user click on continue button without filling first name system sho
   await expect.soft(getErrorMessage).toBe('First Name must be between 1 and 32 characters!');
 });
 
-test('verify user click on continue button without filling last name system should display an error message', async ({ page }) => {
+test('verify user click on continue button without filling last name system should display an error message', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.clickContinueButton();
@@ -238,7 +219,7 @@ test('verify user click on continue button without filling last name system shou
   await expect.soft(getErrorMessage).toBe('Last Name must be between 1 and 32 characters!');
 });
 
-test('verify user click on continue button without filling address1 field system should display an error message', async ({ page }) => {
+test('verify user click on continue button without filling address1 field system should display an error message', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.clickContinueButton();
@@ -247,16 +228,16 @@ test('verify user click on continue button without filling address1 field system
   await expect.soft(getErrorMessage).toBe('Address must be between 3 and 128 characters!');
 });
 
-test('verify user click on continue button without filling city system should display an error message', async ({ page }) => {
+test('verify user click on continue button without filling city system should display an error message', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.clickContinueButton();
   const getErrorMessage = await myAccountPage.getCityErrorMessage();
   console.log("Error Message is: " + getErrorMessage);
   await expect.soft(getErrorMessage).toBe('City must be between 2 and 128 characters!');
-});;
+});
 
-test('verify user click on continue button without filling region / state! system should display an error message', async ({ page }) => {
+test('verify user click on continue button without filling region / state! system should display an error message', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.clickContinueButton();
@@ -265,7 +246,7 @@ test('verify user click on continue button without filling region / state! syste
   await expect.soft(getErrorMessage).toBe('Please select a region / state!');
 });
 
-test('verify user fill all fields and click continue button system should display success message', async ({ page }) => {
+test('verify user fill all fields and click continue button system should display success message', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.getFirstName();
@@ -280,7 +261,7 @@ test('verify user fill all fields and click continue button system should displa
   await expect.soft(getSuccessMessage).toBe('Your address has been successfully added');
 });
 
-test('verify user fill all fields and click continue button system should be displayed from Add Address page', async ({ page }) => {
+test('verify user fill all fields and click continue button system should be displayed from Add Address page', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.getFirstName();
@@ -298,7 +279,7 @@ test('verify user fill all fields and click continue button system should be dis
   await expect.soft(page.locator("//h2[text()='Address Book Entries']")).toHaveText('Address Book Entries');
 });
 
-test('verify user click on back button Address Book Entries page system should displayed my Account page', async ({ page }) => {
+test('verify user click on back button Address Book Entries page system should displayed my Account page', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.clickNewAddressButton();
   await myAccountPage.getFirstName();
@@ -320,7 +301,7 @@ test('verify user click on back button Address Book Entries page system should d
   await expect.soft(page.locator("//h2[text()='My Account']")).toHaveText('My Account');
 });
 
-test('verify user should delete address book entry', async ({ page }) => {
+test('verify user should delete address book entry', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.deleteAddressBookEntry();
   const getSuccessMessage = await myAccountPage.deleteSuccessMessageText();
@@ -329,22 +310,18 @@ test('verify user should delete address book entry', async ({ page }) => {
 
 });
 
-test('verify user should edit address book entry', async ({ page }) => {
-  // Open Address Book Entries and perform a basic smoke check for the page (implement full edit flow later)
+test('verify user should edit address book entry', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.editAddressBookEntry();
   await page.locator("//input[@name='city']").fill("New City");
   await myAccountPage.clickContinueButton();
-  // Validate that the success message is displayed after editing the address
-  // const getSuccessMessage =
-  await myAccountPage.getUpdateSuccessMessage();
   const getSuccessMessage = await myAccountPage.getUpdateSuccessMessage();
   console.log("Success Message is: " + getSuccessMessage);
   await expect.soft(getSuccessMessage).toBe('Your address has been successfully updated');
 
 });
 
-test('verify userclick on new address button system should display ', async ({ page }) => {
+test('verify userclick on new address button system should display ', async ({ page, myAccountPage }) => {
   await myAccountPage.clickmodifyaddressBookLink();
   await myAccountPage.New_Address1();
   const name = await page.locator("//h2[text()='Add Address']").textContent();
@@ -352,16 +329,23 @@ test('verify userclick on new address button system should display ', async ({ p
   await expect.soft(name).toBe('Add Address');
 });
 
-
-test("verify user click on modify your wishlist link system should display My Wish List page", async ({ page }) => {
+test("verify user click on modify your wishlist link system should display My Wish List page", async ({ page, myAccountPage }) => {
   await myAccountPage.clickModifyYourWishListText();
   const headingText = await myAccountPage.getMyWishListText();
   console.log("Heading Text is: " + headingText);
-  expect.soft(headingText).toBe('My Wish List');
+  await expect.soft(headingText).toBe('My Wish List');
 });
 
-test("verify user click on back button from My Wish List page system should display My Account page", async ({ page }) => {
+test("verify user click on back button from My Wish List page system should display My Account page", async ({ page, myAccountPage }) => {
   await myAccountPage.clickModifyYourWishListText();
-  const headingText = await myAccountPage.getMyWishListText();
-
+  await myAccountPage.clickBackButton();
+  await expect.soft(page.locator("//h2[text()='My Account']")).toHaveText('My Account');
 });
+
+
+
+
+
+
+
+

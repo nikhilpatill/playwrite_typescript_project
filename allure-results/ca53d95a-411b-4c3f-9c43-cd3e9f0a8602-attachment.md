@@ -1,0 +1,1833 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - link "Naukri Logo" [ref=e7] [cursor=pointer]:
+        - /url: https://www.naukri.com
+        - img "Naukri Logo" [ref=e8]
+      - navigation:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Jobs 2" [ref=e11] [cursor=pointer]:
+              - /url: /mnjuser/recommendedjobs
+              - generic [ref=e12]: Jobs
+              - generic [ref=e13]: "2"
+            - generic:
+              - list:
+                - listitem:
+                  - link "Recommended jobs":
+                    - /url: /mnjuser/recommendedjobs
+                    - generic:
+                      - generic:
+                        - generic: Recommended jobs
+                - listitem:
+                  - link "NVites 2 New":
+                    - /url: /mnjuser/inbox
+                    - generic:
+                      - generic:
+                        - generic: NVites
+                    - generic "2 New"
+                - listitem:
+                  - link "Application status 27 Updates":
+                    - /url: /myapply/historypage
+                    - generic:
+                      - generic:
+                        - generic: Application status
+                    - generic "27 Updates"
+                - listitem:
+                  - link "Saved jobs":
+                    - /url: /mnjuser/savedjobs
+                    - generic:
+                      - generic:
+                        - generic: Saved jobs
+          - listitem [ref=e14]:
+            - link "Companies" [ref=e15] [cursor=pointer]:
+              - /url: https://www.naukri.com/companies-hiring-in-india?src=gnbCompanies_homepage_srch
+              - generic [ref=e16]: Companies
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Explore categories
+                - listitem:
+                  - link "Unicorn":
+                    - /url: https://www.naukri.com/unicorn-companies-in-india-cat102?title=Unicorns%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Unicorn
+                - listitem:
+                  - link "MNC":
+                    - /url: https://www.naukri.com/mnc-companies-in-india-cat101?title=MNCs%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: MNC
+                - listitem:
+                  - link "Startup":
+                    - /url: https://www.naukri.com/startup-companies-in-india-cat103?title=Startups%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Startup
+                - listitem:
+                  - link "Product based":
+                    - /url: https://www.naukri.com/product-companies-in-india-cat106?title=Product%20companies%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Product based
+                - listitem:
+                  - link "Internet":
+                    - /url: https://www.naukri.com/internet-companies-in-india-cat105?title=Internet%20companies%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Internet
+              - list:
+                - listitem:
+                  - generic: Explore collections
+                - listitem:
+                  - link "Top companies":
+                    - /url: https://www.naukri.com/companies-hiring-in-india?src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Top companies
+                - listitem:
+                  - link "IT companies":
+                    - /url: https://www.naukri.com/it-companies-in-india-cat116?src=gnbCompanies_homepage_srch&title=IT%20Companies%20Hiring
+                    - generic:
+                      - generic:
+                        - generic: IT companies
+                - listitem:
+                  - link "Fintech companies":
+                    - /url: https://www.naukri.com/fintech-and-payments-companies-in-india-cat108?title=Fintech%20%26%20Payments%20companies%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Fintech companies
+                - listitem:
+                  - link "Sponsored companies":
+                    - /url: https://www.naukri.com/allcompanies?searchType=standardLogo&title=Sponsored+companies&branding=%257B%2522pagename%2522%253A%2522ni-desktop-standard-viewAll%2522%257D&pageNo=1&qcount=47&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Sponsored companies
+                - listitem:
+                  - link "Featured companies":
+                    - /url: https://www.naukri.com/allcompanies?searchType=premiumLogo&title=Featured+companies+actively+hiring&branding=%257B%2522pagename%2522%253A%2522ni-desktop-premium-viewAll%2522%257D&pageNo=1&qcount=47&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Featured companies
+              - list:
+                - listitem:
+                  - generic:
+                    - text: Research companies
+                    - generic: by
+                    - img
+                    - generic: Ambitionbox
+                - listitem:
+                  - link "Interview questions":
+                    - /url: https://www.ambitionbox.com/interviews?utm_source=naukri&utm_medium=desktop&utm_campaign=gnb
+                    - generic:
+                      - generic:
+                        - generic: Interview questions
+                - listitem:
+                  - link "Company salaries":
+                    - /url: https://www.ambitionbox.com/salaries?utm_source=naukri&utm_medium=desktop&utm_campaign=gnb
+                    - generic:
+                      - generic:
+                        - generic: Company salaries
+                - listitem:
+                  - link "Company reviews":
+                    - /url: https://www.ambitionbox.com/reviews?utm_source=naukri&utm_medium=desktop&utm_campaign=gnb
+                    - generic:
+                      - generic:
+                        - generic: Company reviews
+                - listitem:
+                  - link "Salary Calculator":
+                    - /url: https://www.ambitionbox.com/salaries/take-home-salary-calculator?utm_campaign=gnb&utm_source=naukri&utm_medium=desktop
+                    - generic:
+                      - generic:
+                        - generic: Salary Calculator
+          - listitem [ref=e17]:
+            - link "Services 1" [ref=e18] [cursor=pointer]:
+              - /url: https://resume.naukri.com/?fftid=100001
+              - generic [ref=e19]: Services
+              - generic [ref=e20]: "1"
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Resume writing
+                - listitem:
+                  - link "Text resume":
+                    - /url: https://resume.naukri.com/resume-writing-services?fftid=101001
+                    - generic:
+                      - generic:
+                        - generic: Text resume
+                - listitem:
+                  - link "Visual resume":
+                    - /url: https://resume.naukri.com/visual-resume-writing-services?fftid=101002
+                    - generic:
+                      - generic:
+                        - generic: Visual resume
+                - listitem:
+                  - link "Resume critique":
+                    - /url: https://resume.naukri.com/resume-critique?fftid=101006
+                    - generic:
+                      - generic:
+                        - generic: Resume critique
+                - listitem:
+                  - generic: Find Jobs
+                - listitem:
+                  - link "Jobs4u":
+                    - /url: https://resume.naukri.com/job-alerts-on-mobile-mail?fftid=101011#jobmail
+                    - generic:
+                      - generic:
+                        - generic: Jobs4u
+                - listitem:
+                  - link "Priority applicant":
+                    - /url: https://resume.naukri.com/priority-job-application?fftid=101019
+                    - generic:
+                      - generic:
+                        - generic: Priority applicant
+                - listitem:
+                  - link "Contact us":
+                    - /url: https://resume.naukri.com/contact-us?fftid=101015
+                    - generic:
+                      - generic:
+                        - generic: Contact us
+              - list:
+                - listitem:
+                  - generic: Get recruiter's attention
+                - listitem:
+                  - link "Resume display":
+                    - /url: https://resume.naukri.com/resume-display?fftid=101009
+                    - generic:
+                      - generic:
+                        - generic: Resume display
+                - listitem:
+                  - generic: Interview Preparation
+                - listitem:
+                  - link "AI Mock Interview":
+                    - /url: https://www.naukri.com/ai-interview-questions?fftid=NaukriGNBAIInterview
+                    - generic:
+                      - generic:
+                        - generic: AI Mock Interview
+                - listitem:
+                  - generic: Monthly subscriptions
+                - listitem:
+                  - link "Basic & premium plans":
+                    - /url: https://resume.naukri.com/subscription-product?fftid=101025
+                    - generic:
+                      - generic:
+                        - generic: Basic & premium plans
+              - list:
+                - listitem:
+                  - generic: Free resume resources
+                - listitem:
+                  - link "Resume maker":
+                    - /url: https://www.naukri.com/resume-maker?utmTerm=ResumePro_Gnb&utmContent=gnbServices
+                    - generic:
+                      - generic:
+                        - generic: Resume maker
+                - listitem:
+                  - link "Resume quality score":
+                    - /url: https://resume.naukri.com/resume-quality-score?fftid=101003
+                    - generic:
+                      - generic:
+                        - generic: Resume quality score
+                - listitem:
+                  - link "Resume samples":
+                    - /url: https://resume.naukri.com/resume-samples?fftid=101004
+                    - generic:
+                      - generic:
+                        - generic: Resume samples
+                - listitem:
+                  - link "Job letter samples":
+                    - /url: https://resume.naukri.com/job-letter-format
+                    - generic:
+                      - generic:
+                        - generic: Job letter samples
+                - listitem:
+                  - generic: Promotional Offer
+                - listitem:
+                  - link "FASTJOB20 20% off on services to help get more callbacks":
+                    - /url: https://resume.naukri.com/resume-display?fftid=notf_nauk_promo_rd
+                    - generic:
+                      - generic:
+                        - generic: FASTJOB20 20% off on services to help get more callbacks
+      - generic [ref=e21] [cursor=pointer]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "Enter keyword / designation / companies": automation test engineer,
+          - generic:
+            - generic:
+              - generic:
+                - textbox "Select experience"
+                - generic: 
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "Enter location"
+        - generic "automation test engineer" [ref=e22]
+        - button "" [ref=e23]:
+          - generic [ref=e24]: 
+      - generic [ref=e25]:
+        - link "naukri360-pill naukri360-pill naukri360-pill naukri360-pill naukri360-pill naukri360-pill" [ref=e26] [cursor=pointer]:
+          - /url: /naukri360
+          - generic [ref=e27]:
+            - img "naukri360-pill" [ref=e29]
+            - img "naukri360-pill" [ref=e31]
+            - img "naukri360-pill" [ref=e33]
+            - img "naukri360-pill" [ref=e35]
+            - img "naukri360-pill" [ref=e37]
+            - img "naukri360-pill" [ref=e39]
+        - generic:
+          - list:
+            - listitem:
+              - link "Neo-AI Job Agent ":
+                - /url: https://www.naukri.com/job-apply-agent?utmTerm=JobAgent_gnb&utmContent=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Neo-AI Job Agent
+                  - generic: 
+            - listitem:
+              - link "Naukri Pro ":
+                - /url: https://www.naukri.com/naukri360-pro?utm_term=N360Pro_gnb&utm_content=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Naukri Pro
+                  - generic: 
+            - listitem:
+              - link "Resume Pro ":
+                - /url: https://www.naukri.com/resume-maker?utm_term=ResumePro_gnb&utm_content=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Resume Pro
+                  - generic: 
+            - listitem:
+              - link "Resume Writing Service ":
+                - /url: https://www.naukri.com/resume-writing-service?utmTerm=resume_gnb&utmContent=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Resume Writing Service
+                  - generic: 
+            - listitem:
+              - link "Interview Pro ":
+                - /url: https://www.naukri.com/mock-interview-questions?skipRole=true&utmTerm=InterviewPro_gnb&utmContent=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Interview Pro
+                  - generic: 
+      - img "jobagent-pill" [ref=e42] [cursor=pointer]
+      - generic [ref=e44] [cursor=pointer]:
+        - generic [ref=e45]: 
+        - generic [ref=e46]: "21"
+      - generic [ref=e53] [cursor=pointer]:
+        - img "naukri user profile img" [ref=e54]
+        - generic [ref=e55]: "2"
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e60]:
+          - generic [ref=e62]: All Filters
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65] [cursor=pointer]:
+                - generic [ref=e66]: Work mode
+                - generic [ref=e67]: 
+              - generic [ref=e68]:
+                - generic [ref=e70] [cursor=pointer]:
+                  - generic [ref=e71]: 
+                  - paragraph [ref=e72]:
+                    - generic "Work from office" [ref=e73]
+                    - generic [ref=e74]: (72524)
+                - generic [ref=e76] [cursor=pointer]:
+                  - generic [ref=e77]: 
+                  - paragraph [ref=e78]:
+                    - generic "Hybrid" [ref=e79]
+                    - generic [ref=e80]: (2848)
+                - generic [ref=e82] [cursor=pointer]:
+                  - generic [ref=e83]: 
+                  - paragraph [ref=e84]:
+                    - generic "Remote" [ref=e85]
+                    - generic [ref=e86]: (2493)
+                - generic [ref=e88] [cursor=pointer]:
+                  - generic [ref=e89]: 
+                  - paragraph [ref=e90]:
+                    - generic "Temp. WFH due to covid" [ref=e91]
+                    - generic [ref=e92]: (2)
+            - generic [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]: Experience
+                - generic [ref=e96]: 
+              - generic [ref=e99]:
+                - generic [ref=e105] [cursor=pointer]: Any
+                - generic:
+                  - generic [ref=e107]: 0 Yrs
+                  - generic [ref=e108]: Any
+            - generic [ref=e109]:
+              - generic [ref=e110] [cursor=pointer]:
+                - generic [ref=e111]: Department
+                - generic [ref=e112]: 
+              - generic [ref=e113]:
+                - generic [ref=e115] [cursor=pointer]:
+                  - generic [ref=e116]: 
+                  - paragraph [ref=e117]:
+                    - generic "Engineering - Software & QA" [ref=e118]
+                    - generic [ref=e119]: (55454)
+                - generic [ref=e121] [cursor=pointer]:
+                  - generic [ref=e122]: 
+                  - paragraph [ref=e123]:
+                    - generic "Quality Assurance" [ref=e124]
+                    - generic [ref=e125]: (3602)
+                - generic [ref=e127] [cursor=pointer]:
+                  - generic [ref=e128]: 
+                  - paragraph [ref=e129]:
+                    - generic "Production, Manufacturing & Engineering" [ref=e130]
+                    - generic [ref=e131]: (2243)
+                - generic [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134]: 
+                  - paragraph [ref=e135]:
+                    - generic "UX, Design & Architecture" [ref=e136]
+                    - generic [ref=e137]: (1907)
+                - generic [ref=e138] [cursor=pointer]: View More
+            - generic [ref=e139]:
+              - generic [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]: Location
+                - generic [ref=e142]: 
+              - generic [ref=e143]:
+                - generic [ref=e145] [cursor=pointer]:
+                  - generic [ref=e146]: 
+                  - paragraph [ref=e147]:
+                    - generic "Pune" [ref=e148]
+                    - generic [ref=e149]: (9286)
+                - generic [ref=e151] [cursor=pointer]:
+                  - generic [ref=e152]: 
+                  - paragraph [ref=e153]:
+                    - generic "Lonavala" [ref=e154]
+                    - generic [ref=e155]: (4)
+                - generic [ref=e157] [cursor=pointer]:
+                  - generic [ref=e158]: 
+                  - paragraph [ref=e159]:
+                    - generic "Khopoli" [ref=e160]
+                    - generic [ref=e161]: (6)
+                - generic [ref=e163] [cursor=pointer]:
+                  - generic [ref=e164]: 
+                  - paragraph [ref=e165]:
+                    - generic "Bengaluru" [ref=e166]
+                    - generic [ref=e167]: (20129)
+                - generic [ref=e168] [cursor=pointer]: View More
+            - generic [ref=e169]:
+              - generic [ref=e170] [cursor=pointer]:
+                - generic [ref=e171]: Salary
+                - generic [ref=e172]: 
+              - generic [ref=e173]:
+                - generic [ref=e175] [cursor=pointer]:
+                  - generic [ref=e176]: 
+                  - paragraph [ref=e177]:
+                    - generic "6-10 Lakhs" [ref=e178]
+                    - generic [ref=e179]: (49009)
+                - generic [ref=e181] [cursor=pointer]:
+                  - generic [ref=e182]: 
+                  - paragraph [ref=e183]:
+                    - generic "10-15 Lakhs" [ref=e184]
+                    - generic [ref=e185]: (25636)
+                - generic [ref=e187] [cursor=pointer]:
+                  - generic [ref=e188]: 
+                  - paragraph [ref=e189]:
+                    - generic "15-25 Lakhs" [ref=e190]
+                    - generic [ref=e191]: (13103)
+                - generic [ref=e193] [cursor=pointer]:
+                  - generic [ref=e194]: 
+                  - paragraph [ref=e195]:
+                    - generic "25-50 Lakhs" [ref=e196]
+                    - generic [ref=e197]: (6919)
+                - generic [ref=e198] [cursor=pointer]: View More
+            - generic [ref=e199]:
+              - generic [ref=e200] [cursor=pointer]:
+                - generic [ref=e201]: Company type
+                - generic [ref=e202]: 
+              - generic [ref=e203]:
+                - generic [ref=e205] [cursor=pointer]:
+                  - generic [ref=e206]: 
+                  - paragraph [ref=e207]:
+                    - generic "Foreign MNC" [ref=e208]
+                    - generic [ref=e209]: (21575)
+                - generic [ref=e211] [cursor=pointer]:
+                  - generic [ref=e212]: 
+                  - paragraph [ref=e213]:
+                    - generic "Corporate" [ref=e214]
+                    - generic [ref=e215]: (12072)
+                - generic [ref=e217] [cursor=pointer]:
+                  - generic [ref=e218]: 
+                  - paragraph [ref=e219]:
+                    - generic "Indian MNC" [ref=e220]
+                    - generic [ref=e221]: (5216)
+                - generic [ref=e223] [cursor=pointer]:
+                  - generic [ref=e224]: 
+                  - paragraph [ref=e225]:
+                    - generic "Startup" [ref=e226]
+                    - generic [ref=e227]: (2064)
+                - generic [ref=e228] [cursor=pointer]: View More
+            - generic [ref=e229]:
+              - generic [ref=e230] [cursor=pointer]:
+                - generic [ref=e231]: Role category
+                - generic [ref=e232]: 
+              - generic [ref=e233]:
+                - generic [ref=e235] [cursor=pointer]:
+                  - generic [ref=e236]: 
+                  - paragraph [ref=e237]:
+                    - generic "Software Development" [ref=e238]
+                    - generic [ref=e239]: (39137)
+                - generic [ref=e241] [cursor=pointer]:
+                  - generic [ref=e242]: 
+                  - paragraph [ref=e243]:
+                    - generic "Quality Assurance and Testing" [ref=e244]
+                    - generic [ref=e245]: (11674)
+                - generic [ref=e247] [cursor=pointer]:
+                  - generic [ref=e248]: 
+                  - paragraph [ref=e249]:
+                    - generic "DBA / Data warehousing" [ref=e250]
+                    - generic [ref=e251]: (2511)
+                - generic [ref=e253] [cursor=pointer]:
+                  - generic [ref=e254]: 
+                  - paragraph [ref=e255]:
+                    - generic "DevOps" [ref=e256]
+                    - generic [ref=e257]: (2132)
+                - generic [ref=e258] [cursor=pointer]: View More
+            - generic [ref=e259]:
+              - generic [ref=e260] [cursor=pointer]:
+                - generic [ref=e261]: Education
+                - generic [ref=e262]: 
+              - generic [ref=e263]:
+                - generic [ref=e265] [cursor=pointer]:
+                  - generic [ref=e266]: 
+                  - paragraph [ref=e267]:
+                    - generic "Any Postgraduate" [ref=e268]
+                    - generic [ref=e269]: (60810)
+                - generic [ref=e271] [cursor=pointer]:
+                  - generic [ref=e272]: 
+                  - paragraph [ref=e273]:
+                    - generic "M.Tech" [ref=e274]
+                    - generic [ref=e275]: (2915)
+                - generic [ref=e277] [cursor=pointer]:
+                  - generic [ref=e278]: 
+                  - paragraph [ref=e279]:
+                    - generic "B.C.A." [ref=e280]
+                    - generic [ref=e281]: (1572)
+                - generic [ref=e283] [cursor=pointer]:
+                  - generic [ref=e284]: 
+                  - paragraph [ref=e285]:
+                    - generic "Any Graduate" [ref=e286]
+                    - generic [ref=e287]: (58891)
+                - generic [ref=e288] [cursor=pointer]: View More
+            - generic [ref=e289]:
+              - generic [ref=e290] [cursor=pointer]:
+                - generic [ref=e291]: Posted by
+                - generic [ref=e292]: 
+              - generic [ref=e293]:
+                - generic [ref=e295] [cursor=pointer]:
+                  - generic [ref=e296]: 
+                  - paragraph [ref=e297]:
+                    - generic "Company Jobs" [ref=e298]
+                    - generic [ref=e299]: (70636)
+                - generic [ref=e301] [cursor=pointer]:
+                  - generic [ref=e302]: 
+                  - paragraph [ref=e303]:
+                    - generic "Consultant Jobs" [ref=e304]
+                    - generic [ref=e305]: (7231)
+            - generic [ref=e306]:
+              - generic [ref=e307] [cursor=pointer]:
+                - generic [ref=e308]: Industry
+                - generic [ref=e309]: 
+              - generic [ref=e310]:
+                - generic [ref=e312] [cursor=pointer]:
+                  - generic [ref=e313]: 
+                  - paragraph [ref=e314]:
+                    - generic "Software Product" [ref=e315]
+                    - generic [ref=e316]: (2554)
+                - generic [ref=e318] [cursor=pointer]:
+                  - generic [ref=e319]: 
+                  - paragraph [ref=e320]:
+                    - generic "BPM / BPO" [ref=e321]
+                    - generic [ref=e322]: (1107)
+                - generic [ref=e324] [cursor=pointer]:
+                  - generic [ref=e325]: 
+                  - paragraph [ref=e326]:
+                    - generic "IT Services & Consulting" [ref=e327]
+                    - generic [ref=e328]: (46407)
+                - generic [ref=e330] [cursor=pointer]:
+                  - generic [ref=e331]: 
+                  - paragraph [ref=e332]:
+                    - generic "Recruitment / Staffing" [ref=e333]
+                    - generic [ref=e334]: (2909)
+                - generic [ref=e335] [cursor=pointer]: View More
+            - generic [ref=e336]:
+              - generic [ref=e337] [cursor=pointer]:
+                - generic [ref=e338]: Top companies
+                - generic [ref=e339]: 
+              - generic [ref=e340]:
+                - generic [ref=e342] [cursor=pointer]:
+                  - generic [ref=e343]: 
+                  - paragraph [ref=e344]:
+                    - generic "Accenture" [ref=e345]
+                    - generic [ref=e346]: (9724)
+                - generic [ref=e348] [cursor=pointer]:
+                  - generic [ref=e349]: 
+                  - paragraph [ref=e350]:
+                    - generic "Tata Consultancy Services" [ref=e351]
+                    - generic [ref=e352]: (586)
+                - generic [ref=e354] [cursor=pointer]:
+                  - generic [ref=e355]: 
+                  - paragraph [ref=e356]:
+                    - generic "EY" [ref=e357]
+                    - generic [ref=e358]: (416)
+                - generic [ref=e360] [cursor=pointer]:
+                  - generic [ref=e361]: 
+                  - paragraph [ref=e362]:
+                    - generic "Infosys" [ref=e363]
+                    - generic [ref=e364]: (396)
+                - generic [ref=e365] [cursor=pointer]: View More
+            - generic [ref=e366]:
+              - generic [ref=e368] [cursor=pointer]: Freshness
+              - button "Select " [ref=e372] [cursor=pointer]:
+                - text: Select
+                - generic [ref=e373]: 
+        - generic [ref=e374]:
+          - generic [ref=e375]:
+            - generic [ref=e376]:
+              - generic "1 - 20 of 77867" [ref=e377]
+              - heading "Automation Test Engineer Jobs" [level=1] [ref=e378]
+            - generic [ref=e379]:
+              - text: Send me jobs like these
+              - generic [ref=e380]:
+                - generic [ref=e381]: "Sort by:"
+                - button "Recommended " [ref=e383] [cursor=pointer]:
+                  - text: Recommended
+                  - generic [ref=e384]: 
+          - generic [ref=e386]:
+            - generic [ref=e388] [cursor=pointer]:
+              - generic [ref=e389]:
+                - heading "Automation Test Engineer Telecom OSS/BSS" [level=2] [ref=e390]:
+                  - link "Automation Test Engineer Telecom OSS/BSS" [ref=e391]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-telecom-oss-bss-innova-solutions-pune-5-to-8-years-280526013381
+                - img [ref=e393]
+              - generic [ref=e395]:
+                - link "Innova Solutions" [ref=e396]:
+                  - /url: https://www.naukri.com/innova-solutions-jobs-careers-412129
+                - link " 3.3" [ref=e397]:
+                  - /url: https://www.ambitionbox.com/reviews/innova-solutions-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e398]: 
+                  - generic [ref=e399]: "3.3"
+                  - text: 
+                - link "1183 Reviews" [ref=e400]:
+                  - /url: https://www.ambitionbox.com/reviews/innova-solutions-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e402]:
+                - generic [ref=e404]:
+                  - text: 
+                  - generic "5-8 Yrs" [ref=e405]
+                - generic [ref=e407]:
+                  - text: 
+                  - generic "8-18 Lacs PA" [ref=e408]
+                - generic [ref=e410]:
+                  - text: 
+                  - generic "Hybrid - Pune" [ref=e411]
+              - generic [ref=e413]:  Role & responsibilities About the RoleWe are looking for a highly motivated Automation...
+              - list [ref=e415]:
+                - listitem [ref=e416]: Automation Test Engineer OR QA Automation Engineer OR SDET OR Test Automation Engineer
+                - listitem [ref=e417]: automation framework
+                - listitem [ref=e418]: bdd
+                - listitem [ref=e419]: bss
+                - listitem [ref=e420]: Generative AI
+                - listitem [ref=e421]: cucumber
+                - listitem [ref=e422]: Playwright
+                - listitem [ref=e423]: page object model
+              - generic [ref=e424]:
+                - generic [ref=e425]: 1 day ago
+                - generic [ref=e426]: save
+            - generic [ref=e428]:
+              - generic [ref=e429]:
+                - heading "Automation Test Engineer" [level=2] [ref=e430]:
+                  - link "Automation Test Engineer" [ref=e431] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-globant-hyderabad-pune-bengaluru-6-to-10-years-270526033401
+                - img [ref=e433]
+              - generic [ref=e435]:
+                - link "Globant" [ref=e436] [cursor=pointer]:
+                  - /url: https://www.naukri.com/globant-jobs-careers-323535
+                - link " 3.4" [ref=e437] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/globant-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e438]: 
+                  - generic [ref=e439]: "3.4"
+                  - text: 
+                - link "1287 Reviews" [ref=e440] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/globant-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e442]:
+                - generic [ref=e444]:
+                  - text: 
+                  - generic "6-10 Yrs" [ref=e445]
+                - generic [ref=e447]:
+                  - text: 
+                  - generic "11-17 Lacs PA" [ref=e448]
+                - generic [ref=e450]:
+                  - text: 
+                  - generic "Hybrid - Pune, Hyderabad, Bengaluru" [ref=e451]
+              - generic [ref=e453]: " Job Title: Test Automation EngineerExperience: 510 YearsLocation: Pune / Bangalore / H..."
+              - list [ref=e455]:
+                - listitem [ref=e456]: Rest Assured
+                - listitem [ref=e457]: Typescript
+                - listitem [ref=e458]: Javascript
+                - listitem [ref=e459]: Playwright JavaScript TypeScript API Automation RestAssured preferred among API frameworks Java + Selenium Test Automation Automation Framework Design API Testing Concepts CI/CD Agile Methodology Git / Version Control
+                - listitem [ref=e460]: Design
+                - listitem [ref=e461]: Automation
+                - listitem [ref=e462]: Continuous Integration
+                - listitem [ref=e463]: Software testing
+              - generic [ref=e464]:
+                - generic [ref=e465]: 1 day ago
+                - generic [ref=e466]: save
+            - generic [ref=e468]:
+              - generic [ref=e469]:
+                - heading "Automation Test Engineer" [level=2] [ref=e470]:
+                  - link "Automation Test Engineer" [ref=e471] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-light-wonder-pune-bengaluru-3-to-6-years-280526023317
+                - img [ref=e473]
+              - generic [ref=e475]:
+                - link "Light & Wonder" [ref=e476] [cursor=pointer]:
+                  - /url: https://www.naukri.com/light-wonder-jobs-careers-473403
+                - link " 3.7" [ref=e477] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/light-and-wonder-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e478]: 
+                  - generic [ref=e479]: "3.7"
+                  - text: 
+                - link "148 Reviews" [ref=e480] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/light-and-wonder-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e482]:
+                - generic [ref=e484]:
+                  - text: 
+                  - generic "3-6 Yrs" [ref=e485]
+                - generic [ref=e487]:
+                  - text: 
+                  - generic "15-19 Lacs PA" [ref=e488]
+                - generic [ref=e490]:
+                  - text: 
+                  - generic "Pune, Bengaluru" [ref=e491]
+              - generic [ref=e493]:  Experience integrating automation with CI / CD tools (Jenkins, GitHub Actions, or GitLa...
+              - list [ref=e495]:
+                - listitem [ref=e496]: Java
+                - listitem [ref=e497]: Rest Assured
+                - listitem [ref=e498]: Playwright
+                - listitem [ref=e499]: Selenium
+                - listitem [ref=e500]: Cucumber
+                - listitem [ref=e501]: Automation
+                - listitem [ref=e502]: Software testing
+                - listitem [ref=e503]: Rest
+              - generic [ref=e504]:
+                - generic [ref=e505]: 1 day ago
+                - generic [ref=e506]: save
+            - generic [ref=e512] [cursor=pointer]:
+              - generic [ref=e513]:
+                - generic "Automation Test Engineer" [ref=e514]
+                - img [ref=e516]
+              - generic "Experis" [ref=e519]
+              - generic [ref=e521]:
+                - generic "4-6 Yrs" [ref=e523]: 4-6 Yrs
+                - generic "Not disclosed" [ref=e525]: Not disclosed
+                - generic "Pune" [ref=e527]: Pune
+              - generic [ref=e529]: Exposure to CI / CD,Git,and Playwright is preferredImmediate or short notice joiners pr...
+              - list [ref=e531]:
+                - listitem [ref=e532]: Manual Testing
+                - listitem [ref=e533]: QA Engineer
+                - listitem [ref=e534]: Automation Testing
+                - listitem [ref=e535]: Selenium
+                - listitem [ref=e536]: Python
+                - listitem [ref=e537]: Test Automation Framework
+                - listitem [ref=e538]: Regression Testing
+                - listitem [ref=e539]: Defect Tracking
+              - generic [ref=e540]:
+                - generic [ref=e542]: 8 Days Ago
+                - generic [ref=e543]:  Save
+            - generic [ref=e545]:
+              - generic [ref=e546]:
+                - heading "Test Automation Engineer" [level=2] [ref=e547]:
+                  - link "Test Automation Engineer" [ref=e548] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-test-automation-engineer-accenture-solutions-pvt-ltd-pune-5-to-10-years-250526927500
+                - img [ref=e550]
+              - generic [ref=e552]:
+                - link "Accenture" [ref=e553] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=e554] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e555]: 
+                  - generic [ref=e556]: "3.7"
+                  - text: 
+                - link "73913 Reviews" [ref=e557] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e559]:
+                - generic [ref=e561]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=e562]
+                - generic [ref=e564]:
+                  - text: 
+                  - generic "Pune" [ref=e565]
+              - generic [ref=e567]: " Project Role : Test Automation EngineerProject Role Description : Use quality processes..."
+              - list [ref=e569]:
+                - listitem [ref=e570]: automation
+                - listitem [ref=e571]: github
+                - listitem [ref=e572]: software development
+                - listitem [ref=e573]: test automation
+                - listitem [ref=e574]: building automation
+                - listitem [ref=e575]: javascript
+                - listitem [ref=e576]: automation tools
+                - listitem [ref=e577]: ui
+              - generic [ref=e578]:
+                - generic [ref=e579]: 3 days ago
+                - generic [ref=e580]: save
+            - generic [ref=e582]:
+              - generic [ref=e583]:
+                - heading "Automation Test Engineer" [level=2] [ref=e584]:
+                  - link "Automation Test Engineer" [ref=e585] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-embitel-technologies-pune-6-to-11-years-270526035139
+                - img [ref=e587]
+              - generic [ref=e589]:
+                - link "Embitel Technologies" [ref=e590] [cursor=pointer]:
+                  - /url: https://www.naukri.com/embitel-technologies-jobs-careers-254587
+                - link " 4.0" [ref=e591] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/embitel-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e592]: 
+                  - generic [ref=e593]: "4.0"
+                  - text: 
+                - link "288 Reviews" [ref=e594] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/embitel-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e596]:
+                - generic [ref=e598]:
+                  - text: 
+                  - generic "6-11 Yrs" [ref=e599]
+                - generic [ref=e601]:
+                  - text: 
+                  - generic "Hybrid - Pune(Kothrud)" [ref=e602]
+              - generic [ref=e604]: " Job Requirements : . 5-10 years of experience in software testing with expertise in mob..."
+              - list [ref=e606]:
+                - listitem [ref=e607]: Appium
+                - listitem [ref=e608]: Automation Testing
+                - listitem [ref=e609]: Selenium
+                - listitem [ref=e610]: Mobile Application Testing
+                - listitem [ref=e611]: Ios Testing
+                - listitem [ref=e612]: Web Application Testing
+                - listitem [ref=e613]: Android Testing
+                - listitem [ref=e614]: Mobile applications
+              - generic [ref=e615]:
+                - generic [ref=e616]: 1 day ago
+                - generic [ref=e617]: save
+            - generic [ref=e619]:
+              - generic [ref=e620]:
+                - heading "Automation Test Engineer" [level=2] [ref=e621]:
+                  - link "Automation Test Engineer" [ref=e622] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-srs-infoway-pune-5-to-5-years-270526037802
+                - img [ref=e624]
+              - generic [ref=e625]:
+                - generic "Infosys" [ref=e627]
+                - link "Posted by SRS Infoway" [ref=e629] [cursor=pointer]:
+                  - /url: https://www.naukri.com/srs-infoway-jobs-careers-1572268
+              - generic [ref=e631]:
+                - generic [ref=e633]:
+                  - text: 
+                  - generic "5 Yrs" [ref=e634]
+                - generic [ref=e636]:
+                  - text: 
+                  - generic "10-18 Lacs PA" [ref=e637]
+                - generic [ref=e639]:
+                  - text: 
+                  - generic "Hybrid - Pune" [ref=e640]
+              - generic [ref=e642]: " API Testing: (Optional but preferred) Familiarity with REST Assured or Postman for API ..."
+              - list [ref=e644]:
+                - listitem [ref=e645]: Java
+                - listitem [ref=e646]: Playwright
+                - listitem [ref=e647]: Selenium
+                - listitem [ref=e648]: Cypress
+                - listitem [ref=e649]: Automation testing
+                - listitem [ref=e650]: Software testing
+                - listitem [ref=e651]: Automation
+              - generic [ref=e652]:
+                - generic [ref=e653]: 1 day ago
+                - generic [ref=e654]: save
+            - generic [ref=e656]:
+              - generic [ref=e657]:
+                - heading "Automation Test Engineer - Test Complete" [level=2] [ref=e658]:
+                  - link "Automation Test Engineer - Test Complete" [ref=e659] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-test-complete-axcend-automation-software-solutions-pune-5-to-10-years-250526002953
+                - img [ref=e661]
+              - generic [ref=e663]:
+                - link "Axcend Automation & Software Solutions" [ref=e664] [cursor=pointer]:
+                  - /url: https://www.naukri.com/axcend-automation-solutions-jobs-careers-35706
+                - link " 3.7" [ref=e665] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/axcend-automation-and-software-solutions-pvtltd-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e666]: 
+                  - generic [ref=e667]: "3.7"
+                  - text: 
+                - link "84 Reviews" [ref=e668] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/axcend-automation-and-software-solutions-pvtltd-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e670]:
+                - generic [ref=e672]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=e673]
+                - generic [ref=e675]:
+                  - text: 
+                  - generic "Hybrid - Pune" [ref=e676]
+              - generic [ref=e678]:  Role SummaryExperienced Test Automation Engineer to design, develop, and maintain scal...
+              - list [ref=e680]:
+                - listitem [ref=e681]: Test Complete
+                - listitem [ref=e682]: Javascript
+                - listitem [ref=e683]: Automation Testing
+                - listitem [ref=e684]: Desktop Testing
+                - listitem [ref=e685]: Typescript
+                - listitem [ref=e686]: Software testing
+                - listitem [ref=e687]: Desktop
+                - listitem [ref=e688]: Automation
+              - generic [ref=e689]:
+                - generic [ref=e690]: 3 days ago
+                - generic [ref=e691]: save
+            - generic [ref=e697] [cursor=pointer]:
+              - generic [ref=e698]:
+                - generic "Automation Test Engineer" [ref=e699]
+                - img [ref=e701]
+              - generic "Experis" [ref=e704]
+              - generic [ref=e706]:
+                - generic "4-6 Yrs" [ref=e708]: 4-6 Yrs
+                - generic "Not disclosed" [ref=e710]: Not disclosed
+                - generic "Pune" [ref=e712]: Pune
+              - generic [ref=e714]: Exposure to CI / CD,Git,and Playwright is preferredImmediate or short notice joiners pr...
+              - list [ref=e716]:
+                - listitem [ref=e717]: Manual Testing
+                - listitem [ref=e718]: QA Engineer
+                - listitem [ref=e719]: Automation Testing
+                - listitem [ref=e720]: Selenium
+                - listitem [ref=e721]: Python
+                - listitem [ref=e722]: Test Automation Framework
+                - listitem [ref=e723]: Regression Testing
+                - listitem [ref=e724]: Defect Tracking
+              - generic [ref=e725]:
+                - generic [ref=e727]: 8 Days Ago
+                - generic [ref=e728]:  Save
+            - generic [ref=e729]:
+              - paragraph [ref=e730]:
+                - img "naukri filter icon" [ref=e731]
+                - generic [ref=e732]: Filter jobs by
+                - generic [ref=e733]: salary
+              - generic:
+                - generic [ref=e734] [cursor=pointer]:
+                  - generic [ref=e736]: 
+                  - generic [ref=e737]:
+                    - paragraph [ref=e738]: 6-10 Lakhs
+                    - paragraph [ref=e739]: 49009 Jobs
+                - generic [ref=e740] [cursor=pointer]:
+                  - generic [ref=e742]: 
+                  - generic [ref=e743]:
+                    - paragraph [ref=e744]: 10-15 Lakhs
+                    - paragraph [ref=e745]: 25636 Jobs
+                - generic [ref=e746] [cursor=pointer]:
+                  - generic [ref=e748]: 
+                  - generic [ref=e749]:
+                    - paragraph [ref=e750]: 15-25 Lakhs
+                    - paragraph [ref=e751]: 13103 Jobs
+                - generic [ref=e752] [cursor=pointer]:
+                  - generic [ref=e754]: 
+                  - generic [ref=e755]:
+                    - paragraph [ref=e756]: 25-50 Lakhs
+                    - paragraph [ref=e757]: 6919 Jobs
+            - generic [ref=e759]:
+              - generic [ref=e760]:
+                - heading "Automation Test Engineer" [level=2] [ref=e761]:
+                  - link "Automation Test Engineer" [ref=e762] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-tata-consultancy-services-pune-bengaluru-mumbai-all-areas-6-to-10-years-260526021446
+                - img [ref=e764]
+              - generic [ref=e766]:
+                - link "Tata Consultancy Services" [ref=e767] [cursor=pointer]:
+                  - /url: https://www.naukri.com/tata-consultancy-services-jobs-careers-13542
+                - link " 3.3" [ref=e768] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/tcs-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e769]: 
+                  - generic [ref=e770]: "3.3"
+                  - text: 
+                - link "115030 Reviews" [ref=e771] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/tcs-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e773]:
+                - generic [ref=e775]:
+                  - text: 
+                  - generic "6-10 Yrs" [ref=e776]
+                - generic [ref=e778]:
+                  - text: 
+                  - generic "Pune, Bengaluru, Mumbai (All Areas)" [ref=e779]
+              - generic [ref=e781]:  Experience:- 6-10 years .
+              - list [ref=e783]:
+                - listitem [ref=e784]: Java
+                - listitem [ref=e785]: Automation Testing
+                - listitem [ref=e786]: Selenium
+                - listitem [ref=e787]: Rest Assured
+                - listitem [ref=e788]: Cucumber
+                - listitem [ref=e789]: Automation
+                - listitem [ref=e790]: Software testing
+                - listitem [ref=e791]: Rest
+              - generic [ref=e792]:
+                - generic [ref=e793]: 2 days ago
+                - generic [ref=e794]: save
+            - generic [ref=e796]:
+              - generic [ref=e797]:
+                - heading "Test Automation Engineer" [level=2] [ref=e798]:
+                  - link "Test Automation Engineer" [ref=e799] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-test-automation-engineer-accenture-solutions-pvt-ltd-pune-5-to-10-years-260526918606
+                - img [ref=e801]
+              - generic [ref=e803]:
+                - link "Accenture" [ref=e804] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=e805] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e806]: 
+                  - generic [ref=e807]: "3.7"
+                  - text: 
+                - link "73913 Reviews" [ref=e808] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e810]:
+                - generic [ref=e812]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=e813]
+                - generic [ref=e815]:
+                  - text: 
+                  - generic "Pune" [ref=e816]
+              - generic [ref=e818]: " Minimum 5 year(s) of experience is required. Educational Qualification : 15 years full ..."
+              - list [ref=e820]:
+                - listitem [ref=e821]: business intelligence
+                - listitem [ref=e822]: automation
+                - listitem [ref=e823]: automation tools
+                - listitem [ref=e824]: quality engineering
+                - listitem [ref=e825]: test automation
+                - listitem [ref=e826]: testing strategies
+                - listitem [ref=e827]: Intelligence
+                - listitem [ref=e828]: Engineering
+              - generic [ref=e829]:
+                - generic [ref=e830]: 2 days ago
+                - generic [ref=e831]: save
+            - generic [ref=e833]:
+              - generic [ref=e834]:
+                - heading "Test Automation Engineer" [level=2] [ref=e835]:
+                  - link "Test Automation Engineer" [ref=e836] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-test-automation-engineer-accenture-solutions-pvt-ltd-pune-3-to-8-years-260526918523
+                - img [ref=e838]
+              - generic [ref=e840]:
+                - link "Accenture" [ref=e841] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=e842] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e843]: 
+                  - generic [ref=e844]: "3.7"
+                  - text: 
+                - link "73913 Reviews" [ref=e845] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e847]:
+                - generic [ref=e849]:
+                  - text: 
+                  - generic "3-8 Yrs" [ref=e850]
+                - generic [ref=e852]:
+                  - text: 
+                  - generic "Pune" [ref=e853]
+              - generic [ref=e855]: " Project Role : Test Automation EngineerProject Role Description : Transform testing int..."
+              - list [ref=e857]:
+                - listitem [ref=e858]: selenium
+                - listitem [ref=e859]: continuous integration
+                - listitem [ref=e860]: software development lifecycle
+                - listitem [ref=e861]: software development
+                - listitem [ref=e862]: automation
+                - listitem [ref=e863]: testing frameworks
+                - listitem [ref=e864]: quality engineering
+                - listitem [ref=e865]: software testing
+              - generic [ref=e866]:
+                - generic [ref=e867]: 2 days ago
+                - generic [ref=e868]: save
+            - generic [ref=e869]:
+              - paragraph [ref=e870]:
+                - img "naukri filter icon" [ref=e871]
+                - generic [ref=e872]: Filter jobs by
+                - generic [ref=e873]: location
+              - generic:
+                - generic [ref=e875] [cursor=pointer]:
+                  - paragraph [ref=e876]: Pune
+                  - paragraph [ref=e877]: 9286 Jobs
+                - generic [ref=e879] [cursor=pointer]:
+                  - paragraph [ref=e880]: Lonavala
+                  - paragraph [ref=e881]: 4 Jobs
+                - generic [ref=e883] [cursor=pointer]:
+                  - paragraph [ref=e884]: Khopoli
+                  - paragraph [ref=e885]: 6 Jobs
+                - generic [ref=e887] [cursor=pointer]:
+                  - paragraph [ref=e888]: Bengaluru
+                  - paragraph [ref=e889]: 20129 Jobs
+            - generic [ref=e891]:
+              - generic [ref=e892]:
+                - heading "Automation Test Engineer - C++, Gtest, Junit" [level=2] [ref=e893]:
+                  - link "Automation Test Engineer - C++, Gtest, Junit" [ref=e894] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-c-gtest-junit-axcend-automation-software-solutions-pune-4-to-7-years-250526003302
+                - img [ref=e896]
+              - generic [ref=e898]:
+                - link "Axcend Automation & Software Solutions" [ref=e899] [cursor=pointer]:
+                  - /url: https://www.naukri.com/axcend-automation-solutions-jobs-careers-35706
+                - link " 3.7" [ref=e900] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/axcend-automation-and-software-solutions-pvtltd-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e901]: 
+                  - generic [ref=e902]: "3.7"
+                  - text: 
+                - link "84 Reviews" [ref=e903] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/axcend-automation-and-software-solutions-pvtltd-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e905]:
+                - generic [ref=e907]:
+                  - text: 
+                  - generic "4-7 Yrs" [ref=e908]
+                - generic [ref=e910]:
+                  - text: 
+                  - generic "Pune" [ref=e911]
+              - generic [ref=e913]: " Scripting : Bash + PowerShell for automation and system checks. Good-to-Have Skills (Pr..."
+              - list [ref=e915]:
+                - listitem [ref=e916]: C++
+                - listitem [ref=e917]: Bash Scripting
+                - listitem [ref=e918]: Powershell
+                - listitem [ref=e919]: Junit
+                - listitem [ref=e920]: Gtest
+                - listitem [ref=e921]: NUnit
+                - listitem [ref=e922]: Networking Protocols
+                - listitem [ref=e923]: Software Testing
+              - generic [ref=e924]:
+                - generic [ref=e925]: 3 days ago
+                - generic [ref=e926]: save
+            - generic [ref=e928]:
+              - generic [ref=e929]:
+                - heading "Mainframe Test Automation Engineer" [level=2] [ref=e930]:
+                  - link "Mainframe Test Automation Engineer" [ref=e931] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-mainframe-test-automation-engineer-ideslabs-private-limited-hyderabad-pune-4-to-9-years-280526921345
+                - img [ref=e933]
+              - generic [ref=e934]:
+                - generic "Leading Client" [ref=e936]
+                - link "Posted by IDESLABS PRIVATE LIMITED" [ref=e938] [cursor=pointer]:
+                  - /url: https://www.naukri.com/ideslabs-jobs-careers-5003360
+              - generic [ref=e940]:
+                - generic [ref=e942]:
+                  - text: 
+                  - generic "4-9 Yrs" [ref=e943]
+                - generic [ref=e945]:
+                  - text: 
+                  - generic "Pune, Hyderabad" [ref=e946]
+              - generic [ref=e948]:  Experience with TOSCA automation is required.
+              - list [ref=e950]:
+                - listitem [ref=e951]: Automation
+                - listitem [ref=e952]: Design
+                - listitem [ref=e953]: Tosca
+                - listitem [ref=e954]: Agile
+                - listitem [ref=e955]: Mainframe
+                - listitem [ref=e956]: Version Control
+                - listitem [ref=e957]: Troubleshooting
+                - listitem [ref=e958]: Agile Development
+              - generic [ref=e959]:
+                - generic [ref=e960]: 1 day ago
+                - generic [ref=e961]: save
+            - generic [ref=e967]:
+              - generic [ref=e968]: Jobs based on your preferences
+              - generic [ref=e970]:
+                - generic [ref=e971]:
+                  - generic [ref=e974] [cursor=pointer]:
+                    - generic [ref=e975]: Automation Test Engineer
+                    - generic [ref=e976]:
+                      - generic [ref=e977]: Tata Consultancy Services
+                      - generic [ref=e978]:
+                        - generic [ref=e979]:
+                          - img [ref=e980]
+                          - text: "3.3"
+                        - generic [ref=e983]: 115K Reviews
+                    - generic [ref=e984]:
+                      - img [ref=e985]
+                      - generic [ref=e986]: Pune, Bengaluru, Mumbai (All Areas)
+                  - generic [ref=e989] [cursor=pointer]:
+                    - generic [ref=e990]: SDET Automation Test Engineer
+                    - generic [ref=e991]:
+                      - generic [ref=e992]: SAS Research and Development (SAS R&D)
+                      - generic [ref=e993]:
+                        - generic [ref=e994]:
+                          - img [ref=e995]
+                          - text: "4.2"
+                        - generic [ref=e998]: 209 Reviews
+                    - generic [ref=e999]:
+                      - img [ref=e1000]
+                      - generic [ref=e1001]: Hybrid - Pune(Magarpatta)
+                  - generic [ref=e1004] [cursor=pointer]:
+                    - generic [ref=e1005]: QA Automation Engineer
+                    - generic [ref=e1006]:
+                      - generic [ref=e1007]: ITC Infotech
+                      - generic [ref=e1008]:
+                        - generic [ref=e1009]:
+                          - img [ref=e1010]
+                          - text: "3.8"
+                        - generic [ref=e1013]: 4.9K Reviews
+                    - generic [ref=e1014]:
+                      - img [ref=e1015]
+                      - generic [ref=e1016]: Hybrid - Pune
+                  - generic [ref=e1019] [cursor=pointer]:
+                    - generic [ref=e1020]: Automation Tester
+                    - generic [ref=e1021]:
+                      - generic [ref=e1022]: Hexaware Technologies
+                      - generic [ref=e1023]:
+                        - generic [ref=e1024]:
+                          - img [ref=e1025]
+                          - text: "3.4"
+                        - generic [ref=e1028]: 7.7K Reviews
+                    - generic [ref=e1029]:
+                      - img [ref=e1030]
+                      - generic [ref=e1031]: Hybrid - Pune, Chennai, Coimbatore
+                  - generic [ref=e1034] [cursor=pointer]:
+                    - generic [ref=e1035]: Automation Tester (Java Selenium + Rest Assured)
+                    - generic [ref=e1036]:
+                      - generic [ref=e1037]: Capgemini
+                      - generic [ref=e1038]:
+                        - generic [ref=e1039]:
+                          - img [ref=e1040]
+                          - text: "3.6"
+                        - generic [ref=e1043]: 53K Reviews
+                    - generic [ref=e1044]:
+                      - img [ref=e1045]
+                      - generic [ref=e1046]: Hybrid - Pune
+                  - generic [ref=e1049] [cursor=pointer]:
+                    - generic [ref=e1050]: Automation Test Engineer
+                    - generic [ref=e1051]:
+                      - generic [ref=e1052]: Embitel Technologies
+                      - generic [ref=e1053]:
+                        - generic [ref=e1054]:
+                          - img [ref=e1055]
+                          - text: "4.0"
+                        - generic [ref=e1058]: 288 Reviews
+                    - generic [ref=e1059]:
+                      - img [ref=e1060]
+                      - generic [ref=e1061]: Hybrid - Pune(Kothrud)
+                  - generic [ref=e1064] [cursor=pointer]:
+                    - generic [ref=e1065]: Automation Test Engineer
+                    - generic [ref=e1066]:
+                      - generic [ref=e1067]: Light & Wonder
+                      - generic [ref=e1068]:
+                        - generic [ref=e1069]:
+                          - img [ref=e1070]
+                          - text: "3.7"
+                        - generic [ref=e1073]: 148 Reviews
+                    - generic [ref=e1074]:
+                      - img [ref=e1075]
+                      - generic [ref=e1076]: Pune, Bengaluru
+                  - generic [ref=e1079] [cursor=pointer]:
+                    - generic [ref=e1080]: Quality Engineer-Automation
+                    - generic [ref=e1081]:
+                      - generic [ref=e1082]: IBM
+                      - generic [ref=e1083]:
+                        - generic [ref=e1084]:
+                          - img [ref=e1085]
+                          - text: "3.9"
+                        - generic [ref=e1088]: 25K Reviews
+                    - generic [ref=e1089]:
+                      - img [ref=e1090]
+                      - generic [ref=e1091]: Pune, Bengaluru
+                  - generic [ref=e1094] [cursor=pointer]:
+                    - generic [ref=e1095]: QA Automation Engineer
+                    - generic [ref=e1097]: Kaizen Sra Technologies
+                    - generic [ref=e1098]:
+                      - img [ref=e1099]
+                      - generic [ref=e1100]: Hybrid - Pune
+                  - generic [ref=e1103] [cursor=pointer]:
+                    - generic [ref=e1104]: Automation Test Engineer - Test Complete
+                    - generic [ref=e1105]:
+                      - generic [ref=e1106]: Axcend Automation & Software Solutions
+                      - generic [ref=e1107]:
+                        - generic [ref=e1108]:
+                          - img [ref=e1109]
+                          - text: "3.7"
+                        - generic [ref=e1112]: 84 Reviews
+                    - generic [ref=e1113]:
+                      - img [ref=e1114]
+                      - generic [ref=e1115]: Hybrid - Pune
+                - button "Next slide" [ref=e1116] [cursor=pointer]
+            - generic [ref=e1118]:
+              - generic [ref=e1119]:
+                - heading "Automation Test Engineer" [level=2] [ref=e1120]:
+                  - link "Automation Test Engineer" [ref=e1121] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-experis-pune-4-to-6-years-130526025274
+                - img [ref=e1123]
+              - generic [ref=e1124]:
+                - generic "CMM Level 5 IT Company" [ref=e1126]
+                - link "Posted by Experis" [ref=e1128] [cursor=pointer]:
+                  - /url: https://www.naukri.com/experis-jobs-careers-659933
+              - generic [ref=e1130]:
+                - generic [ref=e1132]:
+                  - text: 
+                  - generic "4-6 Yrs" [ref=e1133]
+                - generic [ref=e1135]:
+                  - text: 
+                  - generic "Pune" [ref=e1136]
+              - generic [ref=e1138]:  Exposure to CI / CD, Git, and Playwright is preferredImmediate or short notice joiners ...
+              - list [ref=e1140]:
+                - listitem [ref=e1141]: Manual Testing
+                - listitem [ref=e1142]: QA Engineer
+                - listitem [ref=e1143]: Automation Testing
+                - listitem [ref=e1144]: Selenium
+                - listitem [ref=e1145]: Python
+                - listitem [ref=e1146]: Test Automation Framework
+                - listitem [ref=e1147]: Regression Testing
+                - listitem [ref=e1148]: Defect Tracking
+              - generic [ref=e1149]:
+                - generic [ref=e1150]: 1 week ago
+                - generic [ref=e1151]: save
+            - generic [ref=e1157]:
+              - generic [ref=e1158]: How relevant do you find these jobs?
+              - generic [ref=e1159]:
+                - generic [ref=e1160] [cursor=pointer]:
+                  - img [ref=e1161]
+                  - generic [ref=e1162]: Not Useful
+                - generic [ref=e1163] [cursor=pointer]:
+                  - img [ref=e1164]
+                  - generic [ref=e1165]: Neutral
+                - generic [ref=e1166] [cursor=pointer]:
+                  - img [ref=e1167]
+                  - generic [ref=e1168]: Very Useful
+            - generic [ref=e1170]:
+              - generic [ref=e1171]:
+                - heading "23rd May - Virtual Drive -Playwright Automation Test Engineer" [level=2] [ref=e1172]:
+                  - link "23rd May - Virtual Drive -Playwright Automation Test Engineer" [ref=e1173] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-23rd-may-virtual-drive-playwright-automation-test-engineer-capgemini-pune-bengaluru-4-to-9-years-200526024994
+                - img [ref=e1175]
+              - generic [ref=e1177]:
+                - link "Capgemini" [ref=e1178] [cursor=pointer]:
+                  - /url: https://www.naukri.com/capgemini-jobs-careers-649
+                - link " 3.6" [ref=e1179] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/capgemini-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1180]: 
+                  - generic [ref=e1181]: "3.6"
+                  - text: 
+                - link "53765 Reviews" [ref=e1182] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/capgemini-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1184]:
+                - generic [ref=e1186]:
+                  - text: 
+                  - generic "4-9 Yrs" [ref=e1187]
+                - generic [ref=e1189]:
+                  - text: 
+                  - generic "8.5-17 Lacs PA" [ref=e1190]
+                - generic [ref=e1192]:
+                  - text: 
+                  - generic "Hybrid - Pune, Bengaluru" [ref=e1193]
+              - generic [ref=e1195]: " Skill - Playwright Automation Testing, Selenium, JavaScript or Typescript. Department: ..."
+              - list [ref=e1197]:
+                - listitem [ref=e1198]: Playwright
+                - listitem [ref=e1199]: Javascript
+                - listitem [ref=e1200]: Automation Testing
+                - listitem [ref=e1201]: Typescript
+                - listitem [ref=e1202]: Selenium
+                - listitem [ref=e1203]: Software testing
+                - listitem [ref=e1204]: Drives
+                - listitem [ref=e1205]: Automation
+              - generic [ref=e1206]:
+                - generic [ref=e1209]:
+                  - img "diversity_icon" [ref=e1210]
+                  - generic [ref=e1211]: Prefers women
+                - generic [ref=e1212]: 1 week ago
+                - generic [ref=e1213]: save
+            - generic [ref=e1215]:
+              - generic [ref=e1216]:
+                - heading "Test Automation Engineer (API)" [level=2] [ref=e1217]:
+                  - link "Test Automation Engineer (API)" [ref=e1218] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-test-automation-engineer-api-luxoft-pune-bengaluru-4-to-9-years-200526036664
+                - img [ref=e1220]
+              - generic [ref=e1222]:
+                - link "Luxoft" [ref=e1223] [cursor=pointer]:
+                  - /url: https://www.naukri.com/luxoft-jobs-careers-210236
+                - link " 3.6" [ref=e1224] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/luxoft-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1225]: 
+                  - generic [ref=e1226]: "3.6"
+                  - text: 
+                - link "836 Reviews" [ref=e1227] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/luxoft-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1229]:
+                - generic [ref=e1231]:
+                  - text: 
+                  - generic "4-9 Yrs" [ref=e1232]
+                - generic [ref=e1234]:
+                  - text: 
+                  - generic "Hybrid - Pune, Bengaluru" [ref=e1235]
+              - generic [ref=e1237]:  Experience with CI / CD tools (Jenkins, GitHub Actions, GitLab CI, etc.)Experience work...
+              - list [ref=e1239]:
+                - listitem [ref=e1240]: Rest Assured
+                - listitem [ref=e1241]: Automation Testing
+                - listitem [ref=e1242]: Banking And Finance
+                - listitem [ref=e1243]: Selenium
+                - listitem [ref=e1244]: Java Selenium
+                - listitem [ref=e1245]: Cicd Methodology
+                - listitem [ref=e1246]: API Testing
+                - listitem [ref=e1247]: Java
+              - generic [ref=e1248]:
+                - generic [ref=e1249]: 1 week ago
+                - generic [ref=e1250]: save
+            - generic [ref=e1252]:
+              - generic [ref=e1253]:
+                - heading "Automation Test Engineer" [level=2] [ref=e1254]:
+                  - link "Automation Test Engineer" [ref=e1255] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-sg-analytics-hyderabad-pune-4-to-7-years-200526031278
+                - img [ref=e1257]
+              - generic [ref=e1259]:
+                - link "SG Analytics" [ref=e1260] [cursor=pointer]:
+                  - /url: https://www.naukri.com/sg-analytics-jobs-careers-450279
+                - link " 2.5" [ref=e1261] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/sg-analytics-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1262]: 
+                  - generic [ref=e1263]: "2.5"
+                  - text: 
+                - link "688 Reviews" [ref=e1264] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/sg-analytics-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1266]:
+                - generic [ref=e1268]:
+                  - text: 
+                  - generic "4-7 Yrs" [ref=e1269]
+                - generic [ref=e1271]:
+                  - text: 
+                  - generic "Hybrid - Pune, Hyderabad" [ref=e1272]
+              - generic [ref=e1274]:  Design, develop, and execute manual and automated test cases based on business and func...
+              - list [ref=e1276]:
+                - listitem [ref=e1277]: API Testing
+                - listitem [ref=e1278]: CI/CD
+                - listitem [ref=e1279]: Selenium
+                - listitem [ref=e1280]: Java
+                - listitem [ref=e1281]: Regression Testing
+                - listitem [ref=e1282]: GitHub
+                - listitem [ref=e1283]: Database Testing
+                - listitem [ref=e1284]: Manual Testing
+              - generic [ref=e1285]:
+                - generic [ref=e1286]: 1 week ago
+                - generic [ref=e1287]: save
+            - generic [ref=e1288]:
+              - paragraph [ref=e1289]:
+                - img "naukri filter icon" [ref=e1290]
+                - generic [ref=e1291]: Filter jobs by
+                - generic [ref=e1292]: Top Companies
+              - generic:
+                - generic [ref=e1293] [cursor=pointer]:
+                  - img "10476" [ref=e1295]
+                  - generic [ref=e1296]:
+                    - paragraph [ref=e1297]: Accenture
+                    - paragraph [ref=e1298]: 9724 Jobs
+                - generic [ref=e1299] [cursor=pointer]:
+                  - img "223346" [ref=e1301]
+                  - generic [ref=e1302]:
+                    - paragraph [ref=e1303]: Tata Consultancy Services
+                    - paragraph [ref=e1304]: 586 Jobs
+                - generic [ref=e1305] [cursor=pointer]:
+                  - img "243080" [ref=e1307]
+                  - generic [ref=e1308]:
+                    - paragraph [ref=e1309]: EY
+                    - paragraph [ref=e1310]: 416 Jobs
+                - generic [ref=e1311] [cursor=pointer]:
+                  - img "13832" [ref=e1313]
+                  - generic [ref=e1314]:
+                    - paragraph [ref=e1315]: Infosys
+                    - paragraph [ref=e1316]: 396 Jobs
+            - generic [ref=e1318]:
+              - generic [ref=e1319]:
+                - heading "Automation Test Engineer" [level=2] [ref=e1320]:
+                  - link "Automation Test Engineer" [ref=e1321] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-qcentrio-private-limited-pune-2-to-5-years-200526915978
+                - img [ref=e1323]
+              - generic [ref=e1325]:
+                - link "Qcentrio" [ref=e1326] [cursor=pointer]:
+                  - /url: https://www.naukri.com/qcentrio-jobs-careers-6087136
+                - link " 4.5" [ref=e1327] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/qcentrio-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1328]: 
+                  - generic [ref=e1329]: "4.5"
+                  - text: 
+                - link "14 Reviews" [ref=e1330] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/qcentrio-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1332]:
+                - generic [ref=e1334]:
+                  - text: 
+                  - generic "2-5 Yrs" [ref=e1335]
+                - generic [ref=e1337]:
+                  - text: 
+                  - generic "Pune" [ref=e1338]
+              - generic [ref=e1340]: " MUST HAVE SKILLS : . - Selenium WebDriver with Java only . - Functional Testing and oth..."
+              - list [ref=e1342]:
+                - listitem [ref=e1343]: automation
+                - listitem [ref=e1344]: bdd
+                - listitem [ref=e1345]: oracle
+                - listitem [ref=e1346]: performance testing
+                - listitem [ref=e1347]: test automation
+                - listitem [ref=e1348]: maven
+                - listitem [ref=e1349]: build tools
+                - listitem [ref=e1350]: regulatory compliance
+              - generic [ref=e1351]:
+                - generic [ref=e1352]: 1 week ago
+                - generic [ref=e1353]: save
+            - generic [ref=e1355]:
+              - generic [ref=e1356]:
+                - heading "Test Automation Engineer" [level=2] [ref=e1357]:
+                  - link "Test Automation Engineer" [ref=e1358] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-test-automation-engineer-accenture-solutions-pvt-ltd-pune-3-to-8-years-190526922088
+                - img [ref=e1360]
+              - generic [ref=e1362]:
+                - link "Accenture" [ref=e1363] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=e1364] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1365]: 
+                  - generic [ref=e1366]: "3.7"
+                  - text: 
+                - link "73913 Reviews" [ref=e1367] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1369]:
+                - generic [ref=e1371]:
+                  - text: 
+                  - generic "3-8 Yrs" [ref=e1372]
+                - generic [ref=e1374]:
+                  - text: 
+                  - generic "Pune" [ref=e1375]
+              - generic [ref=e1377]: " Minimum 3 year(s) of experience is required. Educational Qualification : 15 years full ..."
+              - list [ref=e1379]:
+                - listitem [ref=e1380]: Automation
+                - listitem [ref=e1381]: Test Automation
+                - listitem [ref=e1382]: Software Testing
+                - listitem [ref=e1383]: Scripting Languages
+                - listitem [ref=e1384]: Test Management
+                - listitem [ref=e1385]: Quality Engineering
+                - listitem [ref=e1386]: Scripting
+                - listitem [ref=e1387]: Automation Tools
+              - generic [ref=e1388]:
+                - generic [ref=e1389]: 1 week ago
+                - generic [ref=e1390]: save
+            - generic [ref=e1392]:
+              - generic [ref=e1393]:
+                - heading "Test Automation Engineer" [level=2] [ref=e1394]:
+                  - link "Test Automation Engineer" [ref=e1395] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-test-automation-engineer-accenture-solutions-pvt-ltd-pune-6-to-11-years-210526922287
+                - img [ref=e1397]
+              - generic [ref=e1399]:
+                - link "Accenture" [ref=e1400] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=e1401] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1402]: 
+                  - generic [ref=e1403]: "3.7"
+                  - text: 
+                - link "73913 Reviews" [ref=e1404] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1406]:
+                - generic [ref=e1408]:
+                  - text: 
+                  - generic "6-11 Yrs" [ref=e1409]
+                - generic [ref=e1411]:
+                  - text: 
+                  - generic "Pune" [ref=e1412]
+              - generic [ref=e1414]: " Minimum 5 year(s) of experience is required. Educational Qualification : 15 years full ..."
+              - list [ref=e1416]:
+                - listitem [ref=e1417]: automation
+                - listitem [ref=e1418]: continuous integration
+                - listitem [ref=e1419]: python
+                - listitem [ref=e1420]: test automation
+                - listitem [ref=e1421]: deployment tools
+                - listitem [ref=e1422]: automated testing
+                - listitem [ref=e1423]: programming languages
+                - listitem [ref=e1424]: java
+              - generic [ref=e1425]:
+                - generic [ref=e1426]: 1 week ago
+                - generic [ref=e1427]: save
+            - generic [ref=e1429]:
+              - generic [ref=e1430]:
+                - heading "Automation Test Engineer" [level=2] [ref=e1431]:
+                  - link "Automation Test Engineer" [ref=e1432] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-spruce-infotech-hyderabad-pune-chennai-5-to-10-years-150526013174
+                - img [ref=e1434]
+              - generic [ref=e1435]:
+                - generic "Spruce Infotech" [ref=e1437]
+                - link "Posted by Spruce Infotech" [ref=e1439] [cursor=pointer]:
+                  - /url: https://www.naukri.com/spruce-infotech-jobs-careers-2074508
+              - generic [ref=e1441]:
+                - generic [ref=e1443]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=e1444]
+                - generic [ref=e1446]:
+                  - text: 
+                  - generic "Hybrid - Pune, Hyderabad, Chennai" [ref=e1447]
+              - generic [ref=e1449]:  Role & responsibilities Experience with Playwright and Python is mandatoryExperience ...
+              - list [ref=e1451]:
+                - listitem [ref=e1452]: Automation
+                - listitem [ref=e1453]: Playwright
+                - listitem [ref=e1454]: Automation Testing
+                - listitem [ref=e1455]: QA Automation
+                - listitem [ref=e1456]: Python
+                - listitem [ref=e1457]: QA Testing
+                - listitem [ref=e1458]: Software testing
+                - listitem [ref=e1459]: Quality assurance
+              - generic [ref=e1460]:
+                - generic [ref=e1461]: 1 week ago
+                - generic [ref=e1462]: save
+          - generic [ref=e1464]:
+            - generic:
+              - generic: 
+              - generic: Previous
+            - generic [ref=e1465]:
+              - link "1" [ref=e1466] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs
+              - link "2" [ref=e1467] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs-2
+              - link "3" [ref=e1468] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs-3
+              - link "4" [ref=e1469] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs-4
+              - link "5" [ref=e1470] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs-5
+              - link "6" [ref=e1471] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs-6
+              - link "7" [ref=e1472] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs-7
+              - link "8" [ref=e1473] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs-8
+              - link "9" [ref=e1474] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs-9
+              - link "10" [ref=e1475] [cursor=pointer]:
+                - /url: /automation-test-engineer-jobs-10
+            - link "Next " [ref=e1476] [cursor=pointer]:
+              - /url: /automation-test-engineer-jobs-2
+              - generic [ref=e1477]: Next
+              - generic [ref=e1478]: 
+          - generic [ref=e1481]:
+            - heading "Increase your profile visibility up to 3 times" [level=3] [ref=e1482]
+            - paragraph [ref=e1483]: Become visible to more recruiters with Resume Display Service.
+            - generic [ref=e1485]:
+              - button "Yes, I am interested" [ref=e1486] [cursor=pointer]
+              - generic [ref=e1487]: It's a paid service
+          - generic [ref=e1488]:
+            - heading "Apply to 77867 Automation Test Engineer Jobs on Naukri.com" [level=2] [ref=e1489]
+            - generic [ref=e1490]:
+              - generic [ref=e1491]:
+                - generic [ref=e1492] [cursor=pointer]: Bangalore
+                - list [ref=e1494]:
+                  - listitem [ref=e1495]:
+                    - link "• Test Lead Jobs In Bangalore" [ref=e1496] [cursor=pointer]:
+                      - /url: https://www.naukri.com/test-lead-jobs-in-bangalore
+                      - generic [ref=e1497]: •
+                      - text: Test Lead Jobs In Bangalore
+                  - listitem [ref=e1498]:
+                    - link "• Automation Test Lead Jobs In Bangalore" [ref=e1499] [cursor=pointer]:
+                      - /url: https://www.naukri.com/automation-test-lead-jobs-in-bangalore
+                      - generic [ref=e1500]: •
+                      - text: Automation Test Lead Jobs In Bangalore
+                  - listitem [ref=e1501]:
+                    - link "• System Engineer Jobs In Bangalore" [ref=e1502] [cursor=pointer]:
+                      - /url: https://www.naukri.com/system-engineer-jobs-in-bangalore
+                      - generic [ref=e1503]: •
+                      - text: System Engineer Jobs In Bangalore
+                  - listitem [ref=e1504]:
+                    - link "• Software Tester Jobs In Bangalore" [ref=e1505] [cursor=pointer]:
+                      - /url: https://www.naukri.com/software-tester-jobs-in-bangalore
+                      - generic [ref=e1506]: •
+                      - text: Software Tester Jobs In Bangalore
+                  - listitem [ref=e1507]:
+                    - link "• Information Technology Analyst Jobs In Bangalore" [ref=e1508] [cursor=pointer]:
+                      - /url: https://www.naukri.com/information-technology-analyst-jobs-in-bangalore
+                      - generic [ref=e1509]: •
+                      - text: Information Technology Analyst Jobs In Bangalore
+                  - listitem [ref=e1510]:
+                    - link "• Technical Lead Jobs In Bangalore" [ref=e1511] [cursor=pointer]:
+                      - /url: https://www.naukri.com/technical-lead-jobs-in-bangalore
+                      - generic [ref=e1512]: •
+                      - text: Technical Lead Jobs In Bangalore
+                  - listitem [ref=e1513]:
+                    - link "• Automation Engineer Jobs In Bangalore" [ref=e1514] [cursor=pointer]:
+                      - /url: https://www.naukri.com/automation-engineer-jobs-in-bangalore
+                      - generic [ref=e1515]: •
+                      - text: Automation Engineer Jobs In Bangalore
+                  - listitem [ref=e1516]:
+                    - link "• Software Test Engineer Jobs In Bangalore" [ref=e1517] [cursor=pointer]:
+                      - /url: https://www.naukri.com/software-test-engineer-jobs-in-bangalore
+                      - generic [ref=e1518]: •
+                      - text: Software Test Engineer Jobs In Bangalore
+                  - listitem [ref=e1519]:
+                    - link "• Test Engineer Jobs In Bangalore" [ref=e1520] [cursor=pointer]:
+                      - /url: https://www.naukri.com/test-engineer-jobs-in-bangalore
+                      - generic [ref=e1521]: •
+                      - text: Test Engineer Jobs In Bangalore
+                  - listitem [ref=e1522]:
+                    - link "• Automation Tester Jobs In Bangalore" [ref=e1523] [cursor=pointer]:
+                      - /url: https://www.naukri.com/automation-tester-jobs-in-bangalore
+                      - generic [ref=e1524]: •
+                      - text: Automation Tester Jobs In Bangalore
+              - generic [ref=e1526] [cursor=pointer]: Delhi NCR
+              - generic [ref=e1528] [cursor=pointer]: Hyderabad Secunderabad
+              - generic [ref=e1530] [cursor=pointer]: Mumbai
+              - generic [ref=e1532] [cursor=pointer]: Chennai
+              - generic [ref=e1534] [cursor=pointer]: Pune
+              - generic [ref=e1536] [cursor=pointer]: Kolkata
+              - generic [ref=e1538] [cursor=pointer]: Ahmedabad
+              - generic [ref=e1540] [cursor=pointer]: Gurgaon
+              - generic [ref=e1542] [cursor=pointer]: Noida
+              - generic [ref=e1544] [cursor=pointer]: All Jobs
+              - generic [ref=e1546] [cursor=pointer]: Top Companies
+          - list [ref=e1548]:
+            - listitem [ref=e1549]:
+              - link "Home" [ref=e1550] [cursor=pointer]:
+                - /url: https://www.naukri.com
+            - listitem [ref=e1551]:
+              - generic [ref=e1552]: 
+            - listitem [ref=e1553]: automation test engineer Jobs
+        - generic [ref=e1554]:
+          - generic [ref=e1555]:
+            - paragraph [ref=e1557]: See 123 jobs in Featured Companies
+            - list [ref=e1559]:
+              - listitem [ref=e1560]:
+                - link "Opentext":
+                  - /url: https://www.naukri.com/opentext-jobs-careers-479215?keyword=automation+test+engineer&src=fcc&companyId=479215
+                  - img "Opentext" [ref=e1561] [cursor=pointer]
+              - listitem [ref=e1562]:
+                - link "Tech Mahindra":
+                  - /url: https://www.naukri.com/tech-mahindra-jobs-careers-1066?keyword=automation+test+engineer&src=fcc&companyId=100007
+                  - img "Tech Mahindra" [ref=e1563] [cursor=pointer]
+              - listitem [ref=e1564]:
+                - link "Conduent":
+                  - /url: https://www.naukri.com/conduent-jobs-careers-6762?keyword=automation+test+engineer&src=fcc&companyId=6762
+                  - img "Conduent" [ref=e1565] [cursor=pointer]
+              - listitem [ref=e1566]:
+                - link "Virtusa":
+                  - /url: https://www.naukri.com/virtusa-jobs-careers-1354?keyword=automation+test+engineer&src=fcc&companyId=1354
+                  - img "Virtusa" [ref=e1567] [cursor=pointer]
+              - listitem [ref=e1568]:
+                - link "Fiserv":
+                  - /url: https://www.naukri.com/fiserv-jobs-careers-27654?keyword=automation+test+engineer&src=fcc&companyId=29679
+                  - img "Fiserv" [ref=e1569] [cursor=pointer]
+          - generic [ref=e1570]:
+            - emphasis [ref=e1572]
+            - generic [ref=e1573]:
+              - heading "Get 3X more profile views from recruiters" [level=4] [ref=e1574]
+              - paragraph [ref=e1575]:
+                - link "Increase your chances of callback with Naukri FastForward" [ref=e1576] [cursor=pointer]:
+                  - /url: https://resume.naukri.com/resume-display?fftid=naukri_srp
+            - link "Know More" [ref=e1579] [cursor=pointer]:
+              - /url: https://resume.naukri.com/resume-display?fftid=naukri_srp
+    - contentinfo [ref=e1580]:
+      - generic [ref=e1583]:
+        - generic [ref=e1584]:
+          - link "Naukri Logo" [ref=e1585] [cursor=pointer]:
+            - /url: https://www.naukri.com
+            - img "Naukri Logo" [ref=e1586]
+          - generic [ref=e1587]:
+            - generic "Connect with us" [ref=e1588] [cursor=pointer]
+            - link "naukri social icons" [ref=e1589] [cursor=pointer]:
+              - /url: https://www.facebook.com/Naukri
+              - img "naukri social icons" [ref=e1590]
+            - link "naukri social icons" [ref=e1591] [cursor=pointer]:
+              - /url: https://instagram.com/naukridotcom/
+              - img "naukri social icons" [ref=e1592]
+            - link "naukri social icons" [ref=e1593] [cursor=pointer]:
+              - /url: https://twitter.com/naukri
+              - img "naukri social icons" [ref=e1594]
+            - link "naukri social icons" [ref=e1595] [cursor=pointer]:
+              - /url: http://www.linkedin.com/company/naukri.com
+              - img "naukri social icons" [ref=e1596]
+        - list [ref=e1598]:
+          - listitem [ref=e1599]:
+            - link "About us" [ref=e1600] [cursor=pointer]:
+              - /url: https://infoedge.in
+          - listitem [ref=e1601]:
+            - link "Careers" [ref=e1602] [cursor=pointer]:
+              - /url: https://careers.infoedge.com/
+          - listitem [ref=e1603]:
+            - link "Employer home" [ref=e1604] [cursor=pointer]:
+              - /url: https://www.naukri.com/recruit/login
+          - listitem [ref=e1605]:
+            - link "Sitemap" [ref=e1606] [cursor=pointer]:
+              - /url: https://www.naukri.com/sitemap/sitemap.php
+          - listitem [ref=e1607]:
+            - link "Credits" [ref=e1608] [cursor=pointer]:
+              - /url: https://www.naukri.com/credits
+        - list [ref=e1610]:
+          - listitem [ref=e1611]:
+            - link "Help center" [ref=e1612] [cursor=pointer]:
+              - /url: https://www.naukri.com/faq/job-seeker?utm_source=footer
+          - listitem [ref=e1613]:
+            - link "Summons/Notices" [ref=e1614] [cursor=pointer]:
+              - /url: https://w5.naukri.com/summons-notices-form/
+          - listitem [ref=e1615]:
+            - link "Grievances" [ref=e1616] [cursor=pointer]:
+              - /url: https://w5.naukri.com/grievances-form/
+          - listitem [ref=e1617]:
+            - link "Report issue" [ref=e1618] [cursor=pointer]:
+              - /url: https://w5.naukri.com/fdbck/main/feedback.php?app_id=15
+        - list [ref=e1620]:
+          - listitem [ref=e1621]:
+            - link "Privacy policy" [ref=e1622] [cursor=pointer]:
+              - /url: https://www.naukri.com/privacypolicy
+          - listitem [ref=e1623]:
+            - link "Terms & conditions" [ref=e1624] [cursor=pointer]:
+              - /url: https://www.naukri.com/termsconditions
+          - listitem [ref=e1625]:
+            - link "Fraud alert" [ref=e1626] [cursor=pointer]:
+              - /url: https://www.naukri.com/imposter/report-fake-job-recruiter
+          - listitem [ref=e1627]:
+            - link "Trust & safety" [ref=e1628] [cursor=pointer]:
+              - /url: https://www.naukri.com/jobsearch/trust-safety
+        - generic [ref=e1629]:
+          - generic [ref=e1630]: Apply on the go
+          - generic [ref=e1631]: Get real-time job updates on our App
+          - generic [ref=e1632]:
+            - link "naukri app download" [ref=e1633] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=naukriApp.appModules.login&hl=en&utm_source=naukri&utm_medium=footer
+              - img "naukri app download" [ref=e1634]
+            - link "naukri app download" [ref=e1635] [cursor=pointer]:
+              - /url: https://itunes.apple.com/in/app/naukri.com-job-search/id482877505?mt=8
+              - img "naukri app download" [ref=e1636]
+      - generic [ref=e1638]:
+        - generic [ref=e1639]:
+          - link "naukri social logos" [ref=e1641] [cursor=pointer]:
+            - /url: http://infoedge.in
+            - img "naukri social logos" [ref=e1642]
+          - generic [ref=e1643]:
+            - generic [ref=e1644]: All trademarks are the property of their respective owners
+            - generic [ref=e1645]: All rights reserved © 2025 Info Edge (India) Ltd.
+        - generic [ref=e1646]: Our businesses
+        - list [ref=e1649]:
+          - listitem [ref=e1650]:
+            - link "nnacres" [ref=e1652] [cursor=pointer]:
+              - /url: https://www.99acres.com/
+              - img "nnacres" [ref=e1653]
+          - listitem [ref=e1654]:
+            - link "jeevansathi" [ref=e1656] [cursor=pointer]:
+              - /url: https://www.jeevansathi.com/
+              - img "jeevansathi" [ref=e1657]
+          - listitem [ref=e1658]:
+            - link "ng" [ref=e1660] [cursor=pointer]:
+              - /url: https://www.naukrigulf.com/
+              - img "ng" [ref=e1661]
+          - listitem [ref=e1662]:
+            - link "shiksha" [ref=e1664] [cursor=pointer]:
+              - /url: https://www.shiksha.com/
+              - img "shiksha" [ref=e1665]
+          - listitem [ref=e1666]:
+            - link "iimjobs" [ref=e1668] [cursor=pointer]:
+              - /url: https://www.iimjobs.com
+              - img "iimjobs" [ref=e1669]
+          - listitem [ref=e1670]:
+            - link "hirist" [ref=e1672] [cursor=pointer]:
+              - /url: https://www.hirist.tech/
+              - img "hirist" [ref=e1673]
+          - listitem [ref=e1674]:
+            - link "jobhai" [ref=e1676] [cursor=pointer]:
+              - /url: https://www.jobhai.com
+              - img "jobhai" [ref=e1677]
+          - listitem [ref=e1678]:
+            - link "doselect" [ref=e1680] [cursor=pointer]:
+              - /url: https://doselect.com/
+              - img "doselect" [ref=e1681]
+          - listitem [ref=e1682]:
+            - link "minis" [ref=e1684] [cursor=pointer]:
+              - /url: https://www.naukri.com/minis
+              - img "minis" [ref=e1685]
+          - listitem [ref=e1686]:
+            - link "codingninjas" [ref=e1688] [cursor=pointer]:
+              - /url: https://www.codingninjas.com/?utm_source=naukri&utm_medium=desktop-footer
+              - img "codingninjas" [ref=e1689]
+  - alert [ref=e1690]
+```

@@ -1,0 +1,7 @@
+First name entered successfully
+user_1781363003668@example.com
+Telephone number entered successfully
+Password entered successfully
+Confirm password entered successfully
+Privacy policy checkbox checked successfully
+Continue button clicked successfully
