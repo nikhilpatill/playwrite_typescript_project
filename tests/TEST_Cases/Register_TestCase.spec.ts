@@ -1,20 +1,10 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from  './Hooks';
 import { MyaccountPage } from '../Pages/MyaccountPage1';
 import { GenericMethod } from '../utils/GenericMethod';
-import { Hooks } from './Hooks';
+//port { Hooks } from './Hooks';
 import { RegisterPage } from '../Pages/RegisterPage1';
 import { LoginPage } from '../Pages/LoginPage1';
 
-let registerPage: RegisterPage;
-let  genericMethod: GenericMethod;
-let loginPage: LoginPage;
-test.beforeEach(async ({ page }) => {
-  registerPage = new RegisterPage(page);
-  genericMethod = new GenericMethod(page);
-  loginPage = new LoginPage(page);
-  loginPage.navigate();
-   
-});
 
 
 test.afterEach(async ({ page }) => {
@@ -24,7 +14,7 @@ test.afterEach(async ({ page }) => {
 
 
 
-test('TC_RF_001_Verify Registering an Account by providing only the Mandatory fields', async ({ page }) => {  
+test('TC_RF_001_Verify Registering an Account by providing only the Mandatory fields', async ({ page, registerPage, genericMethod }  ) => {  
  
   await registerPage.Click_newCustomer_continouesbutton();
   await registerPage.Register_Account_txt1();
@@ -33,7 +23,7 @@ test('TC_RF_001_Verify Registering an Account by providing only the Mandatory fi
 
   });
 
-  test('TC_RF_004_Verify proper notification messages are displayed for the mandatory fields', async ({ page }) => {  
+  test('TC_RF_004_Verify proper notification messages are displayed for the mandatory fields', async ({ page, registerPage, genericMethod }) => {  
   await registerPage.Click_newCustomer_continouesbutton();
   await registerPage.Register_Account_txt1();
   await expect.soft(registerPage.Register_Account_txt).toHaveText('Register Account');

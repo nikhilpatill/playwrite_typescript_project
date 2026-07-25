@@ -53,7 +53,7 @@ test('verify user should Edit last name', async ({ page, myAccountPage }) => {
   await myAccountPage.clickContinueButton();
   const getSuccessMessage = await myAccountPage.getSuccessMessage();
   console.log("Success Message is: " + getSuccessMessage);
-  await expect.soft(getSuccessMessage).toBe('Success: Your account has been successfully updated.');
+  expect.soft(getSuccessMessage).toBe('Success: Your account has been successfully updated.');
 });
 
 test('verify user should edit phone Number', async ({ page, myAccountPage }) => {

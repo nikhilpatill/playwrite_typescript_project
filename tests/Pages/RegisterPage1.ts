@@ -15,7 +15,12 @@ export class RegisterPage {
     this.newCustomer_continouesbutton = page.locator("//a[text()='Continue']");
     this.Register_Account_txt = page.locator("//h1[text()='Register Account']");
     this.First_Name = page.locator("//input[@id='firstname']");
-    
+  }
+
+  async navigate() {
+    await this.page.setViewportSize({ width: 1380, height: 800 });
+    await this.page.goto('https://tutorialsninja.com/demo/index.php?route=account/register');
+    await this.page.waitForLoadState('networkidle');
   }
 
   async getAddressBookText() {

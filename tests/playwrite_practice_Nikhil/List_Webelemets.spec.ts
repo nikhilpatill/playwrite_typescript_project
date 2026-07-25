@@ -1,6 +1,6 @@
 import { test, Page } from "@playwright/test";
 import { expect } from "@playwright/test";
-import { constants } from "buffer";
+
 
 async function loginToApplication(page: Page) {
   await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
@@ -8,6 +8,7 @@ async function loginToApplication(page: Page) {
   await page.locator("//input[@name='username']").fill("Admin");
   await page.locator("//input[@name='username']").press("Enter");
   await page.locator("//input[@name='password']").fill("admin123");
+  await page.locator("//input[@name='password']").press("Enter");
 
   const submitButton = page.locator("//button[@type='submit']");
   await submitButton.click();

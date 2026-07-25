@@ -24,7 +24,7 @@ test('dashboard page List of elements', async ({ LoginPage, page }) => {
 
 });
 
-test('Edit Account', async ({ page }) => {
+test('Edit Account', async ({ LoginPage, page }) => {
   // list of web elements
   const allOptions = page.locator('//div[@class="list-group"]/a');
   const count = await allOptions.count();
