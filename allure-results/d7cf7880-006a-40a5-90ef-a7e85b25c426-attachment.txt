@@ -1,0 +1,9 @@
+Using forEach to iterate over numbers array:
+Last number added: 6
+Updated array: 1,2,3,4,5,6
+Removed last element: 6
+Updated array: 1,2,3,4,5
+Removed first element: 1
+Updated array: 2,3,4,5
+First number added: 5
+Updated array: 0,2,3,4,5

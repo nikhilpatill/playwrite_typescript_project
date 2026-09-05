@@ -1,0 +1,15 @@
+name: John Doe
+age: 30
+email: john.doe@example.com
+Key: name, Value: John Doe
+name: John Doe
+age: 30
+email: john.doe@example.com
+Key: age, Value: 30
+name: John Doe
+age: 30
+email: john.doe@example.com
+Key: email, Value: john.doe@example.com
+name: John Doe
+age: 30
+email: john.doe@example.com

@@ -1,0 +1,7 @@
+This is a test function
+Name: Nikhil, Age: 25, Amount: 1000
+Name: Nikhil, Age: 25, Amount: 1000
+This is a test function
+Name: Alice, Age: 10, Amount: 2000
+Name: Alice, Age: 10, Amount: 2000 is not valid
+Hello, Alice! You are 30 years old.

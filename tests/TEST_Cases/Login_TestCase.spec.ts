@@ -10,12 +10,10 @@ import { LoginPage } from '../Pages/LoginPage1';
 
 
 test('dashboard page List of elements', async ({ LoginPage, page }) => {
-
   // list of web elements
   const allOptions = page.locator('//div[@class="list-group"]/a');
   const count = await allOptions.count();
   console.log("Total number of options: " + count);
-
   const optionLocators = await allOptions.all();
   for (let option of optionLocators) {
     const text = await option.textContent();

@@ -1,0 +1,4 @@
+[ 'Apple', 'Banana', 'Orange' ]
+fruits already available
+fruits already available
+fruits already available

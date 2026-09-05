@@ -1,0 +1,57 @@
+Response Body: {
+  id: 209,
+  firstName: 'Simeon',
+  lastName: 'Berge',
+  maidenName: '',
+  age: 58,
+  gender: 'male',
+  email: 'Pink20@gmail.com',
+  phone: '970-384-1825 x9391',
+  username: 'Kaylie_Von',
+  password: 'TSDqoXNQBcbuPSR',
+  birthDate: '7/4/1933',
+  image: 'https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/10.jpg',
+  bloodGroup: 'AB+',
+  height: 166,
+  weight: 45.67646915266809,
+  eyeColor: 'plum',
+  hair: { color: 'sky blue', type: 'straight' },
+  ip: 'bf5d:add5:bf1f:eba0:7faf:449c:effc:6202',
+  address: {
+    address: '2370 Gusikowski Walks',
+    city: 'East Natasha',
+    state: 'New Hampshire',
+    stateCode: '232323232',
+    postalCode: '84296-4950',
+    coordinates: { lat: null, lng: null },
+    country: 'Democratic Republic of the Congo'
+  },
+  macAddress: 'cc:cf:e9:71:1b:a8',
+  university: 'University of Oxford',
+  bank: {
+    cardExpire: '2027-01-30T21:06:41.241Z',
+    cardNumber: '448',
+    cardType: 'MasterCard',
+    currency: 'AWG',
+    iban: 'HU78353276935464039000550298'
+  },
+  company: {
+    department: 'Sports',
+    name: 'Goyette, Hauck and Osinski',
+    title: 'Legacy Quality Technician',
+    address: {
+      address: '668 Dee River',
+      city: 'Orange',
+      state: 'Rhode Island',
+      stateCode: 'North Carolina',
+      postalCode: '32848-9798',
+      coordinates: [Object],
+      country: 'Sint Maarten'
+    }
+  },
+  ein: '',
+  ssn: '',
+  userAgent: '',
+  crypto: { coin: '', wallet: '', network: '' },
+  role: 'user'
+}

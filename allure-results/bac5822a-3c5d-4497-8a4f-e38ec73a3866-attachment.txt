@@ -1,0 +1,57 @@
+Response Body: {
+  id: 209,
+  firstName: 'Benjamin',
+  lastName: 'Rohan',
+  maidenName: '',
+  age: 95,
+  gender: 'male',
+  email: 'Lauriane.Stoltenberg36@yahoo.com',
+  phone: '1-499-761-6277 x7971',
+  username: 'Karelle_Kuhic30',
+  password: '4wnaOikzkoHjNR8',
+  birthDate: '18/10/1987',
+  image: 'https://avatars.githubusercontent.com/u/57745647',
+  bloodGroup: 'A+',
+  height: 175,
+  weight: 67.40060234267071,
+  eyeColor: 'gold',
+  hair: { color: 'mint green', type: 'straight' },
+  ip: '191.146.85.138',
+  address: {
+    address: '1660 Bins Mills',
+    city: 'Toyland',
+    state: 'Maine',
+    stateCode: '232323232',
+    postalCode: '75178-3231',
+    coordinates: { lat: null, lng: null },
+    country: 'Honduras'
+  },
+  macAddress: '3b:55:3a:41:0e:71',
+  university: 'Stanford University',
+  bank: {
+    cardExpire: '2027-01-18',
+    cardNumber: '065',
+    cardType: 'MasterCard',
+    currency: 'PEN',
+    iban: 'KZ222754964J5QSP3737'
+  },
+  company: {
+    department: 'Health',
+    name: 'Trantow and Sons',
+    title: 'Corporate Group Specialist',
+    address: {
+      address: '294 Damaris Walk',
+      city: 'Kettering',
+      state: 'Kansas',
+      stateCode: 'California',
+      postalCode: '23209-0230',
+      coordinates: [Object],
+      country: 'Niue'
+    }
+  },
+  ein: '',
+  ssn: '',
+  userAgent: '',
+  crypto: { coin: '', wallet: '', network: '' },
+  role: 'user'
+}

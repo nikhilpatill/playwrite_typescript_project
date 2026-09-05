@@ -11,17 +11,43 @@ test(`simple function test`, async ({ }) => {
     printSeries(5);
 
     // Output: 0 1 2 3 4 5
-
     function greet(): void {
-
         console.log("Hello, welcome to TypeScript Functions!");
+    }
+
+    greet();  // Output: Hello, welcome to TypeScript Functions!
+});
+
+test(`function with parameters test`, async ({ }) => {
+
+    let greet1 = function (name: string, age: number): void {
+        console.log(`Hello, ${name}! You are ${age} years old.`);
+    }
+
+    const testName = (name: string, age: number, amount: number) => {
+        console.log("This is a test function");
+        console.log(`Name: ${name}, Age: ${age}, Amount: ${amount}`);
+
+        if (age > 18) {
+
+            return `Name: ${name}, Age: ${age}, Amount: ${amount}`;
+        }
+        else {
+
+            return `Name: ${name}, Age: ${age}, Amount: ${amount} is not valid`;
+        }
+
 
     }
 
+    let id = testName("Nikhil", 25, 1000);
+    console.log(id); // Output: This is a test function
+    let id2 = testName("Alice", 10, 2000);
+    console.log(id2); // Output: This is a test function
 
-    greet();  // Output: Hello, welcome to TypeScript Functions!
 
 
+    greet1("Alice", 30); // Output: Hello, Alice! You are 30 years old.
 
 });
 

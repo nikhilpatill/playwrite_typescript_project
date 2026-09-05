@@ -1,0 +1,69 @@
+Total Pages : 3
+1
+Jobs Found : 20
+Opening : SDET-Software Development Engineer
+Opening : Playwright Testing - PAN INDIA @ Infosys
+Applied to "Playwright Testing - PAN INDIA @ Infosys"
+Opening : Automation Tester
+Opening : Automation Test Engineer
+Opening : Automation Test Engineer -PAN INDIA @Infosys
+Applied to "Automation Test Engineer -PAN INDIA @Infosys"
+Opening : Automation Tester
+Opening : Automation Test Engineer
+Opening : Senior Business Analyst
+Applied to "Senior Business Analyst"
+Opening : Test Engineer
+Opening : Associate Software Development Engineer in Test
+Opening : QA Automation Engineer
+Opening : Senior Analyst-Automation Engineer(Payroll)-Pune
+Opening : Software Engineer
+Applied to "Software Engineer"
+Opening : Senior Automation Engineer - E2E Testing & DevOps
+Applied to "Senior Automation Engineer - E2E Testing & DevOps"
+Opening : Senior Automation Engineer - E2E Testing & DevOps
+Applied to "Senior Automation Engineer - E2E Testing & DevOps"
+Opening : Lead Automation Engineer - E2E Testing & CI/CD Engineering
+Applied to "Lead Automation Engineer - E2E Testing & CI/CD Engineering"
+Opening : Java Full Stack Developer
+Opening : Web Developer ( React & Next js)
+Applied to "Web Developer ( React & Next js)"
+Opening : QA Automation Engineer
+Opening : Automation QA Engineer
+Applied to "Automation QA Engineer"
+2
+Jobs Found : 8
+Opening : Software Development Engineer in Test (SDET)
+Opening : QA Engineer| Offshore
+Opening : Associate Site Reliability Engineer
+Opening : Quality Assurance Engineer
+Opening : Software Engineer I (C#Dot Net, Rest API)
+Opening : Data Engineer-Web Scraping
+Applied to "Data Engineer-Web Scraping"
+Opening : QA Engineer
+Applied to "QA Engineer"
+Opening : React frontend developer
+Applied to "React frontend developer"
+3
+Jobs Found : 20
+Opening : Associate Software Development Engineer in Test (SDET)
+Opening : Trainee QA Developer
+Opening : Playwright Engineer
+Opening : Testing Engineer, Playwright & TypeScript Automation
+Opening : Automation Test Engineer
+Opening : Automation tester with playwright
+Opening : Automation Test Engineer - Playwright
+Opening : Automation Tester
+Opening : Test Engineer (Automation)
+Opening : Test Automation Engineer
+Already Applied
+Opening : Tester III - Software Testing
+Opening : Senior QA Automation Engineer / SDET- Webdriver IO
+Applied to "Senior QA Automation Engineer / SDET- Webdriver IO"
+Opening : Software Development Engineer in Test II
+Opening : Custom Software Engineer
+Opening : Playwright Automation Tester
+Opening : Technical Test Lead
+Opening : SDET Lead
+Opening : Automation Test Engineer
+Opening : Automation QA (Playwright or TOSCA)
+Opening : Quality Engineer

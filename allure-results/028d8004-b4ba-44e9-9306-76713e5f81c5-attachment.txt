@@ -1,0 +1,57 @@
+Response Body: {
+  id: 209,
+  firstName: 'Phyllis',
+  lastName: 'Schmidt',
+  maidenName: '',
+  age: 92,
+  gender: 'female',
+  email: 'Trycia.Senger78@yahoo.com',
+  phone: '850-516-9068',
+  username: 'Keshaun.Pfannerstill3',
+  password: 'z1bfw2V28pvqBSu',
+  birthDate: '21/9/1946',
+  image: 'https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/81.jpg',
+  bloodGroup: 'AB+',
+  height: 174,
+  weight: 80.00790540076487,
+  eyeColor: 'indigo',
+  hair: { color: 'violet', type: 'coily' },
+  ip: '8bcc:77ee:b704:5fbd:c81c:ddd1:bbcf:61cf',
+  address: {
+    address: '2365 Rodriguez Spurs',
+    city: 'Lake Xandercester',
+    state: 'Oregon',
+    stateCode: '232323232',
+    postalCode: '81938',
+    coordinates: { lat: null, lng: null },
+    country: 'Bermuda'
+  },
+  macAddress: '46:a4:c8:43:e1:f9',
+  university: 'Harvard University',
+  bank: {
+    cardExpire: '2027-04-22',
+    cardNumber: '748',
+    cardType: 'American Express',
+    currency: 'LRD',
+    iban: 'AD51697004725664663C0NV2'
+  },
+  company: {
+    department: 'Tools',
+    name: 'Hauck, Fisher and Krajcik',
+    title: 'Central Configuration Specialist',
+    address: {
+      address: '2075 Judah Way',
+      city: 'West Colton',
+      state: 'Alaska',
+      stateCode: 'Pennsylvania',
+      postalCode: '26919',
+      coordinates: [Object],
+      country: 'Mauritania'
+    }
+  },
+  ein: '',
+  ssn: '',
+  userAgent: '',
+  crypto: { coin: '', wallet: '', network: '' },
+  role: 'user'
+}

@@ -39,7 +39,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-vi
     ewer */
-    trace: 'on-first-retry',
+    trace: 'on',
     screenshot: 'on',   // ✅ Screenshot for pass and fail
     video: 'retain-on-failure', // optional
     
@@ -52,7 +52,7 @@ export default defineConfig({
       // Test against the latest version of Chromium
       use: { 
         ...devices['Desktop Chrome'],
-        viewport: { width: 1280, height: 1280 },
+        viewport: { width: 1280, height: 880 },
         headless: false,
         launchOptions: {
           args: ['--start-maximized'],

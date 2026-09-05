@@ -1,0 +1,57 @@
+Response Body: {
+  id: 209,
+  firstName: 'Bria',
+  lastName: 'Reynolds',
+  maidenName: '',
+  age: 37,
+  gender: 'female',
+  email: 'Loy.Kunde11@yahoo.com',
+  phone: '(737) 434-4024 x239',
+  username: 'Verda5',
+  password: 'MO43dZqO25sCyhO',
+  birthDate: '9/4/1943',
+  image: 'https://avatars.githubusercontent.com/u/74703774',
+  bloodGroup: 'O-',
+  height: 175,
+  weight: 96.98531891737784,
+  eyeColor: 'ivory',
+  hair: { color: 'maroon', type: 'wavy' },
+  ip: '4dac:434b:0ab6:4178:aae2:fbeb:fb41:17bb',
+  address: {
+    address: '356 Heathcote Burgs',
+    city: 'Garden Grove',
+    state: 'Rhode Island',
+    stateCode: '232323232',
+    postalCode: '05784',
+    coordinates: { lat: null, lng: null },
+    country: 'Christmas Island'
+  },
+  macAddress: '3c:29:9e:81:c1:6c',
+  university: 'University of Cambridge',
+  bank: {
+    cardExpire: '2027-06-22',
+    cardNumber: '448',
+    cardType: 'MasterCard',
+    currency: 'ETB',
+    iban: 'RO83BASZ33EH74367EXO14G1'
+  },
+  company: {
+    department: 'Toys',
+    name: 'Heaney - MacGyver',
+    title: 'Forward Implementation Developer',
+    address: {
+      address: '3224 Brook Lane',
+      city: 'McLaughlinfield',
+      state: 'Delaware',
+      stateCode: 'Georgia',
+      postalCode: '47713-7674',
+      coordinates: [Object],
+      country: 'Botswana'
+    }
+  },
+  ein: '',
+  ssn: '',
+  userAgent: '',
+  crypto: { coin: '', wallet: '', network: '' },
+  role: 'user'
+}

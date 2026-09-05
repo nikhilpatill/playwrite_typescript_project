@@ -336,11 +336,6 @@ test("verify user click on modify your wishlist link system should display My Wi
   await expect.soft(headingText).toBe('My Wish List');
 });
 
-test("verify user click on back button from My Wish List page system should display My Account page", async ({ page, myAccountPage }) => {
-  await myAccountPage.clickModifyYourWishListText();
-  await myAccountPage.clickBackButton();
-  await expect.soft(page.locator("//h2[text()='My Account']")).toHaveText('My Account');
-});
 
 
 

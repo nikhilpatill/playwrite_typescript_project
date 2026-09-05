@@ -1,0 +1,5 @@
+Using forEach to iterate over numbers array:
+2
+3
+4
+5

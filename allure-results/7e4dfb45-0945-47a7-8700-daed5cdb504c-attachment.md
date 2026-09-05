@@ -1,0 +1,145 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - heading "QA Practice" [level=3] [ref=e5]:
+      - link "QA Practice" [ref=e6] [cursor=pointer]:
+        - /url: /
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "Ecommerce - Login, Add to Cart, Submit order, Logout" [ref=e9] [cursor=pointer]:
+          - /url: /auth_ecommerce
+      - listitem [ref=e10]:
+        - link "Spot the BUGS CHALLENGE" [ref=e11] [cursor=pointer]:
+          - /url: /bugs-form
+      - listitem [ref=e12]:
+        - link "GraphQL Testing" [ref=e13] [cursor=pointer]:
+          - /url: /graphql-testing
+      - listitem [ref=e14]:
+        - link "API Testing" [ref=e15] [cursor=pointer]:
+          - /url: /api-testing
+      - listitem [ref=e16]:
+        - link "Products List - Shop" [ref=e17] [cursor=pointer]:
+          - /url: /products_list
+      - listitem [ref=e18]:
+        - link "Intercept API Request" [ref=e19] [cursor=pointer]:
+          - /url: /fetch-api
+      - listitem [ref=e20]:
+        - link "Visual Testing - GIF Page" [ref=e21] [cursor=pointer]:
+          - /url: /visual
+      - listitem [ref=e22]:
+        - link "Forms" [ref=e23] [cursor=pointer]:
+          - /url: "#homeSubmenu"
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Login" [ref=e26] [cursor=pointer]:
+              - /url: /auth_ecommerce
+          - listitem [ref=e27]:
+            - link "Register" [ref=e28] [cursor=pointer]:
+              - /url: /register
+          - listitem [ref=e29]:
+            - link "Recover password" [ref=e30] [cursor=pointer]:
+              - /url: /recover-password
+      - listitem [ref=e31]:
+        - link "Buttons" [ref=e32] [cursor=pointer]:
+          - /url: "#pageSubmenu"
+        - list [ref=e33]:
+          - listitem [ref=e34]:
+            - link "Checkboxes" [ref=e35] [cursor=pointer]:
+              - /url: /checkboxes
+          - listitem [ref=e36]:
+            - link "Radio buttons" [ref=e37] [cursor=pointer]:
+              - /url: /radiobuttons
+      - listitem [ref=e38]:
+        - link "New Tab / Window" [ref=e39] [cursor=pointer]:
+          - /url: "#browserSubmenu"
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "New Browser Tab" [ref=e42] [cursor=pointer]:
+              - /url: /tab
+          - listitem [ref=e43]:
+            - link "New Browser Window" [ref=e44] [cursor=pointer]:
+              - /url: /window
+      - listitem [ref=e45]:
+        - link "Btn actions" [ref=e46] [cursor=pointer]:
+          - /url: "#actionsSubmenu"
+        - list [ref=e47]:
+          - listitem [ref=e48]:
+            - link "Double click btn" [ref=e49] [cursor=pointer]:
+              - /url: /double-click
+          - listitem [ref=e50]:
+            - link "Scrolling" [ref=e51] [cursor=pointer]:
+              - /url: /scroll
+          - listitem [ref=e52]:
+            - link "Mouse Hover" [ref=e53] [cursor=pointer]:
+              - /url: /mouse-hover
+          - listitem [ref=e54]:
+            - link "Show / Hide Element" [ref=e55] [cursor=pointer]:
+              - /url: /show-hide-element
+      - listitem [ref=e56]:
+        - link "Tables" [ref=e57] [cursor=pointer]:
+          - /url: "#tables"
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - link "Static Table" [ref=e60] [cursor=pointer]:
+              - /url: /web-table
+          - listitem [ref=e61]:
+            - link "Dynamic Table" [ref=e62] [cursor=pointer]:
+              - /url: /dynamic-table
+      - listitem [ref=e63]:
+        - link "Dropdowns" [ref=e64] [cursor=pointer]:
+          - /url: /dropdowns
+      - listitem [ref=e65]:
+        - link "Iframes" [ref=e66] [cursor=pointer]:
+          - /url: /iframe
+      - listitem [ref=e67]:
+        - link "Alerts" [ref=e68] [cursor=pointer]:
+          - /url: /alerts
+      - listitem [ref=e69]:
+        - link "File Upload" [ref=e70] [cursor=pointer]:
+          - /url: /file-upload
+      - listitem [ref=e71]:
+        - link "Date Pickers" [ref=e72] [cursor=pointer]:
+          - /url: /calendar
+      - listitem [ref=e73]:
+        - link "Loader" [ref=e74] [cursor=pointer]:
+          - /url: /loader
+      - listitem [ref=e75]:
+        - link "Pagination" [ref=e76] [cursor=pointer]:
+          - /url: /pagination
+    - list [ref=e77]:
+      - listitem [ref=e78]:
+        - link "RV - Website" [ref=e79] [cursor=pointer]:
+          - /url: https://razvanvancea.ro/
+      - listitem [ref=e80]:
+        - link "Let's connect - LinkedIn" [ref=e81] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/razvanvancea/
+      - listitem [ref=e82]:
+        - link "Learn with RV - YouTube" [ref=e83] [cursor=pointer]:
+          - /url: https://youtube.com/learnwithrv
+  - generic [ref=e84]:
+    - navigation [ref=e85]:
+      - generic [ref=e86]:
+        - button [ref=e87]
+        - button "Toggle navigation" [ref=e88]
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link "Home" [ref=e92] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e93]:
+            - link "Contact" [ref=e94] [cursor=pointer]:
+              - /url: /contact-us
+    - heading "Checkboxes" [level=2] [ref=e95]
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - checkbox [ref=e99]
+        - text: Check me out - 1
+      - generic [ref=e100]:
+        - checkbox [ref=e101]
+        - text: Check me out - 2
+      - generic [ref=e102]:
+        - checkbox [ref=e103]
+        - text: Check me out - 3
+      - button "Reset" [ref=e104]
+```
