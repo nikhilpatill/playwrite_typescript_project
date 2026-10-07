@@ -53,7 +53,7 @@ test('verify user should Edit last name', async ({ page, myAccountPage }) => {
   await myAccountPage.clickContinueButton();
   const getSuccessMessage = await myAccountPage.getSuccessMessage();
   console.log("Success Message is: " + getSuccessMessage);
-  expect.soft(getSuccessMessage).toBe('Success: Your account has been successfully updated.');
+  await expect.soft(getSuccessMessage).toBe('Success: Your account has been successfully updated.');
 });
 
 test('verify user should edit phone Number', async ({ page, myAccountPage }) => {
@@ -336,11 +336,45 @@ test("verify user click on modify your wishlist link system should display My Wi
   await expect.soft(headingText).toBe('My Wish List');
 });
 
+test("verify view order history link functionality", async ({ page, myAccountPage }) => {
+  await myAccountPage.clickViewOrderHistoryLink();
+  const headingText = await myAccountPage.OrderHistoryText();
+  console.log("Heading Text is: " + headingText);
+  await expect.soft(headingText).toBe('Order History');
+});
+
+test("verify download link functionality", async ({ page, myAccountPage }) => {
+  await myAccountPage.clickdownloadLink();
+  //await page.locator("//h2[text()='Account Downloads']").textContent();
+  const headingText = await page.locator("//h2[text()='Account Downloads']").textContent();
+  console.log("Heading Text is: " + headingText);
+  await expect.soft(headingText).toBe('Account Downloads');
+  await page.goBack();
+});
+
+test("verify reward points link functionality", async ({ page, myAccountPage }) => {
+  const rewardPointsText = await page.locator("//h2[text()='Your Reward Points']").textContent();
+  console.log("Reward Points Text is: " + rewardPointsText);
+  await expect.soft(rewardPointsText).toBe('Your Reward Points');
+});
+
+test("shollow copy of myAccountPage", async ({ page }) => {
+  let name = {
+
+    name : "My Account",
+    heading : "My Account"
+
+  }
+    
+  let copy ={...name};
+  console.log("Shollow copy of myAccountPage is: " + copy.name);
+  console.log("Shollow copy of myAccountPage is: " + copy.heading);
+  let deepCopy = JSON.parse(JSON.stringify(name));
+  console.log("Deep copy of myAccountPage is: " + deepCopy.name);
+  console.log("Deep copy of myAccountPage is: " + deepCopy.heading);
 
 
 
+});
 
-
-
-
-
+  

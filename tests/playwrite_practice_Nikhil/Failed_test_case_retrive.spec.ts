@@ -22,3 +22,20 @@ test('check buttons - 3', async ({ page }) => {
   await page.locator('//input[@id="checkbox3"]').click();
   
 });
+test('check buttons - 4', async ({ page }) => {
+
+  
+
+  const userDetails: { name: string; email: string; password: string } = {
+    name: 'Nikhil',
+    email: 'nikhil@example.com',
+    password: 'password123'
+  };
+
+   function getName() {
+    return userDetails.name;
+  }
+
+
+
+});

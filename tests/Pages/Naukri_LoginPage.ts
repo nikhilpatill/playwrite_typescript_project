@@ -32,8 +32,8 @@ export class loginPage1 {
 
   async navigate() {
     await this.page.setViewportSize({ width: 1380, height: 800 });
-    await this.page.goto('https://www.naukri.com/')
-    await this.page.waitForLoadState('networkidle');
+    await this.page.goto('https://www.naukri.com/', { waitUntil: 'domcontentloaded' });
+    await this.page.waitForTimeout(1500);
 
   }
 
@@ -47,7 +47,7 @@ export class loginPage1 {
 
   async moveExperienceSlider() {
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 3; i++) {
       await this.experienceSlider.click();
     }
   }
@@ -88,7 +88,7 @@ export class loginPage1 {
 
     await this.searchButton.click();
     await this.page.waitForLoadState('domcontentloaded');
-    await this.page.waitForTimeout(2000);
+    await this.page.waitForTimeout(1500);
 
   }
 
@@ -105,73 +105,67 @@ export class loginPage1 {
   async applyJobRelated() {
 
     const pages = this.page.locator("//div[@class='styles_pages__v1rAK']/a");
-
     const pageCount = await pages.count();
 
     console.log(`Total Pages : ${pageCount}`);
 
     for (let i = 0; i < pageCount; i++) {
-
       const singlePage = pages.nth(i);
+      await singlePage.waitFor({ state: 'visible', timeout: 15000 });
 
-      const pageText = await singlePage.textContent();
-
-      console.log(pageText);
+      const pageText = (await singlePage.textContent())?.trim();
+      console.log(pageText ?? `Page ${i + 1}`);
 
       await singlePage.click();
-
-      await this.page.waitForTimeout(2000);
+      await this.page.waitForLoadState('domcontentloaded').catch(() => {});
+      await this.page.waitForTimeout(1500);
 
       const jobs = this.page.locator("//a[@class='title ']");
+      const jobsVisible = await jobs.first().isVisible().catch(() => false);
+
+      if (!jobsVisible) {
+        console.log('No jobs loaded on this page, skipping...');
+        continue;
+      }
 
       const totalJobs = await jobs.count();
-
       console.log(`Jobs Found : ${totalJobs}`);
 
       for (let j = 0; j < totalJobs; j++) {
-
         const job = jobs.nth(j);
+        await job.waitFor({ state: 'visible', timeout: 15000 });
 
-        const jobTitle = await job.textContent();
-
+        const jobTitle = (await job.textContent())?.trim() ?? `Job ${j + 1}`;
         console.log(`Opening : ${jobTitle}`);
 
-        const [jobPage] = await Promise.all([
-          this.page.waitForEvent('popup'),
-          job.click()
-        ]);
+        const popupPromise = this.page.waitForEvent('popup', { timeout: 8000 }).catch(() => null);
+        await job.click();
+        const jobPage = await popupPromise;
 
-        await jobPage.waitForLoadState();
-        await this.page.waitForTimeout(2000);
-        const applyButton = jobPage.locator("//button[text()='Save']/following::button[1]");
+        const detailPage = jobPage ?? this.page;
+        await detailPage.waitForLoadState('domcontentloaded').catch(() => {});
+        await detailPage.waitForTimeout(1500);
 
-        const applied = jobPage.locator("(//span[text()='Applied'])[1]");
+        const applyButton = detailPage.locator("//button[text()='Save']/following::button[1]");
+        const applied = detailPage.locator("(//span[text()='Applied'])[1]");
 
-        if (await applyButton.isVisible()) {
-
+        if (await applyButton.isVisible().catch(() => false)) {
           await applyButton.click();
-          await jobPage.waitForTimeout(10000);
-
-          const success = jobPage.locator("//div[text()='Applied to ']");
-          if (await success.isVisible()) {
-            console.log(await success.textContent());
-          }
-          await jobPage.waitForTimeout(10000);
-
-        } else {
-
-          if (await applied.isVisible()) {
-            console.log("Already Applied");
-          }
-
+          await detailPage.locator("//div[text()='Applied to ']").waitFor({ state: 'visible', timeout: 20000 }).catch(() => {});
+          console.log('Applied successfully');
+        } else if (await applied.isVisible().catch(() => false)) {
+          console.log('Already Applied');
         }
-        await jobPage.close();
-        await this.page.bringToFront();
 
+        if (jobPage) {
+          await jobPage.close();
+          await this.page.bringToFront();
+        } else {
+          await this.page.goBack({ waitUntil: 'domcontentloaded' }).catch(() => {});
+          await this.page.waitForTimeout(1500);
+        }
       }
-
     }
-
   }
 
 

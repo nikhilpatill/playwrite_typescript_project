@@ -35,6 +35,7 @@ export class MyaccountPage {
  readonly New_Address;
  readonly modifyyourwichlistLink;
   readonly mywishListtext;
+  readonly orderHistoryLink;
   static textvalue: any;
 
   constructor(page: Page) {
@@ -70,7 +71,7 @@ export class MyaccountPage {
     this.successmessage_addressbook = page.locator("//div[text()='Your address has been successfully added']");
     this.cityError_Message = page.locator("//div[text()='City must be between 2 and 128 characters!']");
     this.region_state_Error_Message = page.locator("//div[text()='Please select a region / state!']");
-   
+    this.orderHistoryLink = page.locator("//a[text()='View your order history']");
   }
 
 
@@ -116,12 +117,29 @@ export class MyaccountPage {
     await this.modifyyourwichlistLink.click();
   }
 
+  async clickViewOrderHistoryLink(){
+
+    await this.orderHistoryLink.click();
+
+  }
+  async OrderHistoryText() {
+    return await this.page.locator("//h1[text()='Order History']").textContent();
+  }
+
   async getLastName() {
     await this.Last_Name.fill("Patil");
      let lname = await this.Last_Name.inputValue();
     console.log("Last Name is: " + lname);
     
   }
+
+
+  async clickdownloadLink(){
+
+    await this.page.locator("(//a[text()='Downloads'])[2]").click();
+
+  }
+
 
   async getPostalCode() {
     await this.postal_code.fill("411045");

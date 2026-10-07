@@ -1,0 +1,1374 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - link "Naukri.com" [ref=e7] [cursor=pointer]:
+        - /url: https://www.naukri.com
+        - img "Naukri.com" [ref=e8]
+      - navigation "Main navigation":
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Jobs 2" [ref=e11] [cursor=pointer]:
+              - /url: /mnjuser/recommendedjobs
+              - generic [ref=e12]: Jobs
+              - generic [ref=e13]: "2"
+          - listitem [ref=e14]:
+            - link "Companies" [ref=e15] [cursor=pointer]:
+              - /url: https://www.naukri.com/companies-hiring-in-india?src=gnbCompanies_homepage_srch
+              - generic [ref=e16]: Companies
+          - listitem [ref=e17]:
+            - link "Services 1" [ref=e18] [cursor=pointer]:
+              - /url: https://www.naukri.com/naukri360
+              - generic [ref=e19]: Services
+              - generic [ref=e20]: "1"
+      - generic [ref=e21] [cursor=pointer]:
+        - button "Search jobs here" [ref=e22]
+        - generic "test automation playwright, typescript, 4 years" [ref=e23]
+        - button [ref=e24]:
+          - generic [ref=e25]: 
+      - link "naukri360-pill naukri360-pill naukri360-pill naukri360-pill naukri360-pill naukri360-pill" [ref=e27] [cursor=pointer]:
+        - /url: /naukri360
+        - generic [ref=e28]:
+          - img "naukri360-pill" [ref=e30]
+          - img "naukri360-pill" [ref=e32]
+          - img "naukri360-pill" [ref=e34]
+          - img "naukri360-pill" [ref=e36]
+          - img "naukri360-pill" [ref=e38]
+          - img "naukri360-pill" [ref=e40]
+      - button "Job Agent" [ref=e42] [cursor=pointer]:
+        - img "Job Agent" [ref=e43]
+      - button "Notifications, 34 unread" [ref=e45] [cursor=pointer]:
+        - generic [ref=e46]: 
+        - generic [ref=e47]: "34"
+      - button "Open profile menu" [ref=e49] [cursor=pointer]:
+        - generic [ref=e54]:
+          - img "naukri user profile image" [ref=e55]
+          - generic [ref=e56]: "2"
+    - main [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]: All Filters
+            - generic [ref=e64] [cursor=pointer]: Applied (3)
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e68] [cursor=pointer]: Freshness
+              - button "Last 1 day " [ref=e72] [cursor=pointer]:
+                - text: Last 1 day
+                - generic [ref=e73]: 
+            - generic [ref=e74]:
+              - generic [ref=e75] [cursor=pointer]:
+                - generic [ref=e76]: Location
+                - generic [ref=e77]: 
+              - generic [ref=e78]:
+                - generic [ref=e80] [cursor=pointer]:
+                  - generic [ref=e81]: 
+                  - paragraph [ref=e82]:
+                    - generic "Pune" [ref=e83]
+                    - generic [ref=e84]: (24)
+                - generic [ref=e86] [cursor=pointer]:
+                  - generic [ref=e87]: 
+                  - paragraph [ref=e88]:
+                    - generic "Bengaluru" [ref=e89]
+                    - generic [ref=e90]: (32)
+                - generic [ref=e92] [cursor=pointer]:
+                  - generic [ref=e93]: 
+                  - paragraph [ref=e94]:
+                    - generic "Hyderabad" [ref=e95]
+                    - generic [ref=e96]: (22)
+                - generic [ref=e98] [cursor=pointer]:
+                  - generic [ref=e99]: 
+                  - paragraph [ref=e100]:
+                    - generic "Chennai" [ref=e101]
+                    - generic [ref=e102]: (16)
+                - generic [ref=e103] [cursor=pointer]: View More
+            - generic [ref=e104]:
+              - generic [ref=e105] [cursor=pointer]:
+                - generic [ref=e106]: Experience
+                - generic [ref=e107]: 
+              - generic [ref=e110]:
+                - generic [ref=e116] [cursor=pointer]: "4"
+                - generic:
+                  - generic [ref=e118]: 0 Yrs
+                  - generic [ref=e119]: 30 Yrs
+            - generic [ref=e120]:
+              - generic [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: Work mode
+                - generic [ref=e123]: 
+              - generic [ref=e124]:
+                - generic [ref=e126] [cursor=pointer]:
+                  - generic [ref=e127]: 
+                  - paragraph [ref=e128]:
+                    - generic "Work from office" [ref=e129]
+                    - generic [ref=e130]: (17)
+                - generic [ref=e132] [cursor=pointer]:
+                  - generic [ref=e133]: 
+                  - paragraph [ref=e134]:
+                    - generic "Hybrid" [ref=e135]
+                    - generic [ref=e136]: (7)
+            - generic [ref=e137]:
+              - generic [ref=e138] [cursor=pointer]:
+                - generic [ref=e139]: Department
+                - generic [ref=e140]: 
+              - generic [ref=e141]:
+                - generic [ref=e143] [cursor=pointer]:
+                  - generic [ref=e144]: 
+                  - paragraph [ref=e145]:
+                    - generic "Engineering - Software & QA" [ref=e146]
+                    - generic [ref=e147]: (23)
+                - generic [ref=e149] [cursor=pointer]:
+                  - generic [ref=e150]: 
+                  - paragraph [ref=e151]:
+                    - generic "Quality Assurance" [ref=e152]
+                    - generic [ref=e153]: (1)
+            - generic [ref=e154]:
+              - generic [ref=e155] [cursor=pointer]:
+                - generic [ref=e156]: Salary
+                - generic [ref=e157]: 
+              - generic [ref=e158]:
+                - generic [ref=e160] [cursor=pointer]:
+                  - generic [ref=e161]: 
+                  - paragraph [ref=e162]:
+                    - generic "6-10 Lakhs" [ref=e163]
+                    - generic [ref=e164]: (15)
+                - generic [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]: 
+                  - paragraph [ref=e168]:
+                    - generic "10-15 Lakhs" [ref=e169]
+                    - generic [ref=e170]: (17)
+                - generic [ref=e172] [cursor=pointer]:
+                  - generic [ref=e173]: 
+                  - paragraph [ref=e174]:
+                    - generic "15-25 Lakhs" [ref=e175]
+                    - generic [ref=e176]: (13)
+                - generic [ref=e178] [cursor=pointer]:
+                  - generic [ref=e179]: 
+                  - paragraph [ref=e180]:
+                    - generic "25-50 Lakhs" [ref=e181]
+                    - generic [ref=e182]: (1)
+                - generic [ref=e183] [cursor=pointer]: View More
+            - generic [ref=e184]:
+              - generic [ref=e185] [cursor=pointer]:
+                - generic [ref=e186]: Company type
+                - generic [ref=e187]: 
+              - generic [ref=e188]:
+                - generic [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]: 
+                  - paragraph [ref=e192]:
+                    - generic "Indian MNC" [ref=e193]
+                    - generic [ref=e194]: (6)
+                - generic [ref=e196] [cursor=pointer]:
+                  - generic [ref=e197]: 
+                  - paragraph [ref=e198]:
+                    - generic "Foreign MNC" [ref=e199]
+                    - generic [ref=e200]: (5)
+                - generic [ref=e202] [cursor=pointer]:
+                  - generic [ref=e203]: 
+                  - paragraph [ref=e204]:
+                    - generic "Corporate" [ref=e205]
+                    - generic [ref=e206]: (2)
+            - generic [ref=e207]:
+              - generic [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]: Role category
+                - generic [ref=e210]: 
+              - generic [ref=e211]:
+                - generic [ref=e213] [cursor=pointer]:
+                  - generic [ref=e214]: 
+                  - paragraph [ref=e215]:
+                    - generic "Quality Assurance and Testing" [ref=e216]
+                    - generic [ref=e217]: (20)
+                - generic [ref=e219] [cursor=pointer]:
+                  - generic [ref=e220]: 
+                  - paragraph [ref=e221]:
+                    - generic "Software Development" [ref=e222]
+                    - generic [ref=e223]: (3)
+                - generic [ref=e225] [cursor=pointer]:
+                  - generic [ref=e226]: 
+                  - paragraph [ref=e227]:
+                    - generic "Quality Assurance - Other" [ref=e228]
+                    - generic [ref=e229]: (1)
+            - generic [ref=e230]:
+              - generic [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: Education
+                - generic [ref=e233]: 
+              - generic [ref=e234]:
+                - generic [ref=e236] [cursor=pointer]:
+                  - generic [ref=e237]: 
+                  - paragraph [ref=e238]:
+                    - generic "Any Postgraduate" [ref=e239]
+                    - generic [ref=e240]: (15)
+                - generic [ref=e242] [cursor=pointer]:
+                  - generic [ref=e243]: 
+                  - paragraph [ref=e244]:
+                    - generic "M.Tech" [ref=e245]
+                    - generic [ref=e246]: (6)
+                - generic [ref=e248] [cursor=pointer]:
+                  - generic [ref=e249]: 
+                  - paragraph [ref=e250]:
+                    - generic "B.C.A." [ref=e251]
+                    - generic [ref=e252]: (5)
+                - generic [ref=e254] [cursor=pointer]:
+                  - generic [ref=e255]: 
+                  - paragraph [ref=e256]:
+                    - generic "B.Tech / B.E." [ref=e257]
+                    - generic [ref=e258]: (15)
+                - generic [ref=e259] [cursor=pointer]: View More
+            - generic [ref=e260]:
+              - generic [ref=e261] [cursor=pointer]:
+                - generic [ref=e262]: Posted by
+                - generic [ref=e263]: 
+              - generic [ref=e264]:
+                - generic [ref=e266] [cursor=pointer]:
+                  - generic [ref=e267]: 
+                  - paragraph [ref=e268]:
+                    - generic "Company Jobs" [ref=e269]
+                    - generic [ref=e270]: (22)
+                - generic [ref=e272] [cursor=pointer]:
+                  - generic [ref=e273]: 
+                  - paragraph [ref=e274]:
+                    - generic "Consultant Jobs" [ref=e275]
+                    - generic [ref=e276]: (2)
+            - generic [ref=e277]:
+              - generic [ref=e278] [cursor=pointer]:
+                - generic [ref=e279]: Industry
+                - generic [ref=e280]: 
+              - generic [ref=e281]:
+                - generic [ref=e283] [cursor=pointer]:
+                  - generic [ref=e284]: 
+                  - paragraph [ref=e285]:
+                    - generic "IT Services & Consulting" [ref=e286]
+                    - generic [ref=e287]: (22)
+                - generic [ref=e289] [cursor=pointer]:
+                  - generic [ref=e290]: 
+                  - paragraph [ref=e291]:
+                    - generic "Recruitment / Staffing" [ref=e292]
+                    - generic [ref=e293]: (1)
+                - generic [ref=e295] [cursor=pointer]:
+                  - generic [ref=e296]: 
+                  - paragraph [ref=e297]:
+                    - generic "Building Material" [ref=e298]
+                    - generic [ref=e299]: (1)
+            - generic [ref=e300]:
+              - generic [ref=e301] [cursor=pointer]:
+                - generic [ref=e302]: Top companies
+                - generic [ref=e303]: 
+              - generic [ref=e304]:
+                - generic [ref=e306] [cursor=pointer]:
+                  - generic [ref=e307]: 
+                  - paragraph [ref=e308]:
+                    - generic "Infosys" [ref=e309]
+                    - generic [ref=e310]: (5)
+                - generic [ref=e312] [cursor=pointer]:
+                  - generic [ref=e313]: 
+                  - paragraph [ref=e314]:
+                    - generic "Zensar" [ref=e315]
+                    - generic [ref=e316]: (2)
+                - generic [ref=e318] [cursor=pointer]:
+                  - generic [ref=e319]: 
+                  - paragraph [ref=e320]:
+                    - generic "Hexaware Technologies" [ref=e321]
+                    - generic [ref=e322]: (1)
+                - generic [ref=e324] [cursor=pointer]:
+                  - generic [ref=e325]: 
+                  - paragraph [ref=e326]:
+                    - generic "Capgemini" [ref=e327]
+                    - generic [ref=e328]: (1)
+                - generic [ref=e329] [cursor=pointer]: View More
+        - generic [ref=e330]:
+          - generic [ref=e331]:
+            - generic [ref=e332]:
+              - generic "1 - 20 of 24" [ref=e333]
+              - heading "Test Automation Playwright, Typescript Jobs" [level=1] [ref=e334]
+            - generic [ref=e335]:
+              - text: Send me jobs like these
+              - generic [ref=e336]:
+                - generic [ref=e337]: "Sort by:"
+                - button "Recommended " [ref=e339] [cursor=pointer]:
+                  - text: Recommended
+                  - generic [ref=e340]: 
+          - generic [ref=e342]:
+            - generic [ref=e344]:
+              - generic [ref=e345]:
+                - heading "Automation QA Engineer" [level=2] [ref=e346]:
+                  - link "Automation QA Engineer" [ref=e347] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-qa-engineer-shashwath-solution-pune-1-to-5-years-051026927439
+                - img "Shashwath Solution logo" [ref=e349]
+              - link "Shashwath Solution" [ref=e352] [cursor=pointer]:
+                - /url: https://www.naukri.com/shashwath-solution-jobs-careers-123596983
+              - generic [ref=e354]:
+                - generic [ref=e356]:
+                  - text: 
+                  - generic "1-5 Yrs" [ref=e357]
+                - generic [ref=e359]:
+                  - text: 
+                  - generic "Pune" [ref=e360]
+              - generic [ref=e362]:  Position Overview:We are looking for a skilled and motivated Test Automation Engineer w...
+              - list [ref=e364]:
+                - listitem [ref=e365]: continuous integration
+                - listitem [ref=e366]: automation testing
+                - listitem [ref=e367]: ci/cd
+                - listitem [ref=e368]: javascript
+                - listitem [ref=e369]: agile
+                - listitem [ref=e370]: dom
+                - listitem [ref=e371]: performance testing
+                - listitem [ref=e372]: quality assurance engineering
+              - generic [ref=e373]:
+                - generic [ref=e374]: 1 day ago
+                - generic [ref=e375]: save
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - heading "Senior Automation Engineer - E2E Testing & DevOps" [level=2] [ref=e379]:
+                  - link "Senior Automation Engineer - E2E Testing & DevOps" [ref=e380] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-senior-automation-engineer-e2e-testing-devops-shashwath-solution-pune-1-to-6-years-051026923721
+                - img "Shashwath Solution logo" [ref=e382]
+              - link "Shashwath Solution" [ref=e385] [cursor=pointer]:
+                - /url: https://www.naukri.com/shashwath-solution-jobs-careers-123596983
+              - generic [ref=e387]:
+                - generic [ref=e389]:
+                  - text: 
+                  - generic "1-6 Yrs" [ref=e390]
+                - generic [ref=e392]:
+                  - text: 
+                  - generic "Pune" [ref=e393]
+              - generic [ref=e395]:  Strong experience in defect management and maintaining high-quality standards in produc...
+              - list [ref=e397]:
+                - listitem [ref=e398]: linux system administration
+                - listitem [ref=e399]: cloud technologies
+                - listitem [ref=e400]: groovy
+                - listitem [ref=e401]: devops
+                - listitem [ref=e402]: defect management
+                - listitem [ref=e403]: selenium*
+                - listitem [ref=e404]: bdd
+                - listitem [ref=e405]: redhat linux
+              - generic [ref=e406]:
+                - generic [ref=e407]: 1 day ago
+                - generic [ref=e408]: save
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - heading "Playwright Automation Tester" [level=2] [ref=e412]:
+                  - link "Playwright Automation Tester" [ref=e413] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-playwright-automation-tester-capgemini-hyderabad-pune-bengaluru-4-to-9-years-220526014296
+                - img "Capgemini logo" [ref=e415]
+              - generic [ref=e417]:
+                - link "Capgemini" [ref=e418] [cursor=pointer]:
+                  - /url: https://www.naukri.com/capgemini-jobs-careers-649
+                - link " 3.6" [ref=e419] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/capgemini-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e420]: 
+                  - generic [ref=e421]: "3.6"
+                  - text: 
+                - link "58097 Reviews" [ref=e422] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/capgemini-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e424]:
+                - generic [ref=e426]:
+                  - text: 
+                  - generic "4-9 Yrs" [ref=e427]
+                - generic [ref=e429]:
+                  - text: 
+                  - generic "Hybrid - Pune, Hyderabad, Bengaluru" [ref=e430]
+              - generic [ref=e432]:  Should have expertise to design, develop, and maintain scalable and reusable frameworks...
+              - list [ref=e434]:
+                - listitem [ref=e435]: Automation Testing
+                - listitem [ref=e436]: Java Selenium
+                - listitem [ref=e437]: Playwright Automation
+                - listitem [ref=e438]: Automation
+                - listitem [ref=e439]: Software testing
+                - listitem [ref=e440]: Java
+                - listitem [ref=e441]: Selenium
+              - generic [ref=e442]:
+                - generic [ref=e443]: 1 day ago
+                - generic [ref=e444]: save
+            - generic [ref=e446] [cursor=pointer]:
+              - generic [ref=e447]:
+                - heading "Lead Automation Engineer - E2E Testing & CI/CD Engineering" [level=2] [ref=e448]:
+                  - link "Lead Automation Engineer - E2E Testing & CI/CD Engineering" [active] [ref=e449]:
+                    - /url: https://www.naukri.com/job-listings-lead-automation-engineer-e2e-testing-ci-cd-engineering-shashwath-solution-pune-2-to-4-years-051026927742?src=cluster&sid=17912574047601917_5&xp=4&px=1&nignbevent_src=jobsearchDeskGNB
+                - img "Shashwath Solution logo" [ref=e451]
+              - link "Shashwath Solution" [ref=e454]:
+                - /url: https://www.naukri.com/shashwath-solution-jobs-careers-123596983
+              - generic [ref=e456]:
+                - generic [ref=e458]:
+                  - text: 
+                  - generic "2-4 Yrs" [ref=e459]
+                - generic [ref=e461]:
+                  - text: 
+                  - generic "Pune" [ref=e462]
+              - generic [ref=e464]:  We are seeking an experienced and dynamic Senior Automation Engineer to join our End-to...
+              - list [ref=e466]:
+                - listitem [ref=e467]: kubernetes
+                - listitem [ref=e468]: python
+                - listitem [ref=e469]: docker
+                - listitem [ref=e470]: java
+                - listitem [ref=e471]: devops
+                - listitem [ref=e472]: container
+                - listitem [ref=e473]: linux system administration
+                - listitem [ref=e474]: continuous integration
+              - generic [ref=e475]:
+                - generic [ref=e476]: 1 day ago
+                - generic [ref=e477]: save
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - heading "Automation Test Engineer" [level=2] [ref=e481]:
+                  - link "Automation Test Engineer" [ref=e482] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-infosys-hyderabad-pune-bengaluru-3-to-8-years-290926037730
+                - img "Infosys logo" [ref=e484]
+              - generic [ref=e486]:
+                - link "Infosys" [ref=e487] [cursor=pointer]:
+                  - /url: https://www.naukri.com/infosys-jobs-careers-11244
+                - link " 3.5" [ref=e488] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e489]: 
+                  - generic [ref=e490]: "3.5"
+                  - text: 
+                - link "52761 Reviews" [ref=e491] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e493]:
+                - generic [ref=e495]:
+                  - text: 
+                  - generic "3-8 Yrs" [ref=e496]
+                - generic [ref=e498]:
+                  - text: 
+                  - generic "Hybrid - Pune, Hyderabad, Bengaluru" [ref=e499]
+              - generic [ref=e501]:  Required SkillsCore Automation Skills Strong experience in Selenium WebDriver Experienc...
+              - list [ref=e503]:
+                - listitem [ref=e504]: Java
+                - listitem [ref=e505]: Automation Testing
+                - listitem [ref=e506]: Selenium
+                - listitem [ref=e507]: C#
+                - listitem [ref=e508]: playwright
+                - listitem [ref=e509]: Python
+                - listitem [ref=e510]: Automation
+                - listitem [ref=e511]: Software testing
+              - generic [ref=e512]:
+                - generic [ref=e515]:
+                  - img "diversity_icon" [ref=e516]
+                  - generic [ref=e517]: Prefers women
+                - generic [ref=e518]: 1 day ago
+                - generic [ref=e519]: save
+            - generic [ref=e521]:
+              - generic [ref=e522]:
+                - heading "Automation Test Engineer" [level=2] [ref=e523]:
+                  - link "Automation Test Engineer" [ref=e524] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-infosys-hyderabad-pune-bengaluru-3-to-8-years-250926033391
+                - img "Infosys logo" [ref=e526]
+              - generic [ref=e528]:
+                - link "Infosys" [ref=e529] [cursor=pointer]:
+                  - /url: https://www.naukri.com/infosys-jobs-careers-11244
+                - link " 3.5" [ref=e530] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e531]: 
+                  - generic [ref=e532]: "3.5"
+                  - text: 
+                - link "52761 Reviews" [ref=e533] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e535]:
+                - generic [ref=e537]:
+                  - text: 
+                  - generic "3-8 Yrs" [ref=e538]
+                - generic [ref=e540]:
+                  - text: 
+                  - generic "Hybrid - Pune, Hyderabad, Bengaluru" [ref=e541]
+              - generic [ref=e543]: " EXP: 2 TO 10 Years Location: Pan IndiaSkills: Automation Testing, Java or Python or C#..."
+              - list [ref=e545]:
+                - listitem [ref=e546]: Java
+                - listitem [ref=e547]: Automation Testing
+                - listitem [ref=e548]: Selenium
+                - listitem [ref=e549]: C#
+                - listitem [ref=e550]: Python
+                - listitem [ref=e551]: Automation
+                - listitem [ref=e552]: Software testing
+              - generic [ref=e553]:
+                - generic [ref=e556]:
+                  - img "diversity_icon" [ref=e557]
+                  - generic [ref=e558]: Prefers women
+                - generic [ref=e559]: 1 day ago
+                - generic [ref=e560]: save
+            - generic [ref=e562]:
+              - generic [ref=e563]:
+                - heading "Automation Test Engineer" [level=2] [ref=e564]:
+                  - link "Automation Test Engineer" [ref=e565] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-engineer-infosys-hyderabad-pune-bengaluru-3-to-8-years-280926029484
+                - img "Infosys logo" [ref=e567]
+              - generic [ref=e569]:
+                - link "Infosys" [ref=e570] [cursor=pointer]:
+                  - /url: https://www.naukri.com/infosys-jobs-careers-11244
+                - link " 3.5" [ref=e571] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e572]: 
+                  - generic [ref=e573]: "3.5"
+                  - text: 
+                - link "52761 Reviews" [ref=e574] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e576]:
+                - generic [ref=e578]:
+                  - text: 
+                  - generic "3-8 Yrs" [ref=e579]
+                - generic [ref=e581]:
+                  - text: 
+                  - generic "Hybrid - Pune, Hyderabad, Bengaluru" [ref=e582]
+              - generic [ref=e584]:  Required Technical SkillsAutomation TestingPreferred Skills Strong hands-on experience ...
+              - list [ref=e586]:
+                - listitem [ref=e587]: Java
+                - listitem [ref=e588]: Automation Testing
+                - listitem [ref=e589]: Selenium
+                - listitem [ref=e590]: C#
+                - listitem [ref=e591]: Python
+                - listitem [ref=e592]: Automation
+                - listitem [ref=e593]: Software testing
+              - generic [ref=e594]:
+                - generic [ref=e597]:
+                  - img "diversity_icon" [ref=e598]
+                  - generic [ref=e599]: Prefers women
+                - generic [ref=e600]: 1 day ago
+                - generic [ref=e601]: save
+            - generic [ref=e602]:
+              - paragraph [ref=e603]:
+                - img "naukri filter icon" [ref=e604]
+                - generic [ref=e605]: Filter jobs by
+                - generic [ref=e606]: salary
+              - generic:
+                - generic [ref=e607] [cursor=pointer]:
+                  - generic [ref=e609]: 
+                  - generic [ref=e610]:
+                    - paragraph [ref=e611]: 6-10 Lakhs
+                    - paragraph [ref=e612]: 15 Jobs
+                - generic [ref=e613] [cursor=pointer]:
+                  - generic [ref=e615]: 
+                  - generic [ref=e616]:
+                    - paragraph [ref=e617]: 10-15 Lakhs
+                    - paragraph [ref=e618]: 17 Jobs
+                - generic [ref=e619] [cursor=pointer]:
+                  - generic [ref=e621]: 
+                  - generic [ref=e622]:
+                    - paragraph [ref=e623]: 15-25 Lakhs
+                    - paragraph [ref=e624]: 13 Jobs
+                - generic [ref=e625] [cursor=pointer]:
+                  - generic [ref=e627]: 
+                  - generic [ref=e628]:
+                    - paragraph [ref=e629]: 25-50 Lakhs
+                    - paragraph [ref=e630]: 1 Job
+            - generic [ref=e632]:
+              - generic [ref=e633]:
+                - heading "Automation Testing +Playwright - 3 To 7 years" [level=2] [ref=e634]:
+                  - link "Automation Testing +Playwright - 3 To 7 years" [ref=e635] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-testing-playwright-3-to-7-years-integel-institute-of-technology-tamil-nadu-pune-gurugram-mumbai-all-areas-3-to-7-years-051026019091
+                - img "CONFIDENTIAL logo" [ref=e637]
+              - generic [ref=e638]:
+                - link "CONFIDENTIAL" [ref=e640] [cursor=pointer]:
+                  - /url: https://www.naukri.com/confidential-jobs-careers-5736520
+                - link "Posted by Integel Institute Of Technology Tamil Nadu" [ref=e642] [cursor=pointer]:
+                  - /url: https://www.naukri.com/integel-institute-of-technology-tamil-nadu-jobs-careers-5736520
+              - generic [ref=e644]:
+                - generic [ref=e646]:
+                  - text: 
+                  - generic "3-7 Yrs" [ref=e647]
+                - generic [ref=e649]:
+                  - text: 
+                  - generic "8-18 Lacs PA" [ref=e650]
+                - generic [ref=e652]:
+                  - text: 
+                  - generic "Pune, Gurugram, Mumbai (All Areas)" [ref=e653]
+              - generic [ref=e655]:  Experience with CI / CD tools such as Azure DevOps, Jenkins, or GitHub ActionsExperienc...
+              - list [ref=e657]:
+                - listitem [ref=e658]: Selenium
+                - listitem [ref=e659]: Java
+                - listitem [ref=e660]: Automation Testing
+                - listitem [ref=e661]: Playwright Automation
+                - listitem [ref=e662]: Python
+                - listitem [ref=e663]: Automation
+                - listitem [ref=e664]: Software testing
+              - generic [ref=e665]:
+                - generic [ref=e666]: 1 day ago
+                - generic [ref=e667]: save
+            - generic [ref=e669]:
+              - generic [ref=e670]:
+                - heading "Automation Tester" [level=2] [ref=e671]:
+                  - link "Automation Tester" [ref=e672] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-tester-infosys-hyderabad-pune-bengaluru-3-to-8-years-011026034460
+                - img "Infosys logo" [ref=e674]
+              - generic [ref=e676]:
+                - link "Infosys" [ref=e677] [cursor=pointer]:
+                  - /url: https://www.naukri.com/infosys-jobs-careers-11244
+                - link " 3.5" [ref=e678] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e679]: 
+                  - generic [ref=e680]: "3.5"
+                  - text: 
+                - link "52761 Reviews" [ref=e681] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e683]:
+                - generic [ref=e685]:
+                  - text: 
+                  - generic "3-8 Yrs" [ref=e686]
+                - generic [ref=e688]:
+                  - text: 
+                  - generic "Hybrid - Pune, Hyderabad, Bengaluru" [ref=e689]
+              - generic [ref=e691]: " EXP: 2 TO 10 YearsLocation: Pan IndiaSkills: Automation Testing, Java or c# or Python ..."
+              - list [ref=e693]:
+                - listitem [ref=e694]: Java
+                - listitem [ref=e695]: Automation Testing
+                - listitem [ref=e696]: Selenium
+                - listitem [ref=e697]: C#
+                - listitem [ref=e698]: Rest Assured
+                - listitem [ref=e699]: Python
+                - listitem [ref=e700]: Automation
+                - listitem [ref=e701]: Software testing
+              - generic [ref=e702]:
+                - generic [ref=e703]: 1 day ago
+                - generic [ref=e704]: save
+            - generic [ref=e706]:
+              - generic [ref=e707]:
+                - heading "Automation Test Lead" [level=2] [ref=e708]:
+                  - link "Automation Test Lead" [ref=e709] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-automation-test-lead-infosys-pune-chennai-bengaluru-4-to-9-years-280926016703
+                - img "Infosys logo" [ref=e711]
+              - generic [ref=e713]:
+                - link "Infosys" [ref=e714] [cursor=pointer]:
+                  - /url: https://www.naukri.com/infosys-jobs-careers-11244
+                - link " 3.5" [ref=e715] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e716]: 
+                  - generic [ref=e717]: "3.5"
+                  - text: 
+                - link "52761 Reviews" [ref=e718] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/infosys-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e720]:
+                - generic [ref=e722]:
+                  - text: 
+                  - generic "4-9 Yrs" [ref=e723]
+                - generic [ref=e725]:
+                  - text: 
+                  - generic "Hybrid - Pune, Bengaluru, Chennai" [ref=e726]
+              - generic [ref=e728]: " Automation Test Engineer - Job DescriptionJob Title: Automation Test EngineerExperienc..."
+              - list [ref=e730]:
+                - listitem [ref=e731]: Automation Testing
+                - listitem [ref=e732]: Selenium Java
+                - listitem [ref=e733]: Automation Selenium
+                - listitem [ref=e734]: Selenium with Java
+                - listitem [ref=e735]: Selenium
+                - listitem [ref=e736]: Java Selenium
+                - listitem [ref=e737]: Automation
+                - listitem [ref=e738]: Software testing
+              - generic [ref=e739]:
+                - generic [ref=e740]: 1 day ago
+                - generic [ref=e741]: save
+            - generic [ref=e742]:
+              - paragraph [ref=e743]:
+                - img "naukri filter icon" [ref=e744]
+                - generic [ref=e745]: Filter jobs by
+                - generic [ref=e746]: Top Companies
+              - generic:
+                - generic [ref=e747] [cursor=pointer]:
+                  - img "Infosys logo" [ref=e749]
+                  - generic [ref=e750]:
+                    - paragraph [ref=e751]: Infosys
+                    - paragraph [ref=e752]: 5 Jobs
+                - generic [ref=e753] [cursor=pointer]:
+                  - img "Zensar logo" [ref=e755]
+                  - generic [ref=e756]:
+                    - paragraph [ref=e757]: Zensar
+                    - paragraph [ref=e758]: 2 Jobs
+                - generic [ref=e759] [cursor=pointer]:
+                  - img "Hexaware Technologies logo" [ref=e761]
+                  - generic [ref=e762]:
+                    - paragraph [ref=e763]: Hexaware Technologies
+                    - paragraph [ref=e764]: 1 Job
+                - generic [ref=e765] [cursor=pointer]:
+                  - img "Capgemini logo" [ref=e767]
+                  - generic [ref=e768]:
+                    - paragraph [ref=e769]: Capgemini
+                    - paragraph [ref=e770]: 1 Job
+            - generic [ref=e772]:
+              - generic [ref=e773]:
+                - heading "Senior Automation Engineer - E2E Testing & DevOps" [level=2] [ref=e774]:
+                  - link "Senior Automation Engineer - E2E Testing & DevOps" [ref=e775] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-senior-automation-engineer-e2e-testing-devops-shashwath-solution-pune-4-to-9-years-051026926298
+                - img "Shashwath Solution logo" [ref=e777]
+              - link "Shashwath Solution" [ref=e780] [cursor=pointer]:
+                - /url: https://www.naukri.com/shashwath-solution-jobs-careers-123596983
+              - generic [ref=e782]:
+                - generic [ref=e784]:
+                  - text: 
+                  - generic "4-9 Yrs" [ref=e785]
+                - generic [ref=e787]:
+                  - text: 
+                  - generic "Pune" [ref=e788]
+              - generic [ref=e790]:  Strong experience in defect management and maintaining high-quality standards in produc...
+              - list [ref=e792]:
+                - listitem [ref=e793]: continuous integration
+                - listitem [ref=e794]: python
+                - listitem [ref=e795]: java
+                - listitem [ref=e796]: selenium
+                - listitem [ref=e797]: ci cd pipeline
+                - listitem [ref=e798]: linux system administration
+                - listitem [ref=e799]: bdd
+                - listitem [ref=e800]: regression testing
+              - generic [ref=e801]:
+                - generic [ref=e802]: 1 day ago
+                - generic [ref=e803]: save
+            - generic [ref=e805]:
+              - generic [ref=e806]:
+                - heading "QA Analyst" [level=2] [ref=e807]:
+                  - link "QA Analyst" [ref=e808] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-qa-analyst-ice-data-services-pune-4-to-7-years-051026013621
+                - img "ICE Data Services logo" [ref=e810]
+              - generic [ref=e812]:
+                - link "ICE Data Services" [ref=e813] [cursor=pointer]:
+                  - /url: https://www.naukri.com/ice-data-services-jobs-careers-5195636
+                - link " 3.2" [ref=e814] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/ice-data-services-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e815]: 
+                  - generic [ref=e816]: "3.2"
+                  - text: 
+                - link "223 Reviews" [ref=e817] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/ice-data-services-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e819]:
+                - generic [ref=e821]:
+                  - text: 
+                  - generic "4-7 Yrs" [ref=e822]
+                - generic [ref=e824]:
+                  - text: 
+                  - generic "Pune" [ref=e825]
+              - generic [ref=e827]:  Job PurposeYou are a key member of the Customer Success Engineering (CSE) QA team unde...
+              - list [ref=e829]:
+                - listitem [ref=e830]: Playwright
+                - listitem [ref=e831]: Manual Testing
+                - listitem [ref=e832]: Salesforce Testing
+                - listitem [ref=e833]: Functional Testing
+                - listitem [ref=e834]: Software Testing
+                - listitem [ref=e835]: Automation Testing
+                - listitem [ref=e836]: Automation
+                - listitem [ref=e837]: Manual
+              - generic [ref=e838]:
+                - generic [ref=e839]: 1 day ago
+                - generic [ref=e840]: save
+            - generic [ref=e846]:
+              - generic [ref=e847]: Jobs based on your profile
+              - generic [ref=e849]:
+                - generic [ref=e850]:
+                  - generic [ref=e853] [cursor=pointer]:
+                    - generic [ref=e854]: Playwright Automation Tester
+                    - generic [ref=e855]:
+                      - generic [ref=e856]: Capgemini
+                      - generic [ref=e857]:
+                        - generic [ref=e858]:
+                          - img [ref=e859]
+                          - text: "3.6"
+                        - generic [ref=e862]: 58K Reviews
+                    - generic [ref=e863]:
+                      - img [ref=e864]
+                      - generic [ref=e865]: Hybrid - Pune, Hyderabad, Bengaluru
+                  - generic [ref=e868] [cursor=pointer]:
+                    - generic [ref=e869]: Quality Engineer
+                    - generic [ref=e870]:
+                      - generic [ref=e871]: Deloitte US-India Offices
+                      - generic [ref=e872]:
+                        - generic [ref=e873]:
+                          - img [ref=e874]
+                          - text: "3.6"
+                        - generic [ref=e877]: 25K Reviews
+                    - generic [ref=e878]:
+                      - img [ref=e879]
+                      - generic [ref=e880]: Hybrid - Hyderabad
+                  - generic [ref=e883] [cursor=pointer]:
+                    - generic [ref=e884]: Java Automation QA
+                    - generic [ref=e885]:
+                      - generic [ref=e886]: Aziro
+                      - generic [ref=e887]:
+                        - generic [ref=e888]:
+                          - img [ref=e889]
+                          - text: "3.5"
+                        - generic [ref=e892]: 254 Reviews
+                    - generic [ref=e893]:
+                      - img [ref=e894]
+                      - generic [ref=e895]: Hybrid - Pune, Chennai
+                  - generic [ref=e898] [cursor=pointer]:
+                    - generic [ref=e899]: SDET Automation with API, Selenium, Karate
+                    - generic [ref=e900]:
+                      - generic [ref=e901]: Tech Mahindra
+                      - generic [ref=e902]:
+                        - generic [ref=e903]:
+                          - img [ref=e904]
+                          - text: "3.3"
+                        - generic [ref=e907]: 47K Reviews
+                    - generic [ref=e908]:
+                      - img [ref=e909]
+                      - generic [ref=e910]: Hybrid - Pune
+                  - generic [ref=e913] [cursor=pointer]:
+                    - generic [ref=e914]: QA Engineer
+                    - generic [ref=e916]: Aaxis Infotel
+                    - generic [ref=e917]:
+                      - img [ref=e918]
+                      - generic [ref=e919]: Pune
+                  - generic [ref=e922] [cursor=pointer]:
+                    - generic [ref=e923]: Playwright Automation 5 To 8 Bangalore
+                    - generic [ref=e924]:
+                      - generic [ref=e925]: Mphasis
+                      - generic [ref=e926]:
+                        - generic [ref=e927]:
+                          - img [ref=e928]
+                          - text: "3.2"
+                        - generic [ref=e931]: 11K Reviews
+                    - generic [ref=e932]:
+                      - img [ref=e933]
+                      - generic [ref=e934]: Hybrid - Bengaluru
+                  - generic [ref=e937] [cursor=pointer]:
+                    - generic [ref=e938]: Senior Automation Test Engineer - Java with Playwright
+                    - generic [ref=e939]:
+                      - generic [ref=e940]: Epam Systems
+                      - generic [ref=e941]:
+                        - generic [ref=e942]:
+                          - img [ref=e943]
+                          - text: "3.7"
+                        - generic [ref=e946]: 2.3K Reviews
+                    - generic [ref=e947]:
+                      - img [ref=e948]
+                      - generic [ref=e949]: Hyderabad, Bengaluru, Chennai
+                  - generic [ref=e952] [cursor=pointer]:
+                    - generic [ref=e953]: QA Automation
+                    - generic [ref=e955]: Shell Infotech
+                    - generic [ref=e956]:
+                      - img [ref=e957]
+                      - generic [ref=e958]: Hyderabad, Bengaluru
+                  - generic [ref=e961] [cursor=pointer]:
+                    - generic [ref=e962]: Selenium Automation Tester (2-10 Years)
+                    - generic [ref=e963]:
+                      - generic [ref=e964]: Infosys
+                      - generic [ref=e965]:
+                        - generic [ref=e966]:
+                          - img [ref=e967]
+                          - text: "3.5"
+                        - generic [ref=e970]: 52K Reviews
+                    - generic [ref=e971]:
+                      - img [ref=e972]
+                      - generic [ref=e973]: Hybrid - Pune, Hyderabad, Bengaluru
+                  - generic [ref=e976] [cursor=pointer]:
+                    - generic [ref=e977]: Automation Test Engineer
+                    - generic [ref=e978]:
+                      - generic [ref=e979]: Deloitte Shared Services India
+                      - generic [ref=e980]:
+                        - generic [ref=e981]:
+                          - img [ref=e982]
+                          - text: "3.6"
+                        - generic [ref=e985]: 25K Reviews
+                    - generic [ref=e986]:
+                      - img [ref=e987]
+                      - generic [ref=e988]: Pune
+                - button "Next slide" [ref=e989] [cursor=pointer]
+            - generic [ref=e991]:
+              - generic [ref=e992]:
+                - heading "Senior Engineer" [level=2] [ref=e993]:
+                  - link "Senior Engineer" [ref=e994] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-senior-engineer-hackajob-indore-pune-ahmedabad-2-to-7-years-051026035242
+                - img "Hackajob logo" [ref=e996]
+              - generic [ref=e997]:
+                - generic "Hackajob" [ref=e999]
+                - link "Posted by Hackajob" [ref=e1001] [cursor=pointer]:
+                  - /url: https://www.naukri.com/hackajob-jobs-careers-124143306
+              - generic [ref=e1003]:
+                - generic [ref=e1005]:
+                  - text: 
+                  - generic "2-7 Yrs" [ref=e1006]
+                - generic [ref=e1008]:
+                  - text: 
+                  - generic "25-40 Lacs PA" [ref=e1009]
+                - generic [ref=e1011]:
+                  - text: 
+                  - generic "Hybrid - Pune, Indore, Ahmedabad" [ref=e1012]
+              - generic [ref=e1014]: " For This Role, You Will Need: . Bachelors or masters degree in computer science, Inform..."
+              - list [ref=e1016]:
+                - listitem [ref=e1017]: Java
+                - listitem [ref=e1018]: C++
+                - listitem [ref=e1019]: Jenkins
+                - listitem [ref=e1020]: C#
+                - listitem [ref=e1021]: Web Application Testing
+                - listitem [ref=e1022]: API Testing
+                - listitem [ref=e1023]: Agile
+                - listitem [ref=e1024]: Automation Testing
+              - generic [ref=e1025]:
+                - generic [ref=e1026]: 1 day ago
+                - generic [ref=e1027]: save
+            - generic [ref=e1033]:
+              - generic [ref=e1034]: How relevant do you find these jobs?
+              - generic [ref=e1035]:
+                - generic [ref=e1036] [cursor=pointer]:
+                  - img [ref=e1037]
+                  - generic [ref=e1038]: Not Useful
+                - generic [ref=e1039] [cursor=pointer]:
+                  - img [ref=e1040]
+                  - generic [ref=e1041]: Neutral
+                - generic [ref=e1042] [cursor=pointer]:
+                  - img [ref=e1043]
+                  - generic [ref=e1044]: Very Useful
+            - generic [ref=e1046]:
+              - generic [ref=e1047]:
+                - heading "Sr Test Engineer" [level=2] [ref=e1048]:
+                  - link "Sr Test Engineer" [ref=e1049] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-sr-test-engineer-qualitykiosk-pune-3-to-5-years-051026502208
+                - img "Qualitykiosk Technologies logo" [ref=e1051]
+              - generic [ref=e1053]:
+                - link "Qualitykiosk Technologies" [ref=e1054] [cursor=pointer]:
+                  - /url: https://www.naukri.com/qualitykiosk-technologies-jobs-careers-5546
+                - link " 3.2" [ref=e1055] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/qualitykiosk-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1056]: 
+                  - generic [ref=e1057]: "3.2"
+                  - text: 
+                - link "1599 Reviews" [ref=e1058] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/qualitykiosk-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1060]:
+                - generic [ref=e1062]:
+                  - text: 
+                  - generic "3-5 Yrs" [ref=e1063]
+                - generic [ref=e1065]:
+                  - text: 
+                  - generic "Pune" [ref=e1066]
+              - generic [ref=e1068]:  Hands-on experience in Telecom domain testing (OSS / BSS, Billing, CRM, Order Managemen...
+              - list [ref=e1070]:
+                - listitem [ref=e1071]: alm
+                - listitem [ref=e1072]: message queues
+                - listitem [ref=e1073]: generative ai
+                - listitem [ref=e1074]: order management
+                - listitem [ref=e1075]: performance testing
+                - listitem [ref=e1076]: ai
+                - listitem [ref=e1077]: digital platforms
+                - listitem [ref=e1078]: jmeter
+              - generic [ref=e1079]:
+                - generic [ref=e1080]: 1 day ago
+                - generic [ref=e1081]: save
+            - generic [ref=e1083]:
+              - generic [ref=e1084]:
+                - heading "AI Skilled QA Automation Engineer" [level=2] [ref=e1085]:
+                  - link "AI Skilled QA Automation Engineer" [ref=e1086] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-ai-skilled-qa-automation-engineer-zensar-technologies-pune-3-to-5-years-051026502479
+                - img "Zensar logo" [ref=e1088]
+              - generic [ref=e1090]:
+                - link "Zensar" [ref=e1091] [cursor=pointer]:
+                  - /url: https://www.naukri.com/zensar-jobs-careers-1405
+                - link " 3.5" [ref=e1092] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/zensar-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1093]: 
+                  - generic [ref=e1094]: "3.5"
+                  - text: 
+                - link "3256 Reviews" [ref=e1095] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/zensar-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1097]:
+                - generic [ref=e1099]:
+                  - text: 
+                  - generic "3-5 Yrs" [ref=e1100]
+                - generic [ref=e1102]:
+                  - text: 
+                  - generic "Pune" [ref=e1103]
+              - generic [ref=e1105]: " Skills Required: . Test Automation (UI, API End-to-End Testing). Playwright / Selenium...."
+              - list [ref=e1107]:
+                - listitem [ref=e1108]: kubernetes
+                - listitem [ref=e1109]: ci/cd pipelines
+                - listitem [ref=e1110]: copilot
+                - listitem [ref=e1111]: github
+                - listitem [ref=e1112]: ai
+                - listitem [ref=e1113]: github actions
+                - listitem [ref=e1114]: database testing
+                - listitem [ref=e1115]: azure devops
+              - generic [ref=e1116]:
+                - generic [ref=e1117]: 1 day ago
+                - generic [ref=e1118]: save
+            - generic [ref=e1120]:
+              - generic [ref=e1121]:
+                - heading "Linux Automation Project Manager" [level=2] [ref=e1122]:
+                  - link "Linux Automation Project Manager" [ref=e1123] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-linux-automation-project-manager-tata-technologies-ltd-pune-4-to-9-years-051026930613
+                - img "Tata Technologies logo" [ref=e1125]
+              - generic [ref=e1127]:
+                - link "Tata Technologies" [ref=e1128] [cursor=pointer]:
+                  - /url: https://www.naukri.com/tata-technologies-jobs-careers-1218
+                - link " 3.4" [ref=e1129] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/tata-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1130]: 
+                  - generic [ref=e1131]: "3.4"
+                  - text: 
+                - link "3570 Reviews" [ref=e1132] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/tata-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1134]:
+                - generic [ref=e1136]:
+                  - text: 
+                  - generic "4-9 Yrs" [ref=e1137]
+                - generic [ref=e1139]:
+                  - text: 
+                  - generic "Pune" [ref=e1140]
+              - generic [ref=e1142]:  PMP or Agile certification Preferred / GoodtoHave Skills . Automotive domain experience
+              - list [ref=e1144]:
+                - listitem [ref=e1145]: project manager
+                - listitem [ref=e1146]: python
+                - listitem [ref=e1147]: confluence
+                - listitem [ref=e1148]: regression testing
+                - listitem [ref=e1149]: issue resolution
+                - listitem [ref=e1150]: automation testing
+                - listitem [ref=e1151]: jmeter
+                - listitem [ref=e1152]: javascript
+              - generic [ref=e1153]:
+                - generic [ref=e1154]: 1 day ago
+                - generic [ref=e1155]: save
+            - generic [ref=e1157]:
+              - generic [ref=e1158]:
+                - heading "Software Engineer Practitioner" [level=2] [ref=e1159]:
+                  - link "Software Engineer Practitioner" [ref=e1160] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-software-engineer-practitioner-shashwath-solution-pune-3-to-7-years-051026925547
+                - img "Shashwath Solution logo" [ref=e1162]
+              - link "Shashwath Solution" [ref=e1165] [cursor=pointer]:
+                - /url: https://www.naukri.com/shashwath-solution-jobs-careers-123596983
+              - generic [ref=e1167]:
+                - generic [ref=e1169]:
+                  - text: 
+                  - generic "3-7 Yrs" [ref=e1170]
+                - generic [ref=e1172]:
+                  - text: 
+                  - generic "Pune" [ref=e1173]
+              - generic [ref=e1175]:  Experience in developing UI automated tests using JavaScript, Typescript, Python and ot...
+              - list [ref=e1177]:
+                - listitem [ref=e1178]: soap ui
+                - listitem [ref=e1179]: javascript
+                - listitem [ref=e1180]: postman
+                - listitem [ref=e1181]: typescript
+                - listitem [ref=e1182]: api testing
+                - listitem [ref=e1183]: continuous integration
+                - listitem [ref=e1184]: python
+                - listitem [ref=e1185]: web accessibility
+              - generic [ref=e1186]:
+                - generic [ref=e1187]: 1 day ago
+                - generic [ref=e1188]: save
+            - generic [ref=e1190]:
+              - generic [ref=e1191]:
+                - heading "Bancs Professional" [level=2] [ref=e1192]:
+                  - link "Bancs Professional" [ref=e1193] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-bancs-professional-zensar-technologies-pune-3-to-5-years-051026501401
+                - img "Zensar logo" [ref=e1195]
+              - generic [ref=e1197]:
+                - link "Zensar" [ref=e1198] [cursor=pointer]:
+                  - /url: https://www.naukri.com/zensar-jobs-careers-1405
+                - link " 3.5" [ref=e1199] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/zensar-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1200]: 
+                  - generic [ref=e1201]: "3.5"
+                  - text: 
+                - link "3256 Reviews" [ref=e1202] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/zensar-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1204]:
+                - generic [ref=e1206]:
+                  - text: 
+                  - generic "3-5 Yrs" [ref=e1207]
+                - generic [ref=e1209]:
+                  - text: 
+                  - generic "Pune" [ref=e1210]
+              - generic [ref=e1212]: " . BaNCS experience only . Experience Required: 3-5 years of experience in software test..."
+              - list [ref=e1214]:
+                - listitem [ref=e1215]: foreign exchange
+                - listitem [ref=e1216]: uft
+                - listitem [ref=e1217]: software testing
+                - listitem [ref=e1218]: test automation
+                - listitem [ref=e1219]: defect tracking
+                - listitem [ref=e1220]: manual testing
+                - listitem [ref=e1221]: test cases
+                - listitem [ref=e1222]: test case design
+              - generic [ref=e1223]:
+                - generic [ref=e1224]: 1 day ago
+                - generic [ref=e1225]: save
+            - generic [ref=e1227]:
+              - generic [ref=e1228]:
+                - heading "Software Engineer II (Development & Quality)" [level=2] [ref=e1229]:
+                  - link "Software Engineer II (Development & Quality)" [ref=e1230] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-software-engineer-ii-development-quality-kaseya-pune-3-to-8-years-051026501452
+                - img "Kaseya Software logo" [ref=e1232]
+              - generic [ref=e1234]:
+                - link "Kaseya Software" [ref=e1235] [cursor=pointer]:
+                  - /url: https://www.naukri.com/kaseya-jobs-careers-2249050
+                - link " 3.1" [ref=e1236] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/kaseya-software-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1237]: 
+                  - generic [ref=e1238]: "3.1"
+                  - text: 
+                - link "180 Reviews" [ref=e1239] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/kaseya-software-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1241]:
+                - generic [ref=e1243]:
+                  - text: 
+                  - generic "3-8 Yrs" [ref=e1244]
+                - generic [ref=e1246]:
+                  - text: 
+                  - generic "Pune" [ref=e1247]
+              - generic [ref=e1249]:  Required Qualifications Preferred Qualifications Experience building automated tests an...
+              - list [ref=e1251]:
+                - listitem [ref=e1252]: ci/cd pipelines
+                - listitem [ref=e1253]: ai
+                - listitem [ref=e1254]: automated testing
+                - listitem [ref=e1255]: database technologies
+                - listitem [ref=e1256]: backend development
+                - listitem [ref=e1257]: cloud technologies
+                - listitem [ref=e1258]: cybersecurity
+                - listitem [ref=e1259]: customer support
+              - generic [ref=e1260]:
+                - generic [ref=e1261]: 1 day ago
+                - generic [ref=e1262]: save
+            - generic [ref=e1264]:
+              - generic [ref=e1265]:
+                - heading "Artificial Intelligence Engineer" [level=2] [ref=e1266]:
+                  - link "Artificial Intelligence Engineer" [ref=e1267] [cursor=pointer]:
+                    - /url: https://www.naukri.com/job-listings-artificial-intelligence-engineer-hexaware-technologies-pune-chennai-4-to-9-years-051026042201
+                - img "Hexaware Technologies logo" [ref=e1269]
+              - generic [ref=e1271]:
+                - link "Hexaware Technologies" [ref=e1272] [cursor=pointer]:
+                  - /url: https://www.naukri.com/hexaware-technologies-jobs-careers-9815
+                - link " 3.4" [ref=e1273] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/hexaware-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+                  - generic [ref=e1274]: 
+                  - generic [ref=e1275]: "3.4"
+                  - text: 
+                - link "8334 Reviews" [ref=e1276] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/hexaware-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=89baf70413264a75922ea25dfc079ffb
+              - generic [ref=e1278]:
+                - generic [ref=e1280]:
+                  - text: 
+                  - generic "4-9 Yrs" [ref=e1281]
+                - generic [ref=e1283]:
+                  - text: 
+                  - generic "Pune, Chennai" [ref=e1284]
+              - generic [ref=e1286]:  Expert understanding of GenAI system architecture (RAG / Agents)Develop AI Assurance st...
+              - list [ref=e1288]:
+                - listitem [ref=e1289]: Retrieval Augmented Generation
+                - listitem [ref=e1290]: Python
+                - listitem [ref=e1291]: Ai Evaluation
+                - listitem [ref=e1292]: generative ai
+                - listitem [ref=e1293]: Artificial Intelligence
+                - listitem [ref=e1294]: Playwright
+                - listitem [ref=e1295]: Ai
+                - listitem [ref=e1296]: Deep Learning
+              - generic [ref=e1297]:
+                - generic [ref=e1298]: 1 day ago
+                - generic [ref=e1299]: save
+          - generic [ref=e1301]:
+            - generic:
+              - generic: 
+              - generic: Previous
+            - generic [ref=e1302]:
+              - link "1" [ref=e1303] [cursor=pointer]:
+                - /url: /test-automation-playwright-typescript-jobs
+              - link "2" [ref=e1304] [cursor=pointer]:
+                - /url: /test-automation-playwright-typescript-jobs-2
+            - link "Next " [ref=e1305] [cursor=pointer]:
+              - /url: /test-automation-playwright-typescript-jobs-2
+              - generic [ref=e1306]: Next
+              - generic [ref=e1307]: 
+          - generic [ref=e1312]:
+            - heading "Get seen by more recruiters" [level=3] [ref=e1313]
+            - paragraph [ref=e1314]: Get an AI-enhanced profile that stays active in recruiter searches with Naukri 360 Pro.
+            - link "Explore Naukri Pro" [ref=e1316] [cursor=pointer]:
+              - /url: https://www.naukri.com/naukri360-pro?utmTerm=NPro_Srp&utmContent=rightSidebar
+          - generic [ref=e1317]:
+            - heading "Apply to 24 Test Automation Playwright, Typescript Jobs on Naukri.com" [level=2] [ref=e1318]
+            - generic [ref=e1319]:
+              - generic [ref=e1320]:
+                - generic [ref=e1321] [cursor=pointer]: Bangalore
+                - list [ref=e1323]:
+                  - listitem [ref=e1324]:
+                    - link "• Automation Test Jobs In Bangalore" [ref=e1325] [cursor=pointer]:
+                      - /url: https://www.naukri.com/automation-test-jobs-in-bangalore
+                      - generic [ref=e1326]: •
+                      - text: Automation Test Jobs In Bangalore
+                  - listitem [ref=e1327]:
+                    - link "• Python Test Automation Jobs In Bangalore" [ref=e1328] [cursor=pointer]:
+                      - /url: https://www.naukri.com/python-test-automation-jobs-in-bangalore
+                      - generic [ref=e1329]: •
+                      - text: Python Test Automation Jobs In Bangalore
+                  - listitem [ref=e1330]:
+                    - link "• Test Automation Architect Jobs In Bangalore" [ref=e1331] [cursor=pointer]:
+                      - /url: https://www.naukri.com/test-automation-architect-jobs-in-bangalore
+                      - generic [ref=e1332]: •
+                      - text: Test Automation Architect Jobs In Bangalore
+                  - listitem [ref=e1333]:
+                    - link "• Automation Test Engineer Jobs In Bangalore" [ref=e1334] [cursor=pointer]:
+                      - /url: https://www.naukri.com/automation-test-engineer-jobs-in-bangalore
+                      - generic [ref=e1335]: •
+                      - text: Automation Test Engineer Jobs In Bangalore
+                  - listitem [ref=e1336]:
+                    - link "• Test Automation Engineer Jobs In Bangalore" [ref=e1337] [cursor=pointer]:
+                      - /url: https://www.naukri.com/test-automation-engineer-jobs-in-bangalore
+                      - generic [ref=e1338]: •
+                      - text: Test Automation Engineer Jobs In Bangalore
+                  - listitem [ref=e1339]:
+                    - link "• Automation Test Lead Jobs In Bangalore" [ref=e1340] [cursor=pointer]:
+                      - /url: https://www.naukri.com/automation-test-lead-jobs-in-bangalore
+                      - generic [ref=e1341]: •
+                      - text: Automation Test Lead Jobs In Bangalore
+                  - listitem [ref=e1342]:
+                    - link "• Test Automation Lead Jobs In Bangalore" [ref=e1343] [cursor=pointer]:
+                      - /url: https://www.naukri.com/test-automation-lead-jobs-in-bangalore
+                      - generic [ref=e1344]: •
+                      - text: Test Automation Lead Jobs In Bangalore
+                  - listitem [ref=e1345]:
+                    - link "• Test Automation Consultant Jobs In Bangalore" [ref=e1346] [cursor=pointer]:
+                      - /url: https://www.naukri.com/test-automation-consultant-jobs-in-bangalore
+                      - generic [ref=e1347]: •
+                      - text: Test Automation Consultant Jobs In Bangalore
+                  - listitem [ref=e1348]:
+                    - link "• Software Test Automation Jobs In Bangalore" [ref=e1349] [cursor=pointer]:
+                      - /url: https://www.naukri.com/software-test-automation-jobs-in-bangalore
+                      - generic [ref=e1350]: •
+                      - text: Software Test Automation Jobs In Bangalore
+                  - listitem [ref=e1351]:
+                    - link "• Automation Test Analyst Jobs In Bangalore" [ref=e1352] [cursor=pointer]:
+                      - /url: https://www.naukri.com/automation-test-analyst-jobs-in-bangalore
+                      - generic [ref=e1353]: •
+                      - text: Automation Test Analyst Jobs In Bangalore
+              - generic [ref=e1355] [cursor=pointer]: Delhi NCR
+              - generic [ref=e1357] [cursor=pointer]: Hyderabad Secunderabad
+              - generic [ref=e1359] [cursor=pointer]: Mumbai
+              - generic [ref=e1361] [cursor=pointer]: Chennai
+              - generic [ref=e1363] [cursor=pointer]: Pune
+              - generic [ref=e1365] [cursor=pointer]: Kolkata
+              - generic [ref=e1367] [cursor=pointer]: Ahmedabad
+              - generic [ref=e1369] [cursor=pointer]: Gurgaon
+              - generic [ref=e1371] [cursor=pointer]: Noida
+              - generic [ref=e1373] [cursor=pointer]: All Jobs
+              - generic [ref=e1375] [cursor=pointer]: Top Companies
+          - list [ref=e1377]:
+            - listitem [ref=e1378]:
+              - link "Home" [ref=e1379] [cursor=pointer]:
+                - /url: https://www.naukri.com
+            - listitem [ref=e1380]:
+              - generic [ref=e1381]: 
+            - listitem [ref=e1382]: test automation playwright Jobs
+        - generic [ref=e1388]:
+          - img "Naukri Pro" [ref=e1390]
+          - generic [ref=e1391]:
+            - heading "Increase profile views upto 3 times" [level=4] [ref=e1392]
+            - paragraph [ref=e1393]:
+              - link "Improve your profile with AI and auto-apply on Naukri" [ref=e1394] [cursor=pointer]:
+                - /url: https://www.naukri.com/naukri360-pro?utmTerm=NPro_Srp&utmContent=rightSidebar
+          - link "Get Naukri Pro" [ref=e1396] [cursor=pointer]:
+            - /url: https://www.naukri.com/naukri360-pro?utmTerm=NPro_Srp&utmContent=rightSidebar
+      - status
+    - contentinfo [ref=e1397]:
+      - generic [ref=e1400]:
+        - generic [ref=e1401]:
+          - link "Naukri.com" [ref=e1402] [cursor=pointer]:
+            - /url: https://www.naukri.com
+            - img "Naukri.com" [ref=e1403]
+          - generic [ref=e1404]:
+            - generic "Connect with us" [ref=e1405] [cursor=pointer]
+            - link "Follow Naukri.com on Facebook" [ref=e1406] [cursor=pointer]:
+              - /url: https://www.facebook.com/Naukri
+              - img "Follow Naukri.com on Facebook" [ref=e1407]
+            - link "Follow Naukri.com on Instagram" [ref=e1408] [cursor=pointer]:
+              - /url: https://instagram.com/naukridotcom/
+              - img "Follow Naukri.com on Instagram" [ref=e1409]
+            - link "Follow Naukri.com on X" [ref=e1410] [cursor=pointer]:
+              - /url: https://twitter.com/naukri
+              - img "Follow Naukri.com on X" [ref=e1411]
+            - link "Follow Naukri.com on LinkedIn" [ref=e1412] [cursor=pointer]:
+              - /url: http://www.linkedin.com/company/naukri.com
+              - img "Follow Naukri.com on LinkedIn" [ref=e1413]
+        - list [ref=e1415]:
+          - listitem [ref=e1416]:
+            - link "About us" [ref=e1417] [cursor=pointer]:
+              - /url: https://infoedge.in
+          - listitem [ref=e1418]:
+            - link "Careers" [ref=e1419] [cursor=pointer]:
+              - /url: https://careers.infoedge.com/
+          - listitem [ref=e1420]:
+            - link "Employer home" [ref=e1421] [cursor=pointer]:
+              - /url: https://www.naukri.com/recruit/login
+          - listitem [ref=e1422]:
+            - link "Sitemap" [ref=e1423] [cursor=pointer]:
+              - /url: https://www.naukri.com/sitemap/sitemap.php
+          - listitem [ref=e1424]:
+            - link "Credits" [ref=e1425] [cursor=pointer]:
+              - /url: https://www.naukri.com/credits
+        - list [ref=e1427]:
+          - listitem [ref=e1428]:
+            - link "Help center" [ref=e1429] [cursor=pointer]:
+              - /url: https://www.naukri.com/faq/job-seeker?utm_source=footer
+          - listitem [ref=e1430]:
+            - link "Summons/Notices" [ref=e1431] [cursor=pointer]:
+              - /url: https://w5.naukri.com/summons-notices-form/
+          - listitem [ref=e1432]:
+            - link "Grievances" [ref=e1433] [cursor=pointer]:
+              - /url: https://w5.naukri.com/grievances-form/
+          - listitem [ref=e1434]:
+            - link "Report issue" [ref=e1435] [cursor=pointer]:
+              - /url: https://w5.naukri.com/fdbck/main/feedback.php?app_id=15
+        - list [ref=e1437]:
+          - listitem [ref=e1438]:
+            - link "Privacy policy" [ref=e1439] [cursor=pointer]:
+              - /url: https://www.naukri.com/privacypolicy
+          - listitem [ref=e1440]:
+            - link "Terms & conditions" [ref=e1441] [cursor=pointer]:
+              - /url: https://www.naukri.com/termsconditions
+          - listitem [ref=e1442]:
+            - link "Fraud alert" [ref=e1443] [cursor=pointer]:
+              - /url: https://www.naukri.com/imposter/report-fake-job-recruiter
+          - listitem [ref=e1444]:
+            - link "Trust & safety" [ref=e1445] [cursor=pointer]:
+              - /url: https://www.naukri.com/jobsearch/trust-safety
+        - generic [ref=e1446]:
+          - generic [ref=e1447]: Apply on the go
+          - generic [ref=e1448]: Get real-time job updates on our App
+          - generic [ref=e1449]:
+            - link "naukri app download" [ref=e1450] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=naukriApp.appModules.login&hl=en&utm_source=naukri&utm_medium=footer
+              - img "naukri app download" [ref=e1451]
+            - link "naukri app download" [ref=e1452] [cursor=pointer]:
+              - /url: https://itunes.apple.com/in/app/naukri.com-job-search/id482877505?mt=8
+              - img "naukri app download" [ref=e1453]
+      - generic [ref=e1455]:
+        - generic [ref=e1456]:
+          - link "Info Edge (India) Ltd." [ref=e1458] [cursor=pointer]:
+            - /url: http://infoedge.in
+            - img "Info Edge (India) Ltd." [ref=e1459]
+          - generic [ref=e1460]:
+            - generic [ref=e1461]: All trademarks are the property of their respective owners
+            - generic [ref=e1462]: All rights reserved Â© 2026 Info Edge (India) Ltd.
+        - generic [ref=e1463]: Our businesses
+        - list [ref=e1466]:
+          - listitem [ref=e1467]:
+            - link "99acres.com" [ref=e1469] [cursor=pointer]:
+              - /url: https://www.99acres.com/
+              - img "99acres.com" [ref=e1470]
+          - listitem [ref=e1471]:
+            - link "Jeevansathi.com" [ref=e1473] [cursor=pointer]:
+              - /url: https://www.jeevansathi.com/
+              - img "Jeevansathi.com" [ref=e1474]
+          - listitem [ref=e1475]:
+            - link "NaukriGulf.com" [ref=e1477] [cursor=pointer]:
+              - /url: https://www.naukrigulf.com/
+              - img "NaukriGulf.com" [ref=e1478]
+          - listitem [ref=e1479]:
+            - link "Shiksha.com" [ref=e1481] [cursor=pointer]:
+              - /url: https://www.shiksha.com/
+              - img "Shiksha.com" [ref=e1482]
+          - listitem [ref=e1483]:
+            - link "IIMJobs.com" [ref=e1485] [cursor=pointer]:
+              - /url: https://www.iimjobs.com
+              - img "IIMJobs.com" [ref=e1486]
+          - listitem [ref=e1487]:
+            - link "hirist.tech" [ref=e1489] [cursor=pointer]:
+              - /url: https://www.hirist.tech/
+              - img "hirist.tech" [ref=e1490]
+          - listitem [ref=e1491]:
+            - link "JobHai.com" [ref=e1493] [cursor=pointer]:
+              - /url: https://www.jobhai.com
+              - img "JobHai.com" [ref=e1494]
+          - listitem [ref=e1495]:
+            - link "Doselect.com" [ref=e1497] [cursor=pointer]:
+              - /url: https://doselect.com/
+              - img "Doselect.com" [ref=e1498]
+          - listitem [ref=e1499]:
+            - link "naukri.com/minis" [ref=e1501] [cursor=pointer]:
+              - /url: https://www.naukri.com/minis
+              - img "naukri.com/minis" [ref=e1502]
+          - listitem [ref=e1503]:
+            - link "codingninjas.com" [ref=e1505] [cursor=pointer]:
+              - /url: https://www.codingninjas.com/?utm_source=naukri&utm_medium=desktop-footer
+              - img "codingninjas.com" [ref=e1506]
+  - alert [ref=e1507]: Test Automation Playwright, Typescript Jobs - 30 Test Automation Playwright, Typescript Job Vacancies In October 2026 - Naukri.com
+```
